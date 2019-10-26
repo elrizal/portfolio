@@ -1,15 +1,13 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import Header from '../../../components/header'
-import AppbarScroll from '../../components/appbar';
-
+import Layout from '../../components/layout';
 const Post = () => {
   const router = useRouter()
   const { id } = router.query
 
   return (
-    <>
-    <AppbarScroll/>
+    <Layout>
       <Header />
       <h1>Post: {id}</h1>
       <ul>
@@ -24,7 +22,7 @@ const Post = () => {
           </Link>
         </li>
       </ul>
-    </>
+    </Layout>
   )
 }
 
