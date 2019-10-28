@@ -1,6 +1,6 @@
 import React from "react";
 import {slide as Menu} from 'react-burger-menu'
-import '../css/hamburger';
+import '../css/hamburger.sass'
 
 const Hamburger = props => {
     return (

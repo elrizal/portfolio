@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import '../css/styles.sass'
+import '../css/styles.sass';
+import Hamburger from './hamburger';
 
 export default ({ children }) => {
   /*
@@ -24,7 +25,6 @@ export default ({ children }) => {
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <a className="navbar-item">
-              <img src="/static/pic.png" />
             </a>
             <a id="burger" onClick={toggleStyles} 
                 role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
@@ -45,7 +45,9 @@ export default ({ children }) => {
             <div className="navbar-end">
               <div className="navbar-item">
                 <div className="buttons">
-                  <a onClick={() => alert('You clicked the button!')} className="button is-primary">Click</a>
+                <Hamburger/>
+
+
                 </div>
               </div>
             </div>

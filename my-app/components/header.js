@@ -1,7 +1,8 @@
 import Link from 'next/link'
-
+import Hamburger from './hamburger';
 const Header = () => (
   <header>
+    <Hamburger/>
     <ul>
       <li>
         <Link href='/'>
