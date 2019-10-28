@@ -18,13 +18,14 @@ export default ({ children }) => {
   return (
     <div>
       <Head>
-        <title>jvarness</title>
+        <title>Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
       </Head>
-      <header>
+      <header className= "graybg">
         <nav className="navbar" role="navigation" aria-label="main navigation">
-          <div className="navbar-brand">
+          <div className="navbar-brand graybg">
             <a className="navbar-item">
+
             </a>
             <a id="burger" onClick={toggleStyles} 
                 role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
