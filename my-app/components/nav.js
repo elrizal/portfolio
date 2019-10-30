@@ -1,5 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
+import '../css/styles.sass';
+
+import '../css/layout.sass'
 
 const links = [
   { href: 'https://zeit.co/now', label: 'ZEIT' },
@@ -9,48 +12,44 @@ const links = [
   return link
 })
 
-const Nav = () => (
-  <nav>
-    <ul>
-      <li>
-        <Link href='/'>
-          <a>Home</a>
-        </Link>
-      </li>
-      {links.map(({ key, href, label }) => (
-        <li key={key}>
-          <a href={href}>{label}</a>
-        </li>
-      ))}
-    </ul>
+const toggleStyles = (event) => {
+  document.querySelector('#burger').classList.toggle('is-active')
+  document.querySelector('#navbarmenu').classList.toggle('is-active')
+}
 
-    <style jsx>{`
-      :global(body) {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
-          Helvetica, sans-serif;
-      }
-      nav {
-        text-align: center;
-      }
-      ul {
-        display: flex;
-        justify-content: space-between;
-      }
-      nav > ul {
-        padding: 4px 16px;
-      }
-      li {
-        display: flex;
-        padding: 6px 8px;
-      }
-      a {
-        color: #067df7;
-        text-decoration: none;
-        font-size: 13px;
-      }
-    `}</style>
-  </nav>
+const Nav = () => (
+  <nav className="navbar" role="navigation" aria-label="main navigation">
+  <div className="navbar-brand graybg">
+    <a className="navbar-item">
+
+    </a>
+    <a id="burger" onClick={toggleStyles} 
+        role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div id="navbarmenu" className="navbar-menu">
+    <div className="navbar-start">
+      <Link  href="/">
+        <a className="navbar-item">Home</a>
+      </Link>
+      <Link href='/post/[id]' as='/post/first'>
+        <a className="navbar-item">First</a>
+      </Link>
+      <Link href='/post/[id]' as='/post/second'>
+        <a className="navbar-item">Second</a>
+      </Link>
+    </div>
+    <div className="navbar-end">
+      <div className="navbar-item">
+        <div className="buttons">
+-                </div>
+      </div>
+    </div>
+  </div>
+</nav>
 )
 
 export default Nav

@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import '../css/styles.sass';
-import Hamburger from './hamburger';
 
 export default ({ children }) => {
   /*
@@ -20,9 +19,9 @@ export default ({ children }) => {
       <Head>
         <title>Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></link>
       </Head>
-      <header className= "graybg">
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+      <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand graybg">
             <a className="navbar-item">
 
@@ -36,31 +35,34 @@ export default ({ children }) => {
           </div>
           <div id="navbarmenu" className="navbar-menu">
             <div className="navbar-start">
-              <Link prefetch href="/">
+              <Link  href="/">
                 <a className="navbar-item">Home</a>
               </Link>
-              <Link prefetch href="/elsewhere">
-                <a className="navbar-item">Elsewhere</a>
+              <Link href='/post/[id]' as='/post/first'>
+                <a className="navbar-item">First</a>
+              </Link>
+              <Link href='/post/[id]' as='/post/second'>
+                <a className="navbar-item">Second</a>
               </Link>
             </div>
             <div className="navbar-end">
               <div className="navbar-item">
                 <div className="buttons">
-                <Hamburger/>
-
-
-                </div>
+-                </div>
               </div>
             </div>
           </div>
         </nav>
-      </header>
-      {children}
+        <div className="content">
+        {children}
+        </div>
+      <div className="customfooter">
       <footer className="footer">
-        <div className="content has-text-centered">
+        <div className=" has-text-centered">
           <span>I'm the footer</span>
         </div>
       </footer>
+      </div>
     </div>
   )
 }
