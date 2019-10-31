@@ -24,6 +24,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-burger-menu": "^2.6.11",
     "react-dom": "^16.9.0",
-    "react-parallax": "^2.2.4"
+    "react-parallax": "^2.2.4",
+    "react-reveal": "^1.2.2"
   }
 }
