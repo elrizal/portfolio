@@ -29,7 +29,7 @@ const Home = () => (
     <Parallax className="top" bgImage={backGround} strength={400}>
       <div style={{ height: 700 }}>
         <div style={insideStyles}><h1 className='header-title'>Erin Leigh Rizal</h1></div>
-        <img src={foreGround} className="animated fadeIn"alt=""/>
+        <img src={foreGround} className="animated fadeIn test"alt=""/>
 
       </div>
     </Parallax>
