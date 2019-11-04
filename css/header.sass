@@ -61,14 +61,20 @@ p
   align-items: center
   justify-content: center
   
-.topmarb
-  // padding: 0%;
-  // margin-bottom: 0px !important;
-  // display: flex;
-  // bottom: 0;
-  // flex-direction: column;
-  background-size: auto
-  background: url('https://res.cloudinary.com/diuubtvqd/image/upload/v1572459480/toplayer-marble.png')
+.flex-container 
+  display: -webkit-flex
+  display: flex
+  flex-wrap: wrap
+
+.flex-item 
+  background-color: cornflowerblue
+  margin: 10px
+  position: relative
+  width: 100%
+
+.test 
+  position: absolute
+  bottom: 0
 
 h1
   font-family: 'Source Sans Pro', sans-serif
@@ -240,16 +246,14 @@ a:hover
 #footer
   a:visited
     color: #6eb6df
-#header
-  margin: 12%
-  font-size: 11em
+
+.header-title
+  margin-left: 10%
+  font-size: 8em !important
   color: #2a2e43
+  text-transform: uppercase
   font-weight: 900
   font-family: 'Biryani', sans-serif
-  height: 60%
-  line-height: 1em !important
-  font-weight: 810 !important
-  padding: 20px
 
 .Aligner-item
   max-width: 50%
@@ -320,7 +324,7 @@ a:hover
 
   .Aligner-item
     max-width: 80%
-  /* margin-top: var( — space);
+  /* margin-top: var( — space)
   background-color: #434b58
   padding-bottom: 10px
   color: #b6d5e5

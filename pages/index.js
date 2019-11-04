@@ -10,16 +10,15 @@ const foreGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v157245948
 
 const styles = {
   fontFamily: "sans-serif",
-  textAlign: "center",
-  background: "url(https://res.cloudinary.com/diuubtvqd/image/upload/v1572459480/toplayer-marble.png)"
+  textAlign: "center"
 };
 
 const insideStyles = {
-  background: "white",
-  padding: 20,
+
+  padding: 10,
   position: "absolute",
-  top: "50%",
-  left: "50%",
+  top: "40%",
+  left: "40%",
   transform: "translate(-50%,-50%)"
 };
 
@@ -27,9 +26,11 @@ const Home = () => (
   <div className="home-section">
     <Nav/>
     <div className="animated fadeIn">
-    <Parallax className="top" bgImage={backGround} strength={200}>
-      <div style={{ height: 700 }} style={styles}>
-        <div style={insideStyles}>HTML inside the parallax</div>
+    <Parallax className="top" bgImage={backGround} strength={400}>
+      <div style={{ height: 700 }}>
+        <div style={insideStyles}><h1 className='header-title'>Erin Leigh Rizal</h1></div>
+        <img src={foreGround} className="animated fadeIn"alt=""/>
+
       </div>
     </Parallax>
     <div class="container is-fluid">
