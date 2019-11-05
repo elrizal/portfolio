@@ -33,7 +33,53 @@ const Home = () => (
 
       </div>
     </Parallax>
-    <div class="container is-fluid">
+    <div class="tile is-ancestor">
+  <div class="tile is-vertical is-8">
+    <div class="tile">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification is-primary">
+          <p class="title">Vertical...</p>
+          <p class="subtitle">Top tile</p>
+        </article>
+        <article class="tile is-child notification is-warning">
+          <p class="title">...tiles</p>
+          <p class="subtitle">Bottom tile</p>
+        </article>
+      </div>
+      <div class="tile is-parent">
+ 
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-danger">
+        <p class="title">Wide tile</p>
+        <p class="subtitle">Aligned with the right tile</p>
+        <div class="content">
+        </div>
+      </article>
+    </div>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child notification is-success">
+      <div class="content">
+        <p class="title">Tall tile</p>
+        <p class="subtitle">With even more content</p>
+        <div class="content">
+         
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+    <section class="section">
+    <div class="container">
+      <h1 class="title">Section</h1>
+      <h2 class="subtitle">
+        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+      </h2>
+    </div>
+  </section>
+    <div class="container">
     <p>Ad pariatur eiusmod nulla ex proident nulla anim amet ipsum aliqua anim ipsum. 
       Proident irure adipisicing enim aliqua ea sint ut reprehenderit elit nulla anim excepteur veniam excepteur. 
       Ut anim consectetur nostrud Lorem aliquip est laborum deserunt ut anim enim magna. 
