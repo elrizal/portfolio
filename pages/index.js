@@ -5,32 +5,24 @@ import '../css/header.sass';
 import Nav from '../components/nav';
 import Zoom from 'react-reveal/Zoom';
 
-const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1572459480/bottom-marble.jpg'
-const foreGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1572459480/toplayer-marble.png'
+const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1572981281/bottom-marble.jpg'
 
 const styles = {
   fontFamily: "sans-serif",
   textAlign: "center"
 };
 
-const insideStyles = {
-
-  padding: 10,
-  position: "absolute",
-  top: "40%",
-  left: "40%",
-  transform: "translate(-50%,-50%)"
-};
-
 const Home = () => (
   <div className="home-section">
     <Nav/>
-    <div className="animated fadeIn">
+    <div>
     <Parallax className="top" bgImage={backGround} strength={400}>
       <div style={{ height: 700 }}>
-        <div style={insideStyles}><h1 className='header-title'>Erin Leigh Rizal</h1></div>
-        <img src={foreGround} className="animated fadeIn test"alt=""/>
-
+        <div className="titlecontain">
+          <h1 className='header-title t-shadow'>Erin Leigh Rizal</h1>
+        </div>
+        <div className='marbfront animated fadeIn'>
+        </div>
       </div>
     </Parallax>
     <div class="tile is-ancestor">
