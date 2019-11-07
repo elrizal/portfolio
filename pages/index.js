@@ -7,10 +7,6 @@ import Zoom from 'react-reveal/Zoom';
 
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1572981281/bottom-marble.jpg'
 
-const styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center"
-};
 
 const Home = () => (
   <div className="home-section">

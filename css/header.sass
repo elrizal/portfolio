@@ -20,6 +20,7 @@ p
   margin: 10px
   top: 40%
   left: 50%
+  width: 40%
   transform: translate(-50%, -50%)
 
 .header-title
@@ -28,6 +29,16 @@ p
   text-transform: uppercase
   font-weight: 900
   font-family: 'Biryani', sans-serif
+
+.marbfront
+  background: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1572981281/toplayer-marble.png)
+  height: 100%
+  width: 100vw
+  background-size: contain
+  background-position: bottom
+  background-repeat: no-repeat
+  -webkit-transition: width 2s
+  transition: width 2s
 
 .t-stroke
   -webkit-text-stroke-width: 0.8px
@@ -96,17 +107,6 @@ p
   position: relative
   bottom: -4%
   width: 100%
-  
-.marbfront
-  background: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1572981281/toplayer-marble.png)
-  height: 700px
-  width: 100vw
-  margin-right: 100px
-  background-size: contain
-  background-position: bottom
-  background-repeat: no-repeat
-  -webkit-transition: width 2s
-  transition: width 2s
 
 h1
   font-family: 'Source Sans Pro', sans-serif
@@ -301,37 +301,28 @@ a:hover
   flex-direction: column
 
   
-$phone: "(min-width: 320px) and (max-width: 500px)";
-$tablet: "(min-width: 500px) and (max-width: 1050px)";
-$desktop: "(min-width: 1025px)";
+$phone: "(min-width: 320px) and (max-width: 600px)";
+$tablet: "(min-width: 600px) and (max-width: 1050px)";
+$desktop: "(min-width: 1025px) and (max-width: 1800px)";
+
+@media #{$phone}
+  .header-title
+    font-size: 4em !important
+
+  .titlecontain
+    margin: 10px
+    width: 70vw
+    position: absolute
+    left: 25%
 
 @media #{$tablet} 
   .header-title
     font-size: 6.8em !important
 
   .titlecontain
-    left: 40%
-    right: 40%
-    width: 60%
+    width: 55%
+    left: 30%
 
-  .marbfront
-    background-size: 1700px;
+// @media #{$desktop} 
+//   .titlecontain
 
-@media #{$phone}
-  .header-title
-    font-size: 4.7em !important
-
-  .titlecontain
-    margin: 20px
-    left: 27%
-    right: 27%
-    width: 50%
-
-  .marbfront
-    margin-right: 10px
-    width: 600px
-    background-size: 1800px
-
-@media #{$desktop} 
-  .titlecontain
-    width: 40%
