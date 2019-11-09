@@ -39,6 +39,13 @@ const Home = () => (
     </div>
     </div>
     <ScrollAnimation animateIn='fadeIn'>
+      <div class="row">
+        <div class="col-6 col-md-4 casegal web">.col-6 
+        .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      </div>
+    
         <div className="s" >
           <h2>Showcase:</h2>
         <div className="columns is-mobile">
@@ -48,12 +55,16 @@ const Home = () => (
           <div className="column casegal" id="ux">
             UX-UI Design Case Studies
           </div>
+
+          </div>
+
+          <div className="columns is-mobile">
           <div className="column casegal ad">
             Art Direction
           </div>
           <div className="column casegal brandd">
             Brand Design
-          </div>
+        </div>
         </div>
         Mics. Case Studies ...
 
