@@ -18,18 +18,17 @@ const toggleStyles = (event) => {
 }
 
 const Nav = () => (
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar fixed" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-ELR
-
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      ELR
+      <a id="burger" onClick={toggleStyles} role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
 
-  <div id="navbarBasicExample" class="navbar-menu">
+  <div id="navbarmenu"class="navbar-menu">
     <div class="navbar-start">
       <a class="navbar-item">
         Home
@@ -57,19 +56,6 @@ ELR
           <hr class="navbar-divider"/>
           <a class="navbar-item">
             Report an issue
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
           </a>
         </div>
       </div>
