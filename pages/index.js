@@ -40,33 +40,15 @@ const Home = () => (
     </div>
     <ScrollAnimation animateIn='fadeIn'>
       <div class="row">
-        <div class="col-6 col-md-4 casegal web">.col-6 
-        .col-md-4</div>
-        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-3 casegal web">Web Development 
+        </div>
+        <div class="col-6 col-md-3">UX-UI Design Case Studies</div>
+        <div class="col-6 col-md-3">Art Direction</div>
+        <div class="col-6 col-md-3">Brand Design</div>
       </div>
     
         <div className="s" >
           <h2>Showcase:</h2>
-        <div className="columns is-mobile">
-          <div className="column casegal web">
-            Web Development 
-          </div>
-          <div className="column casegal" id="ux">
-            UX-UI Design Case Studies
-          </div>
-
-          </div>
-
-          <div className="columns is-mobile">
-          <div className="column casegal ad">
-            Art Direction
-          </div>
-          <div className="column casegal brandd">
-            Brand Design
-        </div>
-        </div>
-        Mics. Case Studies ...
 
         <p> Here are sections with samples of work I have done for my clients and employers from 2011-2019 - </p></div>
         <div align='center' id='introgridc'>

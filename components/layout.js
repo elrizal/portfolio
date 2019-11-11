@@ -59,7 +59,7 @@ export default ({ children }) => {
       <div className="customfooter">
       <footer className="footer">
         <div className=" has-text-centered">
-          <span>I'm the footer</span>
+          <span>2019 Erin Leigh Rizal</span>
         </div>
       </footer>
       </div>
