@@ -40,11 +40,13 @@ const Home = () => (
     </div>
     <ScrollAnimation animateIn='fadeIn'>
       <div class="row">
-        <div class="col-sm-6  col-md-3 casegal web">Web Development 
+        <div class="col-sm-6  col-lg-3 casegal web">Web Development   
         </div>
-        <div class="col-sm-6 col-md-3">UX-UI Design Case Studies</div>
-        <div class="col-sm-6  col-md-3">Art Direction</div>
-        <div class="col-sm-6  col-md-3">Brand Design</div>
+        <div class="col-sm-6 col-lg-3 casegal camp">UX-UI Design Case Studies
+        </div>
+        <div class="col-sm-6  col-lg-3 casegal ux">
+        </div>
+        <div class="col-sm-6  col-md-3 camp">Brand Design</div>
       </div>
     
         <div className="s" >
