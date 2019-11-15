@@ -1,6 +1,9 @@
-$font-stack:    Helvetica, sans-serif
+@import url(https://fonts.googleapis.com/css?family=Biryani:900|Open+Sans&display=swap);  
+$font-header: 'Biryani', sans-serif
+$font-stack: 'Open Sans', sans-serif
 $dark-color: #2a2e43
 $primary-color: #6eb6df
+
   
 body
   margin: 0
@@ -32,7 +35,7 @@ p
   color: $dark-color
   text-transform: uppercase
   font-weight: 900
-  font-family: 'Biryani', sans-serif
+  font-family: $font-header
 
 .marbfront
   background: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1572981281/toplayer-marble.png)
@@ -56,8 +59,7 @@ p
 
 .home-section
   background: #292d45
-  color: white
-
+  color: #eee
 
 #viewsite
   padding: 10px
@@ -87,17 +89,23 @@ p
   background-size: contain
   background-repeat: no-repeat
   background-position: center
+  padding: 20px
+
+  .label 
+    text-transform: uppercase
+    font-family: $font-header
+    color: $dark-color
 
 .web
   background-color: violet
   background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573618602/webdev.png)
 
 .camp
-  background-color: blue
+  background-color: teal
   background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573618602/campaigns.png)
 
 .ux
-  background-color: purple
+  background-color: coral 
   background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573618572/uxcase.png)
 
 
@@ -131,18 +139,21 @@ p
   width: 100%
 
 h1
-  font-family: 'Source Sans Pro', sans-serif
-  font-size: 4.8em !important
+  font-family: $font-header
+  font-size: 5em !important
   color: $dark-color
+  text-transform: uppercase
+  line-height: 1.2
+  letter-spacing: 2px
 
 h2, h3
-  color: $dark-color
+  color: #eeeeee
 
 h2
   text-transform: uppercase
   letter-spacing: 2px
-  font-size: 1em
-  margin-bottom: 0 !important
+  font-size: 2em
+  margin-bottom: 5 !important
   margin-top: 10px !important
 
 .img1
