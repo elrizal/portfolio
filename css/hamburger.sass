@@ -4,6 +4,24 @@
   .navbar .navbar-expand-lg .navbar-light .bg-light
     position: fixed
 
+*:focus 
+    outline: none
+
+.ham-bar
+  background-color: #2a2e44
+  height: 50px
+  width: 100%
+  display: flex
+  z-index: 1100
+  box-sizing: border-box
+  flex-shrink: 0
+  flex-direction: column    
+
+.sticky 
+  position: fixed
+  top: 0
+  width: 100%
+
 .hamcontainer
   background-color: #2a2e44
   width: 100px
@@ -32,21 +50,18 @@
   position: fixed
   width: 30px
   height: 26px
-  right: 35px
+  right: 40px
   top: 10px
-  border-radius: 15px
-  background: #2a2e44
-  margin: 12px
-  box-shadow: 0 0 0px 11px #2a2e44
+  background: #232533
+  box-shadow: 0 0 0px 10px #1a1b27
 
 .bm-burger-bars
   background-color: #b6d5e5
 
-/* Position and sizing of clickable cross button
-
 .bm-cross-button
-  height: 24px
-  width: 24px
+  height: 20px
+  width: 20px
+  background-color: #1a1b27
 
 hr
   color: white
