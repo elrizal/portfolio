@@ -61,6 +61,20 @@ p
   background: #292d45
   color: #eee
 
+  h2
+    text-transform: uppercase
+    font-family: $font-header
+    letter-spacing: 2px
+    font-size: 2em
+    margin-top: 15px !important
+
+  h3 
+    font-family: $font-header  
+    font-size: 1.3em
+
+  p 
+    margin-bottom: 20px
+
 #viewsite
   padding: 10px
   margin: 3%
@@ -89,25 +103,47 @@ p
   background-size: contain
   background-repeat: no-repeat
   background-position: center
-  padding: 20px
+  background-blend-mode: normal
+  padding: 10px
 
   .label 
     text-transform: uppercase
     font-family: $font-header
     color: $dark-color
+    text-align: center
 
 .web
   background-color: lightblue
-  background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573618602/webdev.png)
+  background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573844888/webhover.png)
+  -webkit-transition: background-image .2s
+  transition: background-image .2s
+
+  &:hover
+    background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573844888/machover.png)
+    -webkit-transition: background-image .2s
+    transition: background-image .2s
 
 .camp
-  background-color: teal
-  background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573618602/campaigns.png)
+  background-color: #fbc481
+  background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573842921/camp.png)
+  -webkit-transition: background-image .2s
+  transition: background-image .2s
+
+  &:hover
+    background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573841882/adshover.png)
+    -webkit-transition: background-image .2s
+    transition: background-image .2s
 
 .ux
   background-color: coral 
-  background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573618572/uxcase.png)
+  background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573835461/uxcase.png)
+  -webkit-transition: background-image .6s
+  transition: background-image .6s
 
+  &:hover
+    background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573835461/uxcase-hover.png)
+    -webkit-transition: background-image .6s
+    transition: background-image .6s
 
 #introgridc
   line-height: 0px !important
@@ -146,41 +182,6 @@ h1
   line-height: 1.2
   letter-spacing: 2px
 
-h2, h3
-  color: #eeeeee
-
-h2
-  text-transform: uppercase
-  letter-spacing: 2px
-  font-size: 2em
-  margin-bottom: 5 !important
-  margin-top: 10px !important
-
-.img1
-  position: relative
-  margin-top: 20px
-
-.img2
-  position: absolute
-  margin-bottom: 50px
-
-.container_9tizg4
-  background: rgba(140, 140, 140, 0.72) !important
-
-.MuiPaper-root-93, .MuiPaper-elevation4-99, .MuiAppBar-root-85, .MuiAppBar-positionFixed-86, .MuiAppBar-colorPrimary-91, .MuiButton-containedPrimary-997, .MuiButton-containedPrimary-75, .MuiButton-containedPrimary-143, .MuiAppBar, .jss91
-  background-color: #292d45 !important
-
-#tn
-  max-height: 300px
-  margin: 3px
-  align-content: top
-  flex-wrap: wrap
-  justify-content: space-around
-  overflow: hidden
-  display: inline-block
-  -moz-box-sizing: border-box
-  -webkit-box-sizing: border-box
-  -webkit-font-smoothing: subpixel-antialiased
 
 .align-center
   text-align: center
@@ -189,9 +190,6 @@ h2
   display: flex
   align-items: center
   justify-content: center
-
-#nav
-  position: fixed
 
 #logo
   max-height: 60px
@@ -223,30 +221,12 @@ h2
   justify-content: center
 
 .SingleLineGridList-root-92
-  background-color: transparent
 
 .work-items
   text-transform: uppercase
   letter-spacing: 2px
   font-size: .9em
 
-#galimg
-  max-width: 100%
-  height: auto
-  padding-top: 36px
-  margin: 5 auto
-  justify-content: center
-  align-content: center
-  display: block
-
-.citybg
-  height: 100%
-
-#lake
-  width: 100%
-  padding: 0%
-  display: flex !important
-  flex-direction: column !important
 
 .custom-hr
   display: block
@@ -311,18 +291,6 @@ a:hover
 
 .Aligner-item
   max-width: 50%
-
-.top
-  display: flex
-  align-items: center
-  justify-content: center
-
-.Aligner-item--top
-  align-self: flex-start
-  min-height: 300px
-
-.Aligner-item--bottom
-  align-self: flex-end
 
 #profile
   padding: 0%
