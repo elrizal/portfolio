@@ -1,7 +1,8 @@
-const test = [{
+const web = [{
     url: 'http',
-    category: 'ux',
-    toolsused: 'adobe ps'
+    name: 'Cook With Nana'
+    category: ['react', 'mysql', 'auth0'],
+    desc: 'adobe ps'
 },
 {
     url: 'http',

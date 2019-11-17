@@ -19,7 +19,7 @@ export default ({ children }) => {
       <Head>
         <title>Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-        <link href="https://fonts.googleapis.com/css?family=Biryani|Lato|Staatliches&display=swap" rel="stylesheet">        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></link>
       </Head>
       <Nav/>
         <div className="content">
