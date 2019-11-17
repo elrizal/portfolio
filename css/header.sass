@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Biryani:900|Open+Sans&display=swap);  
-$font-header: 'Biryani', sans-serif
-$font-stack: 'Open Sans', sans-serif
+@import url(https://fonts.googleapis.com/css?family=Poppins:Bold|Lato|Staatliches&display=swap);  
+$font-header: 'Poppins', sans-serif
+$font-stack: 'Lato', sans-serif
+$font-second: 'Staatliches', cursive
 $dark-color: #2a2e43
 $primary-color: #6eb6df
-
   
 body
   margin: 0
@@ -18,16 +18,15 @@ p
   font-size: 1em
 
 .titlecontain
-  padding: 10px
   border-style: solid
   border-width: 10px
+  color: $dark-color
   text-align: center
   position: absolute
   border-color: $dark-color !important
-  margin: 10px
   top: 40%
-  left: 50%
-  width: 40%
+  left: 40%
+  width: 30%
   transform: translate(-50%, -50%)
 
 .header-title
@@ -61,18 +60,19 @@ p
   background: #292d45
   color: #eee
 
-  h2
-    text-transform: uppercase
-    font-family: $font-header
-    letter-spacing: 2px
-    font-size: 2em
-    margin-top: 15px !important
+h2, h3 
+  font-family: $font-second
+  letter-spacing: 2px
 
-  h3 
-    font-family: $font-header  
-    font-size: 1.3em
+h2
+  letter-spacing: 2px
+  font-size: 2em
+  margin-top: 10px !important
 
-  p 
+h3 
+    font-size: 1.7em !important
+
+p 
     margin-bottom: 20px
 
 #viewsite
@@ -108,8 +108,8 @@ p
 
   .label 
     text-transform: uppercase
-    font-family: $font-header
     color: $dark-color
+    letter-spacing: 1.5px
     text-align: center
 
 .web
@@ -176,12 +176,11 @@ p
 
 h1
   font-family: $font-header
-  font-size: 5em !important
+  font-size: 6em !important
   color: $dark-color
   text-transform: uppercase
-  line-height: 1.2
+  line-height: 1
   letter-spacing: 2px
-
 
 .align-center
   text-align: center
@@ -264,9 +263,6 @@ body
   display: grid
   grid-template-rows: 1fr auto
 
-.h1
-  margin-top: 10px !important
-  margin-bottom: 20px !important
 
 li
   text-decoration: none
@@ -309,10 +305,9 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)";
     font-size: 4em !important
 
   .titlecontain
-    margin: 10px
     width: 70vw
     position: absolute
-    left: 25%
+    left: 23%
 
   .marbfront
     width: 1000px

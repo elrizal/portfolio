@@ -15,22 +15,29 @@ const Home = () => (
         height: 700
       }}>
         <div className="titlecontain">
-          <h1 className='header -title t-shadow'>Erin Leigh Rizal</h1>
+          <h1 className='header -title t-shadow'>Erin <br />Leigh <br />
+          Rizal</h1>
+          <h3>Developer & Designer</h3>
         </div>
         <div className='marbfront animated fadeIn'></div>
       </div>
     </Parallax>
     <Container className="container" maxWidth="lg">
-      <h2>About</h2>
-      <p>I am is a US-based full stack developer and UX/UI designer with 4 years of training via internships and 
-        4 years of experience in the field. After interning at Loyola University MD for small clients and the college itself, 
-        I've created user and brand experiences across companies like FH Group Int'l, Equipment Zone, Sircle Media, MetLife and more.
-        As a result of my passion for building products from the ground-up, I've developed a multi-disiplinary background
-        in user experience design (UXD), visual design and the MERN stack (Mongo, Express, React & Node). 
+      <h2>Introduction</h2>
+      <p>I am is a US-based full stack developer and UX/UI designer with 4 years of
+        training via internships and 4 years of experience in the field. After interning
+        at Loyola University MD for small clients and the college itself, I've created
+        user and brand experiences across companies like FH Group Int'l, Equipment Zone,
+        Sircle Media, MetLife and more. As a result of my passion for building products
+        from the ground-up, I've developed a multi-disiplinary background in user
+        experience design (UXD), visual design and the MERN stack (Mongo, Express, React
+        & Node).
       </p>
       <p>
-        With all this said, I'm excited to jump into a new project; or just grab some coffee to talk code and UX.
-        If you need help on your next project or just want to drop a hello, I can be found on  <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>LinkedIn</a>.
+        With all this said, I'm excited to jump into a new project; or just grab some
+        coffee to talk code and UX. If you need help on your next project or just want
+        to drop a hello, I can be found on
+        <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>LinkedIn</a>.
       </p>
     </Container>
     <ScrollAnimation animateIn='fadeIn'>
@@ -50,7 +57,6 @@ const Home = () => (
           <h3 className="label">Branding</h3>
         </div>
       </div>
-
     </ScrollAnimation>
   </div>
 )
