@@ -53,8 +53,16 @@ const Home = () => (
             Ads & Campaigns
           </h3>
         </div>
+      </div>
+      <div class="row">
         <div class="col-sm-6  col-md-3 casegal branding">
           <h3 className="label">Branding</h3>
+        </div>
+        <div class="col-sm-6  col-md-3 casegal branding">
+          <h3 className="label">Information Graphics</h3>
+        </div>
+        <div class="col-sm-6  col-md-3 casegal branding">
+          <h3 className="label">Passion Projects</h3>
         </div>
       </div>
     </ScrollAnimation>
