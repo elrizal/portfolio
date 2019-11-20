@@ -1,6 +1,7 @@
 import React from "react";
 import {slide as Menu} from 'react-burger-menu'
 import '../css/hamburger.sass'
+import { Link } from 'next/link';
 
 const Hamburger = props => {
   return (
@@ -18,6 +19,9 @@ const Hamburger = props => {
                 </a>
               </li>
               <li>
+              <Link href='/post/[id]/[piece]' as={`/post/${id}/first-piece`}>
+            <a>First </a>
+          </Link>
                 <a id="uxui" className="menu-item" href="/uxui">
                   UX & UI Design
                 </a>
