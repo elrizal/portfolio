@@ -16,11 +16,13 @@ const toggleStyles = (event) => {
   document.querySelector('#burger').classList.toggle('is-active')
   document.querySelector('#navbarmenu').classList.toggle('is-active')
 }
+const logoImg = '../image/logo.png';
 
 const Nav = () => (
 <nav class="navbar fixed" role="navigation" aria-label="main navigation">
+
   <div class="navbar-brand">
-      ELR
+  <img src={logoImg} alt="Erin Leigh Rizal"/>
       <a id="burger" onClick={toggleStyles} role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
