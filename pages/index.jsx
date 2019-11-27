@@ -25,13 +25,12 @@ const Home = () => (
       </div>
     </Parallax>
     <Container className="intro" maxWidth="lg">
-
       <ScrollAnimation animateIn='fadeIn'>
         <div className="row">
-          <div class="col-sm-12  col-lg-4">
+          <div className="col-sm-2 col-lg-2">
             <Example/>
           </div>
-          <div class="col-sm-12 col-lg-8">
+          <div class="col-sm-10 col-lg-10">
             <p>
               <h2>Introduction</h2>
               I am a US-based full stack developer and UX/UI designer with 4 years of training
@@ -45,7 +44,7 @@ const Home = () => (
             <p>With all this said, I'm always excited to jump into a new project; or just
               grab a coffee to talk code and UX. If you need help on your next project or just
               want to drop a hello, I can be found on
-              <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
+               <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
                 LinkedIn</a>.
             </p>
             <div className="row">
@@ -62,10 +61,12 @@ const Home = () => (
                 Adobe Photoshop, Illustrator, Animate, InDesign, InVision, MockFlow, Sketch
               </div>
             </div>
+            <div className="row extraspace-top">
+              <h2>Categories of work</h2>
+              </div>
           </div>
         </div>
-        <h2>Categories of work</h2>
-        <br/>
+   
       </ScrollAnimation>
     </Container>
 
