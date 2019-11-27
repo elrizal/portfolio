@@ -19,9 +19,9 @@ const Hamburger = props => {
                 </a>
               </li>
               <li>
-              <Link href='/post/[id]/[piece]' as={`/post/${id}/first-piece`}>
+              {/* <Link href='/post/[id]/[piece]' as={`/post/${id}/first-piece`}>
             <a>First </a>
-          </Link>
+          </Link> */}
                 <a id="uxui" className="menu-item" href="/uxui">
                   UX & UI Design
                 </a>
