@@ -1,27 +1,16 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import '../css/styles.sass';
-import Nav from './nav';
-export default ({ children }) => {
-  /*
-   * Added this to toggle the is-active className. See:
-   * 
-   * https://bulma.io/documentation/components/navbar/#navbar-menu
-   * https://github.com/jgthms/bulma/issues/856
-   */
-  const toggleStyles = (event) => {
-    document.querySelector('#burger').classList.toggle('is-active')
-    document.querySelector('#navbarmenu').classList.toggle('is-active')
-  }
+import Hamburger from './hamburger';
 
+export default ({ children }) => {
   return (
     <div>
       <Head>
         <title>Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></link>
       </Head>
-      <Nav/>
+      <Hamburger/>
+      <div className="row extra-top"></div>
         <div className="content">
         {children}
         </div>
