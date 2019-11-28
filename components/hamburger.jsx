@@ -1,7 +1,7 @@
 import React from "react";
 import {slide as Menu} from 'react-burger-menu'
 import '../css/hamburger.sass'
-import { Link } from 'next/link';
+import Link from 'next/link';
 
 const Hamburger = props => {
   return (
@@ -15,16 +15,14 @@ const Hamburger = props => {
                 </a>
               </li>
               <li>
-                <a id="web" className="menu-item" href="/dev">Development
-                </a>
+                <Link href='/campaign'>
+                  <a className="menu-item">campaigns</a>
+                </Link>
               </li>
               <li>
-              {/* <Link href='/post/[id]/[piece]' as={`/post/${id}/first-piece`}>
-            <a>First </a>
-          </Link> */}
-                <a id="uxui" className="menu-item" href="/uxui">
-                  UX & UI Design
-                </a>
+                <Link href='/post/[id]' as='/post/first'>
+                  <a>First Post</a>
+                </Link>
               </li>
               <li>
                 <a id="brand" className="menu-item" href="/branddesign">
@@ -41,7 +39,7 @@ const Hamburger = props => {
                   rel="noopener noreferrer">
                   <i id='icons' className='fab fa-linkedin fa-lg'></i>
                   LinkedIn
-                  </a>
+                </a>
               </li>
               <li>
                 <a
@@ -50,7 +48,7 @@ const Hamburger = props => {
                   rel="noopener noreferrer">
                   <i id='icons' className='fab fa-github fa-lg'></i>
                   Github
-                  </a>
+                </a>
               </li>
             </ul>
           </nav>
