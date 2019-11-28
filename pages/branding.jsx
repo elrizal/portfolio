@@ -1,6 +1,6 @@
 import Header from '../components/header'
 
-const Home = () => (
+const Branding = () => (
   <>
     <Header />
     <h1>Hello World!</h1>
