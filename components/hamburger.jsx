@@ -6,9 +6,11 @@ import Link from 'next/link';
 const Hamburger = props => {
   return (
     <div className="ham-bar sticky">
+      <img src='../public/logo.png' alt= 'elr'/>
       <Menu right>
         <div>
           <nav className="nav">
+          
             <ul>
               <li>
                 <a id="home" className="menu-item" href="/">Home
