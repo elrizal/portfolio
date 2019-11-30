@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router'
-import Layout from '../../../components/layout'
 
 const Comment = () => {
   const router = useRouter()
