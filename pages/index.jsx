@@ -5,9 +5,9 @@ import '../css/styles.sass';
 import Container from '@material-ui/core/Container';
 import Hamburger from '../components/hamburger';
 import Example from '../components/svgtest'
-
 import Introgallery from '../components/introgal';
 import Post from './post/[id]/index';
+import { Modali } from 'modali';
 
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1572981281/bottom-marble.jpg'
 
@@ -21,13 +21,13 @@ const Home = () => {
           height: 700
         }}>
           <div className="titlecontain  animated fadeIn">
-            <h1 className='header -title t-shadow '>Erin
+            <h1 className='header -title t-shadow animated pulse'>Erin
               <br/>Leigh
               <br/>
               Rizal</h1>
             <h2 className='introh2'>Developer & Designer</h2>
           </div>
-          <div className='marbfront animated pulse'></div>
+          <div className='marbfront '></div>
         </div>
       </Parallax>
       <Container className="intro" maxWidth="lg">
@@ -40,6 +40,7 @@ const Home = () => {
               <p>
               <Post/>
                 <h2>Introduction</h2>
+                <Modali/>
                 I am a US-based full stack developer and UX/UI designer with 4 years of training
                 via internships coupled with 4 years of experience in the field. In those years,
                 I've held a track record of creating strong user and brand experiences across
