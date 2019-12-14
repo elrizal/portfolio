@@ -1,11 +1,10 @@
 const withSass = require('@zeit/next-sass')
-// module.exports = {
-//   target: 'serverless',
-//   ...withSass()
-// }
+module.exports = {
+  target: 'serverless',
+  ...withSass(),
+  cssModules: true,
+}
 
 // next.config.js
 const withCSS = require('@zeit/next-css')
-module.exports = withCSS({
-  cssModules: true
-})
+module.exports = withCSS(withSass());
