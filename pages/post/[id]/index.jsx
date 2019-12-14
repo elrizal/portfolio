@@ -7,7 +7,7 @@ const Post = () => {
 
   return (
     <>
-      <h1>Post: {id}</h1>
+      <h3>Post: {id}</h3>
       <ul>
         <li>
           <Link href="/post/[id]/[comment]" as={`/post/${id}/first-comment`}>

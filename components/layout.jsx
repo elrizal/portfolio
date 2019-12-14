@@ -11,6 +11,8 @@ export default ({ children }) => {
       </Head>
       <Hamburger/>
       <div className="row extra-top"></div>
+      <div id="modal-root">
+      </div>
         <div className="content">
         {children}
         </div>

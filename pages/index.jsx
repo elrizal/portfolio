@@ -7,7 +7,6 @@ import Hamburger from '../components/hamburger';
 import Example from '../components/svgtest'
 import Introgallery from '../components/introgal';
 import Post from './post/[id]/index';
-import { Modali } from 'modali';
 
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1572981281/bottom-marble.jpg'
 
@@ -38,9 +37,13 @@ const Home = () => {
             </div>
             <div className="col-sm-10 col-lg-10">
               <p>
-              <Post/>
+                <Post/>
+                <button onClick={() => toggleModal(!isModalOpen)}>Toggle Modal</button>
+
                 <h2>Introduction</h2>
-                <Modali/>
+                <div id="app"></div>
+
+                <div id="modal-root"></div>
                 I am a US-based full stack developer and UX/UI designer with 4 years of training
                 via internships coupled with 4 years of experience in the field. In those years,
                 I've held a track record of creating strong user and brand experiences across
@@ -73,9 +76,9 @@ const Home = () => {
           </div>
         </ScrollAnimation>
       </Container>
-    
-    <hr/>
-    <Introgallery/>
+
+      <hr/>
+      <Introgallery/>
     </div>
   )
 }

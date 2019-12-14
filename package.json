@@ -20,7 +20,6 @@
     "babel-preset-es2015-ie": "^6.7.0",
     "bulma": "^0.8.0",
     "flubber": "^0.4.2",
-    "modali": "^1.2.0",
     "next": "^9.0.6",
     "node-sass": "^4.12.0",
     "popmotion": "^8.7.1",
