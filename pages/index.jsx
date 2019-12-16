@@ -6,16 +6,15 @@ import Container from '@material-ui/core/Container';
 import Hamburger from '../components/hamburger';
 import Example from '../components/svgtest'
 import Introgallery from '../components/introgal';
-import Post from './post/[id]/index';
 
-const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1572981281/bottom-marble.jpg'
+const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576464766/header6.jpg'
 
 const Home = () => {
 
   return (
     <div className="home-section">
       <Hamburger/>
-      <Parallax className="top" bgImage={backGround} strength={500}>
+      <Parallax className="top" bgImage={backGround} strength={200}>
         <div style={{
           height: 700
         }}>
@@ -37,13 +36,7 @@ const Home = () => {
             </div>
             <div className="col-sm-10 col-lg-10">
               <p>
-                <Post/>
-                <button onClick={() => toggleModal(!isModalOpen)}>Toggle Modal</button>
-
                 <h2>Introduction</h2>
-                <div id="app"></div>
-
-                <div id="modal-root"></div>
                 I am a US-based full stack developer and UX/UI designer with 4 years of training
                 via internships coupled with 4 years of experience in the field. In those years,
                 I've held a track record of creating strong user and brand experiences across
@@ -76,8 +69,6 @@ const Home = () => {
           </div>
         </ScrollAnimation>
       </Container>
-
-      <hr/>
       <Introgallery/>
     </div>
   )
