@@ -1,8 +1,6 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
 import '../css/styles.sass';
-
-import '../css/layout.sass'
+import '../css/layout.sass';
 
 const links = [
   { href: 'https://zeit.co/now', label: 'ZEIT' },
@@ -16,13 +14,12 @@ const toggleStyles = (event) => {
   document.querySelector('#burger').classList.toggle('is-active')
   document.querySelector('#navbarmenu').classList.toggle('is-active')
 }
-const logoImg = '../image/logo.png';
+const logo = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576463417/whitelogo.png';
 
 const Nav = () => (
 <nav class="navbar fixed" role="navigation" aria-label="main navigation">
-
   <div class="navbar-brand">
-  <img src={logoImg} alt="Erin Leigh Rizal"/>
+  <img src={logo} alt="Erin Leigh Rizal"/>
       <a id="burger" onClick={toggleStyles} role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>

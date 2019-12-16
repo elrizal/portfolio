@@ -3,10 +3,11 @@ import {slide as Menu} from 'react-burger-menu'
 import '../css/hamburger.sass'
 import Link from 'next/link';
 
+const logo = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576463417/whitelogo.png'
 const Hamburger = props => {
   return (
     <div className="ham-bar sticky">
-      <img src='../public/logo.png' alt= 'elr'/>
+      {/* <img src={logo} alt= 'Erin Leigh Rizal' className='logo' /> */}
       <Menu right>
         <div>
           <nav className="nav">
