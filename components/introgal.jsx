@@ -15,8 +15,8 @@ const Introgallery = () => {
 
   return (
     <React.Fragment>
-      <div className="row extra-top">
-        <h2 className='container'>Categories of work</h2>
+      <div className="container extra-top">
+        <p><h2 className='container'>Categories of work</h2></p>
       </div>
       <ScrollAnimation animateIn='fadeIn'>
         <div className="row">

@@ -7,7 +7,7 @@ const logo = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576463417/whit
 const Hamburger = props => {
   return (
     <div className="ham-bar sticky">
-      {/* <img src={logo} alt= 'Erin Leigh Rizal' className='logo' /> */}
+      <img src={logo} alt= 'Erin Leigh Rizal' className='logo' />
       <Menu right>
         <div>
           <nav className="nav">

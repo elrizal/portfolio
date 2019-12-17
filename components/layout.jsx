@@ -11,15 +11,13 @@ export default ({ children }) => {
       </Head>
       <Hamburger/>
       <div className="row extra-top"></div>
-      <div id="modal-root">
-      </div>
-        <div className="content">
+        <div className="content extra-top">
         {children}
         </div>
       <div className="customfooter">
       <footer className="footer">
-        <div className=" has-text-centered">
-          <span>2019 Erin Leigh Rizal</span>
+        <div className="has-text-centered">
+          <span>	&#169; 2019 Erin Leigh Rizal</span>
         </div>
       </footer>
       </div>
