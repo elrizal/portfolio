@@ -10,11 +10,10 @@ import Introgallery from '../components/introgal';
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576464766/header6.jpg'
 
 const Home = () => {
-
   return (
     <div className="home-section">
       <Hamburger/>
-      <Parallax className="top" bgImage={backGround} strength={200}>
+      <Parallax className="top" bgImage={backGround} strength={300}>
         <div style={{
           height: 700
         }}>
@@ -47,14 +46,13 @@ const Home = () => {
 
               <p>With all this said, I'm always excited to jump into a new project; or just
                 grab a coffee to talk code and UX. If you need help on your next project or just
-                want to drop a hello, I can be found on
-                <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
-                  LinkedIn</a>.
+                want to drop a hello, I can be found on <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
+                   LinkedIn</a>.
               </p>
               <div className="row">
                 <div className="col-sm-12  col-lg-4">
                   <h3>Front end stack:</h3>
-                  JavaScript, React, CSS, Sass, jQuery
+                  JavaScript, jQuery, CSS, Sass, React
                 </div>
                 <div className="col-sm-12  col-lg-4">
                   <h3>Back end stack:</h3>
