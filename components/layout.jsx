@@ -6,7 +6,7 @@ export default ({ children }) => {
   return (
     <div>
       <Head>
-        <title>Portfolio</title>
+        <title>Erin Leigh Rizal - Developer and Designer</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
       </Head>
       <Hamburger/>
@@ -15,7 +15,7 @@ export default ({ children }) => {
         {children}
         </div>
       <div className="customfooter">
-      <footer className="footer">
+      <footer className="custom-footer">
         <div className="has-text-centered">
           <span>	&#169; 2019 Erin Leigh Rizal</span>
         </div>

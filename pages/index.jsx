@@ -6,19 +6,23 @@ import Container from '@material-ui/core/Container';
 import Hamburger from '../components/hamburger';
 import Example from '../components/svgtest'
 import Introgallery from '../components/introgal';
+import {NextSeo} from 'next-seo';
 
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576464766/header6.jpg'
 
 const Home = () => {
   return (
     <div className="home-section">
+      <NextSeo
+        title="Erin Leigh Rizal - Developer and UX UI Designer"
+        description="A portfolio of a full stack developer and designer for hire."/>
       <Hamburger/>
       <Parallax className="top" bgImage={backGround} strength={300}>
         <div style={{
           height: 700
         }}>
           <div className="titlecontain  animated fadeIn">
-            <h1 className='header -title t-shadow animated pulse'>Erin
+            <h1 className='containh1 header -title t-shadow animated pulse'>Erin
               <br/>Leigh
               <br/>
               Rizal</h1>
@@ -46,8 +50,9 @@ const Home = () => {
 
               <p>With all this said, I'm always excited to jump into a new project; or just
                 grab a coffee to talk code and UX. If you need help on your next project or just
-                want to drop a hello, I can be found on <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
-                   LinkedIn</a>.
+                want to drop a hello, I can be found on
+                <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
+                  LinkedIn</a>.
               </p>
               <div className="row">
                 <div className="col-sm-12  col-lg-4">
