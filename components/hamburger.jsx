@@ -1,14 +1,15 @@
 import React from "react";
-import {slide as Menu} from 'react-burger-menu'
+import { stack as Menu } from 'react-burger-menu'
 import '../css/hamburger.sass'
 import Link from 'next/link';
 
-const logo = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576463417/whitelogo.png'
+const logo = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576642921/tiger-white-full.png'
 const Hamburger = props => {
   return (
     <div className="ham-bar sticky">
-      <img src={logo} alt= 'Erin Leigh Rizal' className='logo' />
-      <Menu right>
+      <logo/>
+      <img src={logo} alt='Erin Leigh Rizal' className='logo-elr' href="/" />
+      <Menu right disableCloseOnEsc>
         <div>
           <nav className="nav">
           
