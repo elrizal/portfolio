@@ -3,11 +3,10 @@ import { stack as Menu } from 'react-burger-menu'
 import '../css/hamburger.sass'
 import Link from 'next/link';
 
-const logo = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576642921/tiger-white-full.png'
+const logo = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576674564/tiger-white-long.png'
 const Hamburger = props => {
   return (
     <div className="ham-bar sticky">
-      <logo/>
       <img src={logo} alt='Erin Leigh Rizal' className='logo-elr' href="/" />
       <Menu right disableCloseOnEsc>
         <div>
@@ -19,23 +18,11 @@ const Hamburger = props => {
                 </a>
               </li>
               <li>
-                <Link href='/campaign'>
+                <Link href='/campaign/[id]' as='/campaign/index'>
                   <a className="menu-item">campaigns</a>
                 </Link>
               </li>
-              <li>
-                <Link href='/post/[id]' as='/post/first'>
-                  <a>First Post</a>
-                </Link>
-              </li>
-              <li>
-                <a id="brand" className="menu-item" href="/branddesign">
-                  Branding
-                </a>
-              </li>
-              <li>
-                <a id="posters" className="menu-item" href="/sm">Digital Campaigns</a>
-              </li>
+              
               <li>
                 <a
                   href='https://www.linkedin.com/in/erinlrizal'

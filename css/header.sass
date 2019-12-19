@@ -3,6 +3,7 @@ $font-header: 'Poppins', sans-serif
 $font-body: 'Lato', sans-serif
 $font-second: 'Assistant', sans-serif
 $dark-color: #2a2e43
+$dark-color: #3b405a
 $primary-color: #6eb6df
   
 body
@@ -20,27 +21,33 @@ p
   margin-bottom: 20px
 
 h2, h3 
-  text-transform: uppercase
-  line-height: 1.3em
-
+  line-height: 1em
+  margin: 15px 0 15px 0
 h2
   font-size: 2em
+  text-transform: uppercase
   letter-spacing: 2px
   font-family: $font-second
   color: $primary-color
+  margin-top: 0px !important
 
 h3 
-  font-size: 1.2em !important
+  font-size: 1.4em !important
   font-spacing: 3px
   font-family: $font-second !important
 
 h1
   font-family: $font-header
+  line-height: 1.1em
   font-size: 3em !important
   color: $dark-color
   text-transform: uppercase
-  line-height: 1
   letter-spacing: 2px
+
+.content h1, h2
+  margin-bottom: .2em
+  margin-top: .2em
+
 
 html
   height: 100%
@@ -50,12 +57,22 @@ body
   display: grid
   grid-template-rows: 1fr auto
 
-.modal
-  position: fixed
-  top: 12px
-  padding: 12px
-  background-color: white
-  border: 1px solid grey
+a 
+    font-weight: 700
+    color: $primary-color
+    transition: all 0.3s
+    &:hover 
+        color: #eee
+        transition: all 0.3s
+
+a, a:hover, a:active, a:visited
+  text-decoration: none
+
+.aside-caseimg 
+  max-width: 450px
+  margin: 20px
+  padding: 15px
+  margin: 0 auto
 
 .intro
   padding: 10px 
@@ -85,6 +102,7 @@ body
   text-transform: uppercase
   line-height: 1
   letter-spacing: 2px
+  margin: 0
 
 .introh2
   font-family: $font-second
@@ -310,7 +328,17 @@ a:hover
   display: flex
   bottom: 0
   flex-direction: column
-  
+
+.backbtn
+  border-radius: 50%
+  font-weight: 700
+  text-transform: uppercase
+  top: 16%
+  padding: 20px
+  color: $dark-color
+  cursor: help
+
+
 $phone: "(min-width: 320px) and (max-width: 600px)"
 $tablet: "(min-width: 600px) and (max-width: 1050px)"
 $desktop: "(min-width: 1025px) and (max-width: 1800px)"
@@ -328,6 +356,9 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
     width: 1000px
     background-size: 1200px
 
+  .aside-caseimg 
+    max-width: 300px
+
 @media #{$tablet} 
   .header-title
     font-size: 6.8em !important
@@ -335,6 +366,10 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
   .titlecontain
     width: 55%
     left: 30%
+
+  .aside-caseimg 
+    max-width: 400px
+
 
 // @media #{$desktop} 
 //   .titlecontain

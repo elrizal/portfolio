@@ -50,7 +50,7 @@ const Home = () => {
 
               <p>With all this said, I'm always excited to jump into a new project; or just
                 grab a coffee to talk code and UX. If you need help on your next project or just
-                want to drop a hello, I can be found on
+                want to drop a hello, I can be found on &nbsp;
                 <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
                   LinkedIn</a>.
               </p>
