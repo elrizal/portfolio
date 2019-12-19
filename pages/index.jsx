@@ -34,13 +34,13 @@ const Home = () => {
       <Container className="intro" maxWidth="lg">
         <ScrollAnimation animateIn='fadeIn'>
           <div className="row">
-            <div className="col-sm-2 col-lg-2">
+            <div className="col-sm-1 col-lg-1">
               <Example/>
             </div>
-            <div className="col-sm-10 col-lg-10">
+            <div className="col-sm-11 col-lg-11">
               <p>
-                <h2>Introduction</h2>
-                I am a US-based full stack developer and UX/UI designer with 4 years of training
+                <h2>About</h2>
+                I am a full stack developer and UX/UI designer with 4 years of training
                 via internships coupled with 4 years of experience in the field. In those years,
                 I've held a track record of creating strong user and brand experiences across
                 companies like FH Group Int'l, Equipment Zone, Sircle Media, MetLife and more.
@@ -53,6 +53,9 @@ const Home = () => {
                 want to drop a hello, I can be found on &nbsp;
                 <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
                   LinkedIn</a>.
+              </p>
+              <p>Currently, I am based in south New Jersey, USA. But it would be great to re-locate for an opportunity that fits! 
+                
               </p>
               <div className="row">
                 <div className="col-sm-12  col-lg-4">
