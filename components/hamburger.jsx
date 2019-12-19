@@ -7,7 +7,10 @@ const logo = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576674564/tige
 const Hamburger = props => {
   return (
     <div className="ham-bar sticky">
-      <img src={logo} alt='Erin Leigh Rizal' className='logo-elr' href="/" />
+      <a href="/">
+      <img a href="/" src={logo} alt='Erin Leigh Rizal' className='logo-elr' />
+      </a>
+      
       <Menu right disableCloseOnEsc>
         <div>
           <nav className="nav">
