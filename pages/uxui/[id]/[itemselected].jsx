@@ -43,7 +43,7 @@ export default function Comment() {
                   <h2>{obj.company}</h2>
                   <p>
                     <b>My role:</b> {obj.role}<br/>
-                    <b>Project timeframe: </b>
+                    <b>Project timeframe:</b>
                     {obj.timeframe}
                   </p>
                   <h3>About the project</h3>
@@ -53,8 +53,6 @@ export default function Comment() {
                   <p>{obj.process}</p>
                   <h3>Result</h3>
                   <p>{obj.result}</p>
-
-
                 </div>
               </div>
             </div>

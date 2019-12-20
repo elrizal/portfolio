@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "order": "first-item",
+    "title": "It's Lit",
+    "timeframe": "February - March 2018",
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/lit.jpg",
+    "lang": [
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "MySQL"
+    ],
+    "libapi": [
+      "Node JS", "jQuery", "Google Maps", "Google Books", "Passport JS"
+    ],
+    "role": "front end development",
+    "description": "This social app is targeted for users seeking to exchange books in their local area. The user simply signs up, records the books they own, and can seek out other users looking for books. ",
+    "github": "https://github.com/elrizal/its-lit",
+    "live": "http://sleepy-peak-84439.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "order": "second-item",
+    "title": "Cook With Nana",
+    "timeframe": "February - March 2018",
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/cwn.jpg",
+    "tech": [
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "MySQL",
+      "React JS", "Node JS", "Express", "Google Maps", "Passport JS"
+    ],
+    "role": "front end development, UX design (wireframed and conducted usability testing)",
+    "description": "In order to create a platform for seniors to connect with younger generations, Cook With Nana was an idea that came out of brainstorming with other developers. We saw the lack of apps targeted towards older generations, and saw it as a huge opportunity to build a social app in order to appraoch the problem more. Using culinary arts as a way to attract many users, the app serves as a way for the lederly to meet and/or discuss ways of aiding people become better chefs.",
+    "github": "https://github.com/elrizal/CookWithNana",
+    "live": "https://peaceful-woodland-77310.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "order": "third-item",
+    "title": "Give a Gif!",
+    "timeframe": "March - April 2018",
+    "image": "",
+    "lang": [
+      "HTML5",
+      "CSS",
+      "JavaScript", "jQuery", "Giphy"],
+    "role": "front end development",
+    "description": "A social meet up app targeted for users seeking to exchange books in their local area.",
+    "github": "link",
+    "live": "live"
+  },
+  {
+    "id": 4,
+    "order": "fourth-item",
+    "title": "Train Scheduler",
+    "timeframe": "February - March 2018",
+    "image": "",
+    "lang": [
+      "jQuery",
+      "Firebase",
+      "HTML5",
+      "CSS",
+      "JavaScript"
+    ],
+    "role": "front end development",
+    "description": "A social meet up app targeted for users seeking to exchange books in their local area.",
+    "github": "link",
+    "live": "live"
+  },
+  {
+    "id": 5,
+    "order": "fifth-item",
+    "title": "Beersphere",
+    "timeframe": "February - March 2018",
+    "image": "",
+    "lang": [
+      "jQuery",
+      "HTML5",
+      "CSS",
+      "JavaScript"
+    ],
+    "role": "front end development",
+    "description": "A social meet up app targeted for users seeking to exchange books in their local area.",
+    "github": "link",
+    "live": "live"
+  },
+  {
+    "id": 6,
+    "order": "sixth-item",
+    "title": "Wishlist",
+    "timeframe": "February - March 2018",
+    "image": "",
+    "lang": [
+      "jQuery",
+      "HTML5",
+      "CSS",
+      "JavaScript"
+    ],
+    "role": "front end development",
+    "description": "A social meet up app targeted for users seeking to exchange books in their local area.",
+    "github": "0",
+    "live": "live"
+  },
+  {
+    "id": 6,
+    "order": "sixth-item",
+    "title": "EPSON product pages for Equipment Zone ",
+    "timeframe": "February - March 2018",
+    "image": "",
+    "lang": [
+      "jQuery",
+      "HTML5",
+      "CSS",
+      "JavaScript"
+    ],
+    "role": "front end development",
+    "description": "A social meet up app targeted for users seeking to exchange books in their local area.",
+    "github": "0",
+    "live": "live"
+  }
+]
