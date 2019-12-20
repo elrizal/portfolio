@@ -2,13 +2,22 @@ html
   height: 100%
 
 body
-    position:relative
-    padding-bottom:[footer-height] 
+  position:relative
+  padding-bottom:[footer-height] 
+  min-height: 100%
+  display: grid
+  grid-template-rows: 1fr auto
+
 
 .footer
-    position: absolute
-    left: 0 ; right: 0; bottom: 0
-    height:[footer-height] 
+  position: absolute
+  text-align: center
+  height:[footer-height] 
+
+.contact
+  width: 50% 
+  padding-top: 40px
+  margin: 0 auto
 
 *
   box-sizing: border-box
@@ -21,32 +30,19 @@ body
   padding: 14px
   width: fit-content
 
-.case-thumb
-  max-height: 350px
-  height: auto
-.case-contain
- padding: 10px
- text-align: center
-
-.pageheader-img
-  width: 100vw 
-  
-.content
-  margin-top: 0px
-  marign-bottom: 0px
-  
-.add-centering
-  text-align: center
-
-.custom-footer
-  color: gray
-  padding: 20px
-
 .fixed
   position: fixed
  
 .center
   text-align: center
+  align-content: center
+  margin: 0 auto 
+
+.right 
+  text-align: right
+
+.extra-top-layout
+  height: 110px
 
 hr 
   background: #eeeeee 

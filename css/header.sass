@@ -17,7 +17,7 @@ body
 
 p
   font-size: 1em
-  line-height: 1.3em
+  line-height: 1.4em
   margin-bottom: 20px
 
 h2, h3 
@@ -35,6 +35,9 @@ h3
   font-size: 1.4em !important
   font-spacing: 3px
   font-family: $font-second !important
+  
+.outheader
+  margin: 1px 0px 10px 01px
 
 h1
   font-family: $font-header
@@ -49,13 +52,6 @@ h1
   margin-top: .2em
 
 
-html
-  height: 100%
-
-body
-  min-height: 100%
-  display: grid
-  grid-template-rows: 1fr auto
 
 a 
     font-weight: 700
@@ -74,13 +70,24 @@ a, a:hover, a:active, a:visited
   padding: 15px
   margin: 0 auto
 
+.outlinesec
+  padding: 20px
+  border-style: solid
+  width: 21%
+  border-width: 1px
+  border-color: white
+  border-radius: 10px
+  text-align: center  
+  vertical-align: middle
+  margin: 10px
+  display: inline-block
+
 .intro
   padding: 10px 
   margin-top: 15px
 
 .introblob
-  position: absolute
-  left: -40%
+  max-width: 100%
 
 .titlecontain
   border-style: solid
@@ -92,7 +99,6 @@ a, a:hover, a:active, a:visited
   border-color: $dark-color !important
   top: 50%
   left: 50%
-  width: 30%
   transform: translate(-50%, -50%)
 
 .containh1
@@ -126,7 +132,7 @@ a, a:hover, a:active, a:visited
 .marbfront
   background: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1572981281/toplayer-marble.png)
   height: 100%
-  width: 100vw
+  width: 98vw
   background-size: contain
   background-position: bottom
   background-repeat: no-repeat
@@ -172,15 +178,17 @@ a, a:hover, a:active, a:visited
   background-color: $dark-color !important
 
 .casegal
-  height: 400px
+  height: 300px
   background-size: contain
   background-repeat: no-repeat
   background-position: center
   background-blend-mode: normal
   padding: 10px
 
+
   .label 
     text-transform: uppercase
+    margin-top: 5px
     color: $dark-color
     letter-spacing: 1.5px
     text-align: center
@@ -295,22 +303,30 @@ a, a:hover, a:active, a:visited
   border: none
   background: -webkit-gradient(radial, 50% 50%, 0, 40% 50%, 350, from(#616985), to(transparent))
 
-/* LAYOUT
+/* Gallery
 
-#block
-  min-height: 5vh
+.case-thumb
+  max-height: 350px
+  height: auto
+.subtitle
+  color: #999999
+.case-contain
+ padding: 10px
+ text-align: center
 
+.pageheader-img
+  width: 100vw 
+  
+.content
+  margin-top: 0px
+  marign-bottom: 0px
+  
+.add-centering
+  text-align: center
 
-li
-  text-decoration: none
-  list-style: none
-
-
-.ui.dropdown .menu
-  padding: 15px !important
-  border-radius: none
-  margin: 20px !important
-
+.custom-footer
+  color: gray
+  padding: 20px
 
 
 #footer
@@ -358,17 +374,23 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
   .aside-caseimg 
     max-width: 300px
 
+  .outlinesec
+    width: 100% 
+    padding: 10px
+    max-height: auto 
+
+
 @media #{$tablet} 
   .header-title
     font-size: 6.8em !important
 
-  .titlecontain
-    width: 55%
-    left: 30%
-
   .aside-caseimg 
     max-width: 400px
 
+  .outlinesec
+    width: 40%
+    padding: 10px
+    max-height: auto 
 
 // @media #{$desktop} 
 //   .titlecontain
