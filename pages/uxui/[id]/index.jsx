@@ -11,75 +11,45 @@ const UserEx = () => {
 
   return (
     <Layout>
-      <div className="container center">
-      <h2>Campaigns</h2>
-      <p>Case studies of online and out-of-home campaigns where I was a lead visual designer:</p>
+      <div className="container">
+      <h2 className="center">Ux-Ui Case Studies</h2><br />
+      <p className="center">Projects in which I researched users and compettitors, as well as created the interface design for:</p>
+      <br />
         <div className="row">
           <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/first-item`}>
-              <a><img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1576719479/greycominterest.jpg" className="case-thumb" alt="greycomm study"/></a>
+            <Link href="/uxui/[id]/[itemselected]" as={`/uxui/${id}/first-item`}>
+              <a><img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/enroll.jpg" className="case-thumb" alt="greycomm study"/></a>
             </Link>
-            <p><b>New Hiring at Greycomm Studios</b></p>
-            <Button variant="outlined">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/first-item`}>
+            <p><b>Client Life Insurance Enrollment Platform</b><br />
+            While working for Adams Direct and Media, I was the UX developer for their major insurance-client's new life insurance online form</p>
+            <Button className="center" variant="outlined">
+            <Link href="/uxui/[id]/[itemselected]" as={`/uxui/${id}/first-item`}>
               View Case
             </Link>
             </Button>
           </div>
           <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/second-item`}>
-            <a><img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1576719478/wc.jpg" className="case-thumb"  alt="women of color conference"/></a>
+            <Link href="/uxui/[id]/[itemselected]" as={`/uxui/${id}/second-item`}>
+            <a><img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423411/work/ez-prev.png" className="case-thumb"  alt="women of color conference"/></a>
             </Link>
-            <p><b>Promotion for Women of Color Conference</b></p>
+            <p><b>Equipment Zone UI Guide and Re-design</b><br />
+            As a contract web developer and lead designer for the company, I overhauled their legacy UI and created a reformatted guide in order to help inform our UX/development team.
+            </p>
             <Button variant="outlined">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/second-item`}>
+            <Link href="/uxui/[id]/[itemselected]" as={`/uxui/${id}/second-item`}>
               View Case
             </Link>
             </Button>
           </div>
           <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/third-item`}>
-            <a><img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1576766036/work/th-ccsjspring.jpg" className="case-thumb"  alt="women of color conference"/></a>
+            <Link href="/uxui/[id]/[itemselected]" as={`/uxui/${id}/third-item`}>
+            <a><img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/ux.jpg" className="case-thumb"  alt="women of color conference"/></a>
             </Link>
-            <p><b>Ad for Loyola's Community Service Center</b></p>
+            <p><b>Wherefor.com Purposed Re-Design</b><br />
+            A hypothetical reiteration on the existing travel's information architecture, user flow and overall UX. To confront additional problems travelers experience during trip-planning, new features are also suggested here.
+            </p>
             <Button variant="outlined">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/third-item`}>
-              View Case
-            </Link>
-            </Button>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/fourth-item`}>
-              <a><img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1576771531/work/ooh/fhfal.jpg" className="case-thumb" alt="FH holiday email study"/></a>
-            </Link>
-            <p><b>Pre-holiday sales promotion at FH Group Int'l</b></p>
-            <Button variant="outlined">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/fourth-item`}>
-              View Case
-            </Link>
-            </Button>
-          </div>
-          <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/fifth-item`}>
-            <a><img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1576771873/work/ooh/fhchr.jpg" className="case-thumb"  alt="FH sales event"/></a>
-            </Link>
-            <p><b>Holiday sales event at FH Group Int'l</b></p>
-            <Button variant="outlined">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/fifth-item`}>
-              View Case
-            </Link>
-            </Button>
-          </div>
-          <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/sixth-item`}>
-            <a><img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1576772849/work/ooh/bombas.jpg" className="case-thumb"  alt="women of color conference"/></a>
-            </Link>
-            <p><b>Bombas holiday promotions</b></p>
-            <Button variant="outlined">
-            <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/sixth-item`}>
+            <Link href="/uxui/[id]/[itemselected]" as={`/uxui/${id}/third-item`}>
               View Case
             </Link>
             </Button>

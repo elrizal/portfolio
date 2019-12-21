@@ -23,12 +23,10 @@ export default function Comment() {
       </div>
       <div className="container">
         {galleryList.map(obj => {
-          console.log(itemselected)
-          console.log("obj:" + obj.order)
           if (itemselected == obj.order) {
             return <div>
               <div className="row">
-                <div className="col-sm-12  col-lg-6 add-centering">
+                <div className="col-sm-12 col-lg-6 add-centering">
                   {obj.images.map(imgobj => {
                         if (obj.images.length > 1 ) {
                           obj.images.slice(0)
@@ -38,7 +36,7 @@ export default function Comment() {
                         }
                   })}
                 </div>
-                <div className="col-sm-12  col-lg-6">
+                <div className="col-sm-12 col-lg-6">
                   <h1>{obj.title}</h1>
                   <h2>{obj.company}</h2>
                   <p>
@@ -53,8 +51,6 @@ export default function Comment() {
                   <p>{obj.process}</p>
                   <h3>Result</h3>
                   <p>{obj.result}</p>
-
-
                 </div>
               </div>
             </div>

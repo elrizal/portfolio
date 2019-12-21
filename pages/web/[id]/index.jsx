@@ -3,46 +3,142 @@ import Link from 'next/link';
 import Layout from '../../../components/layout';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
-import webItems from './items-campaigns';
-const WebDev = () => {
+import listItems from './items-campaigns';
 
+const WebDev = () => {
   const router = useRouter();
   const {id} = router.query;
 
   return (
     <Layout>
-      <div className="container center">
-        <h2>Web Development</h2>
-        <p>Web development projects where my main role was a front end developer or full stack developer. </p>
-      </div>
-     
-        <div className="container">
-          {webItems.map(item => {
-            return  <div className="row">
-                <div className="col-lg-4">
-                  <img src={item.image} className='case-thumb' alt={item.title}/>
-                </div>
-                <div className="col-lg-8">
-                  <h3>{item.title}</h3><p>
-                  <b>My role:</b> {item.role}<br />
-                  <b>Languages used:</b> {item.lang.join(', ')}<br />
-                  <b>Libraries and APIs:</b> {item.lang.join(', ')}<br />
-                  <b>Timeframe:</b> {item.timeframe}<br /></p>
-                  <p>{item.description}</p>
-                  
-                  <Button variant="outlined">
-                    <a target="_blank" rel="noopener noreferrer" href={item.github}>
-                        Github
-                    </a>
-                   </Button> <Button variant="outlined">
-                    <a target="_blank" rel="noopener noreferrer" href={item.live}>
-                        Live
-                    </a>
-                   </Button>
-                </div>
-                </div>
-          })}
+      <div className="container">
+      <h2 className="center">Web Development</h2><br />
+      <p className="center">Applications I've created as a result of collaboration in a development team or independently:</p>
+      <br />
+        <div className="row">
+          <div className="col-md-6 col-lg-4 case-contain">
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/first-item`}>
+              <a>
+                <img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/lit.jpg" className="case-thumb" alt="it's lit app"/>
+                </a>
+            </Link>
+            <h3>It's Lit</h3>
+            <p>
+            This social app is targeted for users seeking to exchange books in their local area.<br />
+            <b>Tech stack:</b> jQuery, JavaScript, HTML5/CSS, MySQL & Node JS
+            </p>
+            <Button variant="outlined">
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/first-item`}>
+              <a>Case Study</a>
+            </Link>
+            </Button>&nbsp;
+            <Button a href="https://github.com/elrizal/its-lit" target="_blank" variant="outlined">
+              <a>Github</a>
+            </Button>&nbsp; 
+            <Button a href="http://sleepy-peak-84439.herokuapp.com/" target="_blank" variant="outlined">
+              <a>Demo</a>
+            </Button>
+          </div>
+          <div className="col-md-6 col-lg-4 case-contain">
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/second-item`}>
+              <a>
+                <img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/cwn.jpg" className="case-thumb" alt="cook with nana"/>
+                </a>
+            </Link>
+            <h3>Cook With Nana</h3>
+            <p>
+            This messaging-based app serves as a platform for people who want to learn cooking and those who want to connect to younger generations via teaching or offering advice. <br />
+            <b>Tech stack:</b> React JS, MySQL, Node, CSS
+            </p>
+            <Button variant="outlined">
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/second-item`}>
+              <a>Case Study</a>
+            </Link>
+            </Button>&nbsp;
+            <Button a href="https://github.com/elrizal/CookWithNana" target="_blank" variant="outlined">
+              <a>Github</a>
+            </Button>&nbsp;
+            <Button a href="https://peaceful-woodland-77310.herokuapp.com/" target="_blank" variant="outlined">
+              <a>Demo</a>
+            </Button>
+          </div>
+          <div className="col-md-6 col-lg-4 case-contain">
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/third-item`}>
+              <a>
+                <img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/train.jpg" className="case-thumb" alt="greycomm study"/>
+                </a> 
+            </Link>
+            <h3>Train Scheduler</h3>
+            <p>
+            A brief experiment in identifying weak spots in train scheduling sites and creating cleaner UI interactions to confront them.<br />
+            <b>Tech stack:</b> jQuery, JavaScript, HTML5, CSS, Firebase
+            </p>
+            <Button variant="outlined">
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/third-item`}>
+              <a>Case Study</a>
+            </Link>
+            </Button>&nbsp;
+            <Button a href="https://github.com/elrizal/Train-Planning" target="_blank" variant="outlined">
+              <a>Github</a>
+            </Button>&nbsp;
+            <Button a href="https://trainplanner.herokuapp.com/" target="_blank" variant="outlined">
+              <a>Demo</a>
+            </Button>
+          </div>
+        </div>
 
+
+        <div className="row">
+          <div className="col-md-6 col-lg-4 case-contain">
+            <Link>
+              <a href="/web/[id]/[itemselected]" as={`/web/{id}/first-item`}>
+                <img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/gifgal.jpg" target="_blank" className="case-thumb" alt="it's lit app"/>
+                </a>
+            </Link>
+            <h3>Give a Gif</h3>
+            <p>
+            Looking for a quick time-killer? This app scoops up popular gifs based on topics of your choice from Giphy.com<br />
+            <b>Tech stack:</b> jQuery, JavaScript, HTML5, CSS
+            </p>
+            <Button a href="https://github.com/elrizal/give-a-gif" target="_blank" variant="outlined">
+              <a>Github</a>
+            </Button>&nbsp; 
+            <Button a href="https://elrizal.github.io/give-a-gif/" target="_blank" variant="outlined">
+              <a>Demo</a>
+            </Button>
+          </div>
+
+          <div className="col-md-6 col-lg-4 case-contain">
+                <img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/72.jpg" target="_blank" className="case-thumb" alt="it's lit app"/>
+              
+            <h3>Product Pages and Refractoring for Equipment Zone</h3>
+            <p>
+            As a web developer at Equipment Zone, I creating separate campaign pages, as well as refractoring for legacy code on both the client and server side.<br />
+            <b>Tech stack:</b> HTML, CSS, JavaScript, PHP
+            </p>
+            <Button a href="https://equipmentzone.com" target="_blank" variant="outlined">
+              <a>Company Site</a>
+            </Button>&nbsp; 
+            <Button a href="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423946/work/f72.gif" target="_blank" variant="outlined">
+              <a>Demo (Not live)</a>
+            </Button>
+          </div>
+
+          <div className="col-md-6 col-lg-4 case-contain">
+                <img src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423411/work/movr.jpg" target="_blank" className="case-thumb" alt="it's lit app"/>
+            <h3>Movr</h3>
+            <p>
+            A recommendation site that matches developers who are looking to move with cities where the tech-industry is booming based on a quick survey.<br />
+            <b>Tech stack:</b> Node JS, jQuery, JavaScript, HTML5, CSS
+            </p>
+            <Button a href="https://github.com/elrizal/movr" target="_blank" variant="outlined">
+              <a>Github</a>
+            </Button>&nbsp; 
+            <Button a href="https://moverapp.herokuapp.com/" target="_blank" variant="outlined">
+              <a>Demo</a>
+            </Button>
+          </div>
+        </div>
       </div>
     </Layout>
   )

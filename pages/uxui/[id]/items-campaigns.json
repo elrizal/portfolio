@@ -5,13 +5,13 @@
     "title": "Enrollment for life insurance form",
     "company": "Adams Direct & Media's insurance client",
     "timeframe": "October 2018 - March 2019",
-    "mainimg": "",
+    "mainimg": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/enroll.jpg",
     "stagesimgs": ["", ""],
     "tasks": "competitive and heuristic analysis, usability testing, wire framing, prototyping and client side web development",
-    "description": "Flyers and social media advertisements encouraging entry-level digital media specialists (in film, graphic design and broadcasting) to apply for volunteer, intern and part-time roles as part of the crew.",
-    "reason": "Prior to the campaign, students were reached through internal referral. In order to boost the applicant pool with more talent, I designed and conceptualized the visual direction of the campaign in order to represent our brands as creative and open to the ideas of people new to the field.",
-    "process": "In the initial stages, I reviewed the history of previous years- and found that, as one would assume, much of the best years in applicant numbers were due to higher emrollments of communications students compared to the lower performing years. Due to this, my team decided to reach towards more universities than previous years. In developing the visual direction of the posters, I based artistic direction on a combination of the studio brand and more modern trending styles of the time.",
-    "result": "With our Facebook account containing a reach towards students majoring in film and digital media studies, we were able to obtain applications to outside universities as well. Due to the influx of 100+ applications, we were able to go over our targeted applicant pool and find talent not associated with the company prior; and soon-to-be future managers!"
+    "description": "As a UX developer, I was tacked with prototyping this enrollment form for our client looking to improve enrollment form experience for customers. Having a recent re-brand and change of code base, we needed to integrate previous builds of similar applications we’ve created with traditional-paper format that customers typically use. ",
+    "reason": "Due to relying on customers mailing out submissions and back-and-forth communication with client-service, the company had difficulty in keeping track of customer data. The process turned out to be frustrating on both sides, so the client needed to find a way to both modernize and reduce the headache of the process.",
+    "process": "To start off, the initial data I received was the target demographic group (parts aged 30-50 and senior citizens) and trends in hot-spot clicking and previous successful enrollment campaigns. Before designing anything, I kicked off supplemental research with the lowest hanging fruit first; looking for customer reviews of both the client online and paper forms for comparison. Given that we had relatively similar forms in the past, I found them to be a useful basis in identifying elements I could use. Another quick research method I started with was actually filling out the forms and going about the form as different personas (such as single parents, people with multiple illnesses etc.). After gathering initial feedback, my first wireframe was used as a way to communicate to stakeholders my direction. The reiterative process was then based on usability tests with participants in-house and to targeted demographics. From doing so, I found that the initial design lead users to spend a lower average of time on filling the form and that little to no errors in filling personal information (given the added options to edit as you go). ",
+    "result": "Following re-iteration on the initial prototype, I was able to develop the client-side interactions with collaboration of our back-end engineering team. As a result of the research and quick development phases, we were able to deliver a high-fidelity prototype to the client. Due to high traffic and lack of users reporting to customer service, we then used this project as a template for future enrollment forms. "
   },
   {
     "id": 2,
@@ -20,13 +20,13 @@
     "company": "Equipment Zone",
     "timeframe": "April 2018 - June 2018",
     "invision":"",
-    "mainimg": "",
+    "mainimg": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423411/work/ez-prev.png",
     "stagesimgs": ["", ""],
     "tasks": "Brand designing, heuristic analysis, surveying",
-    "description": "Flyers and social media advertisements encouraging entry-level digital media specialists (in film, graphic design and broadcasting) to apply for volunteer, intern and part-time roles as part of the crew.",
-    "reason": "Prior to the campaign, students were reached through internal referral. In order to boost the applicant pool with more talent, I designed and conceptualized the visual direction of the campaign in order to represent our brands as creative and open to the ideas of people new to the field.",
-    "process": "In the initial stages, I reviewed the history of previous years- and found that, as one would assume, much of the best years in applicant numbers were due to higher emrollments of communications students compared to the lower performing years. Due to this, my team decided to reach towards more universities than previous years. In developing the visual direction of the posters, I based artistic direction on a combination of the studio brand and more modern trending styles of the time.",
-    "result": "With our Facebook account containing a reach towards students majoring in film and digital media studies, we were able to obtain applications to outside universities as well. Due to the influx of 100+ applications, we were able to go over our targeted applicant pool and find talent not associated with the company prior; and soon-to-be future managers!"
+    "description": "This brand features new standards for the front end and design team at Equipment Zone to follow in order to reach strong accessibility and visual brand standards. ",
+    "reason": "Prior to the guide, I saw that there were many visual hierarchy inconsistencies and multiple violations of accessibility standards being met (small font sizes, low contrast on font to backgrounds and colors not communicating semantics). The company also had previous issues in communicating style standards, but did not have an initial brand guide. So while it was not a main project assigned to me, I saw a lot of opportunity to improve these issues by creating this reference.",
+    "process": "The process was fairly straight forward; I compared the current design and interactions to the W#3.org >Web Content Accessibility Guidelines. The company also had fragmented pieces of design elements due to prior lack of a in-house design department. Therefore, the biggest challenge to come out of the process was consolidating previous designs along with elements I purposed based off of accessibility issues. ",
+    "result": "As a result, the guide opened up more discussion in planning and producing new content, both print and online. Rather than having visual consistency and accessibility be handled as an afterthought, the guide was used as a good “jumping off point” in turning the team towards considering all aspects of the customer experience. "
   },
     {
       "id": 3,
@@ -34,12 +34,13 @@
       "title": "Where For redesign",
       "company": "Capstone project at Springboard",
       "timeframe": "December 2016 - August 2017",
-      "invision":"",
-      "mainimg": "",
-      "stagesimgs": ["", ""],
-      "tasks": "surveying, competitive and heuristic analysis, card sorting, interviewing, usability testing, wire framing, prototyping and visual direction",
-      "description": "Flyers and social media advertisements encouraging entry-level digital media specialists (in film, graphic design and broadcasting) to apply for volunteer, intern and part-time roles as part of the crew.",
-      "reason": "Prior to the campaign, students were reached through internal referral. In order to boost the applicant pool with more talent, I designed and conceptualized the visual direction of the campaign in order to represent our brands as creative and open to the ideas of people new to the field.",
+      "invision":"https://projects.invisionapp.com/share/EPCMF4WV5#/screens",
+      "mainimg": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/ux.jpg",
+      "stagesimgs": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555423581/work/uxui/userflows.png", "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423581/work/uxui/brand-wherefor2.jpg"],
+      "otherlinks":"https://drive.google.com/file/d/0B3oo1iO2KDAMRXdpV2dfcFdqM3M/view",
+      "tasks": "Surveying target users, identifying pain point, heuristic analysis, usability testing and wireframing ",
+      "description": "Inspired by the recent budget travel site to hit the savvy wonder-luster's radar, Where For, I chose it as the basis for a re-design during my UX design course at Springboard. As an already amazing site on its own, I wanted to see how much further I could take it with the knowledge I picked up in the course. The site has a simple premise- plug in a budget for travel and then search away flights and hotels you can book on-site. ",
+      "reason":  "The site is picking up steam and highly recognized across the web, yet, why stop at plugging in values and searching? Some individuals come in at a disadvantage when it comes to finding the time, money and organization of a trip may not have the chance to throw in a large budget and get a slew of results. Therefore, in planning the project, my goal was to focus on empowering millennials, new travelers and busy families in planning their trip when cash is tight and travel-know-how is low.",
       "process": "In the initial stages, I reviewed the history of previous years- and found that, as one would assume, much of the best years in applicant numbers were due to higher emrollments of communications students compared to the lower performing years. Due to this, my team decided to reach towards more universities than previous years. In developing the visual direction of the posters, I based artistic direction on a combination of the studio brand and more modern trending styles of the time.",
       "result": "With our Facebook account containing a reach towards students majoring in film and digital media studies, we were able to obtain applications to outside universities as well. Due to the influx of 100+ applications, we were able to go over our targeted applicant pool and find talent not associated with the company prior; and soon-to-be future managers!"
     }

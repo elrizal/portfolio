@@ -3,19 +3,23 @@
     "id": 1,
     "order": "first-item",
     "title": "It's Lit",
+    "type": "Social",
     "timeframe": "February - March 2018",
     "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/lit.jpg",
-    "lang": [
+    "tech": [
       "JavaScript",
       "HTML5",
       "CSS",
       "MySQL"
     ],
     "libapi": [
-      "Node JS", "jQuery", "Google Maps", "Google Books", "Passport JS"
+      "Node JS", "Express", "jQuery", "Google Maps", "Google Books", "Passport JS"
     ],
-    "role": "front end development",
+    "role": "full stack development",
     "description": "This social app is targeted for users seeking to exchange books in their local area. The user simply signs up, records the books they own, and can seek out other users looking for books. ",
+    "problem":"The idea came from observing the lack of connection in online book-lover forums. Although there is a lot of avenues of selling books online/in person, my co-developers and I observed that there’s more opportunity to expand beyond those current options. Rather than focus on the transactional purpose of sending off your books, there was a lack of connection in a similar manner to a local book club or the “little free library”.  Therefore, we were interested in incorporating the more personable aspect of it such as libraries, book stores etc. that seem to have slipped by the wayside.  ",
+    "process":"In our team of 4 developers, we all divided tasks based on priority since we were balanced in terms of strengths in front and back end development. After a condensed “design sprint” of compared similar existing websites and wireframing as a group, we decided on the stack we were using quickly. Given our tight turnaround, I used jQuery for quick DOM manipulation and a mixture of custom CSS with the library, Materialize. Once we had a prototype of working interactions, we agreed on using MySQL for the need of relational data; since interactions between users would be based on comparing data (such as checking if a book has been “checked out”), it was the most fitting at the time. By choosing MySQL, also were able to take advantage of Passport JS for easy control of the authentication process.  Once we planned out what we needed for the back end, we connected the Google Books API with “dummy” user accounts to produce the basis of the experience.",
+    "future":"As a result, we had a functioning MVP of our initial idea. Users can sign up and browse books, while being able to view who is available in their local area. For future development, we are seeking to build and integrate a chat, rather than falling back of emails between users. ",
     "github": "https://github.com/elrizal/its-lit",
     "live": "http://sleepy-peak-84439.herokuapp.com/"
   },
@@ -24,101 +28,40 @@
     "order": "second-item",
     "title": "Cook With Nana",
     "timeframe": "February - March 2018",
+    "type": "Social",
     "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/cwn.jpg",
     "tech": [
       "JavaScript",
       "HTML5",
       "CSS",
-      "MySQL",
-      "React JS", "Node JS", "Express", "Google Maps", "Passport JS"
-    ],
+      "MySQL"],
+    "libapi": [ "React JS", "Node JS", "Express", "Google Maps", "Passport JS", "Sequelize"],
     "role": "front end development, UX design (wireframed and conducted usability testing)",
     "description": "In order to create a platform for seniors to connect with younger generations, Cook With Nana was an idea that came out of brainstorming with other developers. We saw the lack of apps targeted towards older generations, and saw it as a huge opportunity to build a social app in order to appraoch the problem more. Using culinary arts as a way to attract many users, the app serves as a way for the lederly to meet and/or discuss ways of aiding people become better chefs.",
+    "problem":"With a group of co-developers, we were curious about creating an application that aimed at groups that fall under overlooked target demographics. In particular, we noticed a lack of sites that are both easily accessible and have targeted use for elderly generations of women. Based on quick research about the group, the most frequented site for senior citizens is Facebook, but it is used primarily to connect with their existing connections. Therefore, we saw room for opportunities to assist people in building those connections outside of their circle. So the idea for Cook With Nana was born; the app would be an avenue for younger and older generations to connect and learn from one another.",
+    "process":"My co-developers and I had first discovered React, and saw the immediate benefits of it for our idea. Since wanted to have separate options and features depending on whether someone is offering cooking advice vs seeking it, using conditional rendering would be a huge boon to the interaction development process. Once we agreed on using React, we also turned to using relational data paired with the Sequelize library in order to speed up how we designed and implemented our data with the client side. ",
+    "future":"Although using React for the first time was challenging (especially since we were all coming from jQuery/Vanilla JS), we managed to complete our MVP with both testing and real users. For future development, however, we are planning to integrate a one on one video call in order to improve communication between users. Given our target audience, improving the accessibility of the UI is also a huge focus in the next reiterations.",
     "github": "https://github.com/elrizal/CookWithNana",
     "live": "https://peaceful-woodland-77310.herokuapp.com/"
   },
   {
     "id": 3,
     "order": "third-item",
-    "title": "Give a Gif!",
-    "timeframe": "March - April 2018",
-    "image": "",
-    "lang": [
+    "title": "Conductor's Planner",
+    "timeframe": "January 2018 (initial stage), reiterating",
+    "type": "Scheduling",
+    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/train.jpg",
+    "tech": [
+      "JavaScript",
       "HTML5",
-      "CSS",
-      "JavaScript", "jQuery", "Giphy"],
+      "CSS"],
+    "libapi": ["Firebase"],
     "role": "front end development",
-    "description": "A social meet up app targeted for users seeking to exchange books in their local area.",
-    "github": "link",
-    "live": "live"
-  },
-  {
-    "id": 4,
-    "order": "fourth-item",
-    "title": "Train Scheduler",
-    "timeframe": "February - March 2018",
-    "image": "",
-    "lang": [
-      "jQuery",
-      "Firebase",
-      "HTML5",
-      "CSS",
-      "JavaScript"
-    ],
-    "role": "front end development",
-    "description": "A social meet up app targeted for users seeking to exchange books in their local area.",
-    "github": "link",
-    "live": "live"
-  },
-  {
-    "id": 5,
-    "order": "fifth-item",
-    "title": "Beersphere",
-    "timeframe": "February - March 2018",
-    "image": "",
-    "lang": [
-      "jQuery",
-      "HTML5",
-      "CSS",
-      "JavaScript"
-    ],
-    "role": "front end development",
-    "description": "A social meet up app targeted for users seeking to exchange books in their local area.",
-    "github": "link",
-    "live": "live"
-  },
-  {
-    "id": 6,
-    "order": "sixth-item",
-    "title": "Wishlist",
-    "timeframe": "February - March 2018",
-    "image": "",
-    "lang": [
-      "jQuery",
-      "HTML5",
-      "CSS",
-      "JavaScript"
-    ],
-    "role": "front end development",
-    "description": "A social meet up app targeted for users seeking to exchange books in their local area.",
-    "github": "0",
-    "live": "live"
-  },
-  {
-    "id": 6,
-    "order": "sixth-item",
-    "title": "EPSON product pages for Equipment Zone ",
-    "timeframe": "February - March 2018",
-    "image": "",
-    "lang": [
-      "jQuery",
-      "HTML5",
-      "CSS",
-      "JavaScript"
-    ],
-    "role": "front end development",
-    "description": "A social meet up app targeted for users seeking to exchange books in their local area.",
-    "github": "0",
-    "live": "live"
+    "description": "The app is a tool for scheduling train arrival/departure times for conductors. ",
+    "problem":"Surprisingly, the NJ train stations I've frequented have had relatively confusing design. Responsiveness, frequent updates and information architecture seem to be lacking in most, making it challenging to seek basic information about train schedules. Therefore, I saw an opportunity to experiment on what a less frustrating reiteration would look like. Given the length of time it would take to completely rebuild that, however, I focused on one feature that could easily be integrated on the passenger-user side. Here, this dashboard is intended to be used as though the conductor is entering their own times while viewing others. It is a 'proof of concept' to what a more simplified approach would be to outdated train station sites. ",
+    "process":"Initially, I came across Firebase as a quick method to create a database with little back end set-up. So I saw that the Google service would be extremely fast to use for getting out a quick, interactive prototype of the app. This way, I could stick to focusing on the front end of the site in order to make it as presentable as possible in a short experiment.",
+    "future": "The feature was built to be tested with users similar to the target audience, and had re-iterations after turning away from bootstrapped-design that did little to help in making the scheduling process smooth for the average user. However, after being provided feedback from users, I created the feature to be used as a way to test out what a more intuitive interface may look like for the current NJ transit site. And of course, for future development, the feature would be part of a larger application in order to demonstrate what a further developed improvement on the site may look like. ",
+    "github": "https://github.com/elrizal/Train-Planning",
+    "live": "https://trainplanner.herokuapp.com/"
   }
 ]

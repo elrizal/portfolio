@@ -40,7 +40,7 @@ class Example extends React.Component {
   render() {
     return (
       <Fragment>
-        <svg className="introblob" viewBox="0 0 800 920">
+        <svg className="introblob" viewBox="0 0 700 920">
           <defs>
             <clipPath id="theClippingPath">
               <Icon
@@ -53,7 +53,7 @@ class Example extends React.Component {
             onMouseOver={this.gotoNext}
             onMouseOut={this.gotoNext}
             xlinkHref="https://res.cloudinary.com/diuubtvqd/image/upload/v1576873478/coolmoi.jpg"
-            clip-path="url(#theClippingPath)"
+            clipPath="url(#theClippingPath)"
             style={{
             "width": "900px",
             "height": "900px"
