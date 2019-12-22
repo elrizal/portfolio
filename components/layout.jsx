@@ -15,8 +15,10 @@ export default ({ children }) => {
         {children}
         </div>
       <div className="customfooter">
-      <footer className="custom-footer">
-          <span>&#169; 2019 Erin Leigh Rizal</span>
+      <footer>
+        <div className="container">
+        <p>&#169; 2019 Erin Leigh Rizal</p>
+        </div>
       </footer>
       </div>
     </div>

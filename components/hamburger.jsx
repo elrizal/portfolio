@@ -8,7 +8,7 @@ const Hamburger = props => {
   return (
     <div className="ham-bar sticky">
       <a href="/">
-      <img a href="/" src={logo} alt='Erin Leigh Rizal' className='logo-elr' />
+      <img ahref="/" src={logo} alt='Erin Leigh Rizal' className='logo-elr' />
       </a>
       
       <Menu right disableCloseOnEsc>
@@ -21,8 +21,18 @@ const Hamburger = props => {
                 </a>
               </li>
               <li>
-                <Link href='/campaign/[id]' as='/campaign/index'>
-                  <a className="menu-item">campaigns</a>
+                <Link  as='/web/index'>
+                  <a href='/web/[id]' className="menu-item">web development</a>
+                </Link>
+              </li>
+              <li>
+                <Link  as='/uxui/index'>
+                  <a href='/uxui/[id]' className="menu-item">UX-Ui case studies</a>
+                </Link>
+              </li>
+              <li>
+                <Link  as='/campaign/index'>
+                  <a href='/campaign/[id]' className="menu-item">campaigns</a>
                 </Link>
               </li>
               

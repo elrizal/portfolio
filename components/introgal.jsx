@@ -5,9 +5,10 @@ import Link from 'next/link';
 const Introgallery = () => {
   return (
     <React.Fragment>
-      <div className="center row ">
-        <p className="center"> <h2 >Project categories</h2></p>
-       
+      <div className="row">
+        <div className="container">
+
+        </div>
       </div>
       <div className="row center">
         <Link href='/web/[id]' as='/web/index'>
@@ -28,9 +29,7 @@ const Introgallery = () => {
             </h3>
           </a>
         </Link>
-        
       </div>
-
     </React.Fragment>
   )
 }
