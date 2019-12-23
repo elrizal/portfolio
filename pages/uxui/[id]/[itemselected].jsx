@@ -37,7 +37,7 @@ export default function Comment() {
                 <div className="col-sm-12  col-lg-6">
 
                   <p>
-                    <b>Responsibilities</b> {obj.tasks}<br/>
+                    <b>Responsibilities:</b> {obj.tasks}<br/>
                     <b>Project timeframe: </b>
                     {obj.timeframe}
                   </p>

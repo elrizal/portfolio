@@ -15,7 +15,6 @@ export default function Comment() {
         <Link  href='/web/[id]' as='/web/index'>
           <a><ArrowLeftRounded style={{fontSize: 90}}/></a>
         </Link>
-
       </div>
       <div className="container">
         {galleryList.map(obj => {
