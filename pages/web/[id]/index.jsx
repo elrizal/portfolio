@@ -2,8 +2,6 @@ import {useRouter} from 'next/router';
 import Link from 'next/link';
 import Layout from '../../../components/layout';
 import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
-import listItems from './items-campaigns';
 
 const WebDev = () => {
   const router = useRouter();
