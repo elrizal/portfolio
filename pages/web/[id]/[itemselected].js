@@ -15,10 +15,10 @@ const Comment = () => {
           <a><ArrowLeftRounded style={{fontSize: 90}}/></a>
         </Link>
       </div>
-      <div className="container">
+      <div className="container ">
         {galleryList.map(obj => {
           if (itemselected == obj.order) {
-            return  <div className="row" key={obj.id.toString()}>
+            return  <div className="row animated fadeIn" key={obj.id.toString()}>
                 <div className="col-sm-12  col-lg-4 add-centering">
                     <img src={obj.image} className='aside-webimg' alt=""/>
                    <br />

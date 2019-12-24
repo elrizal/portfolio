@@ -10,7 +10,7 @@ const WebDev = () => {
 
   return (
 <Layout>
-      <div className="container">
+      <div className="container animated fadeIn">
         <h2 className="center">Web Development</h2><br/>
         <p className="center">Applications I've created as a result of collaboration in
           a development team or independently:</p>
@@ -88,7 +88,7 @@ const WebDev = () => {
               jQuery, JavaScript, HTML5, CSS, Firebase
             </p>
             <Button variant="outlined">
-            <Link href="/campaign/[id]/[itemselected]" as={`/web/${id}/third-item`}>
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/third-item`}>
               <a>Case Study</a>
             </Link>
             </Button>&nbsp;

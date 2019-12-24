@@ -27,7 +27,7 @@ const Comment = () => {
           console.log("obj:" + obj.order)
           if (itemselected == obj.order) {
             return <div>
-              <div className="row">
+              <div className="row animated fadeIn">
                 <div className="col-sm-12  col-lg-6">
                 <h1>{obj.title}</h1>
                   <h2>{obj.company}</h2><br />

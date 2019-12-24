@@ -11,7 +11,7 @@ const UserEx = () => {
 
   return (
     <Layout>
-      <div className="container">
+      <div className="container animated fadeIn">
       <h2 className="center">Ux-Ui Case Studies</h2><br />
       <p className="center">Projects in which I researched users and compettitors, as well as created the interface design for:</p>
       <br />

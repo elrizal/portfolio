@@ -91,7 +91,6 @@ a, a:hover, a:active, a:visited
 .marbfront
   background: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1572981281/toplayer-marble.png)
   height: 100%
-  width: 98vw
   background-size: contain
   background-position: bottom
   background-repeat: no-repeat
@@ -326,8 +325,8 @@ a, a:hover, a:active, a:visited
   cursor: pointer
 
 
-$phone: "(min-width: 320px) and (max-width: 600px)"
-$tablet: "(min-width: 600px) and (max-width: 1050px)"
+$phone: "(min-width: 320px) and (max-width: 500px)"
+$tablet: "(min-width: 500px) and (max-width: 1050px)"
 $desktop: "(min-width: 1025px) and (max-width: 1800px)"
 
 @media #{$phone}
@@ -367,6 +366,8 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
     padding: 10px
     max-height: auto 
 
+  .titlecontain
+    left: 50%
 // @media #{$desktop} 
 //   .titlecontain
 

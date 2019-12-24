@@ -23,9 +23,9 @@ const Home = () => {
         title="Erin Leigh Rizal - Developer and UX UI Designer"
         description="A portfolio of a full stack developer and designer."/>
       <Hamburger/>
-      <Parallax className="top" bgImage={backGround} strength={200}>
+      <Parallax className="top" bgImage={backGround} strength={350} className="animated fadeIn">
         <div style={{
-          height: 700
+          height: 750
         }}>
           <div className="titlecontain  animated fadeIn">
             <h1 className='containh1 header -title t-shadow animated pulse'>Erin

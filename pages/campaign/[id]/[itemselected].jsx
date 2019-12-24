@@ -19,10 +19,10 @@ const Comment = () => {
           </a>
         </Link>
       </div>
-      <div className="container">
+      <div className="container ">
         {galleryList.map(function(obj, id ) {
           if (itemselected == obj.order) {
-            return  <div className="row" key={obj.id}>
+            return  <div className="row animated fadeIn" key={obj.id}>
                 <div className="col-sm-12 col-lg-6 add-centering">
                   {obj.images.map(imgobj => {
                         if (obj.images.length > 1 ) {

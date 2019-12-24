@@ -11,7 +11,7 @@ const Campaigns = () => {
 
   return (
     <Layout>
-      <div className="container center">
+      <div className="container center animated fadeIn">
       <h2>Campaigns</h2>
       <p>Case studies of online and out-of-home campaigns where I was a lead visual designer:</p>
         <div className="row">
