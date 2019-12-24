@@ -8,48 +8,39 @@ const Hamburger = props => {
   return (
     <div className="ham-bar sticky">
       <a href="/">
-      <img ahref="/" src={logo} alt='Erin Leigh Rizal' className='logo-elr' />
+      <img src={logo} alt='Erin Leigh Rizal' className='logo-elr' />
       </a>
       
       <Menu right disableCloseOnEsc>
         <div>
           <nav className="nav">
-          
             <ul>
               <li>
                 <a id="home" className="menu-item" href="/">Home
                 </a>
               </li>
               <li>
-                <Link  as='/web/index'>
-                  <a href='/web/[id]' className="menu-item">web development</a>
+                <Link href='/web/[id]' as='/web/index'>
+                  <a  className="menu-item">web development</a>
                 </Link>
               </li>
               <li>
-                <Link  as='/uxui/index'>
-                  <a href='/uxui/[id]' className="menu-item">UX-Ui case studies</a>
+                <Link href='/web/[id]' as='/uxui/index'>
+                  <a  className="menu-item">UX-Ui Design</a>
                 </Link>
               </li>
               <li>
-                <Link  as='/campaign/index'>
-                  <a href='/campaign/[id]' className="menu-item">campaigns</a>
+                <Link href='/campaign/' as='/campaign/index'>
+                  <a className="menu-item">campaigns</a>
                 </Link>
-              </li>
-              
+              </li>   
               <li>
-                <a
-                  href='https://www.linkedin.com/in/erinlrizal'
-                  target='_blank'
-                  rel="noopener noreferrer">
-                  <i id='icons' className='fab fa-linkedin fa-lg'></i>
-                  LinkedIn
-                </a>
+              <i id='icons' className='fab fa-linkedin fa-lg'></i>
+                <a href='https://www.linkedin.com/in/erinlrizal' target='_blank'>
+                  LinkedIn </a>
               </li>
               <li>
-                <a
-                  href='https://www.github.com/elrizal'
-                  target='_blank'
-                  rel="noopener noreferrer">
+                <a href='https://www.github.com/elrizal'target='_blank' rel="noopener noreferrer">
                   <i id='icons' className='fab fa-github fa-lg'></i>
                   Github
                 </a>

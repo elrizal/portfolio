@@ -22,7 +22,7 @@ const Campaigns = () => {
             <p><b>New Hiring at Greycomm Studios</b></p>
             <Button variant="outlined">
             <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/first-item`}>
-              View Case
+              <a>Case Study</a>
             </Link>
             </Button>
           </div>
@@ -33,7 +33,7 @@ const Campaigns = () => {
             <p><b>Promotion for Women of Color Conference</b></p>
             <Button variant="outlined">
             <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/second-item`}>
-              View Case
+              <a>Case Study</a>
             </Link>
             </Button>
           </div>
@@ -44,7 +44,7 @@ const Campaigns = () => {
             <p><b>Ad for Loyola's Community Service Center</b></p>
             <Button variant="outlined">
             <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/third-item`}>
-              View Case
+              <a>Case Study</a>
             </Link>
             </Button>
           </div>
@@ -58,7 +58,7 @@ const Campaigns = () => {
             <p><b>Pre-holiday sales promotion at FH Group Int'l</b></p>
             <Button variant="outlined">
             <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/fourth-item`}>
-              View Case
+              <a>Case Study</a>
             </Link>
             </Button>
           </div>
@@ -69,7 +69,7 @@ const Campaigns = () => {
             <p><b>Holiday sales event at FH Group Int'l</b></p>
             <Button variant="outlined">
             <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/fifth-item`}>
-              View Case
+              <a>Case Study</a>
             </Link>
             </Button>
           </div>
@@ -80,7 +80,7 @@ const Campaigns = () => {
             <p><b>Bombas holiday promotions</b></p>
             <Button variant="outlined">
             <Link href="/campaign/[id]/[itemselected]" as={`/campaign/${id}/sixth-item`}>
-              View Case
+              <a>Case Study</a>
             </Link>
             </Button>
           </div>

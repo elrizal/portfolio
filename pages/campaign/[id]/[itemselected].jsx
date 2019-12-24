@@ -6,7 +6,7 @@ import Link from 'next/link';
 import ArrowLeftRounded from '@material-ui/icons/ArrowLeftRounded';
 import Button from '@material-ui/core/Button';
 
-export default function Comment() {
+export default function Comment(props) {
   const router = useRouter();
   const {id, itemselected} = router.query;
   return (
@@ -19,13 +19,11 @@ export default function Comment() {
             }}/>
           </a>
         </Link>
-
       </div>
       <div className="container">
-        {galleryList.map(obj => {
+        {galleryList.map(function(obj, id ) {
           if (itemselected == obj.order) {
-            return <div>
-              <div className="row">
+            return  <div className="row" key={obj.id}>
                 <div className="col-sm-12 col-lg-6 add-centering">
                   {obj.images.map(imgobj => {
                         if (obj.images.length > 1 ) {
@@ -53,8 +51,6 @@ export default function Comment() {
                   <p>{obj.result}</p>
                 </div>
               </div>
-            </div>
-            
           }
         })}
       </div>
