@@ -17,7 +17,6 @@ const Comment = () => {
       </div>
       <div className="container">
         {galleryList.map(obj => {
-          console.log(obj.id)
           if (itemselected == obj.order) {
             return  <div className="row" key={obj.id.toString()}>
                 <div className="col-sm-12  col-lg-4 add-centering">

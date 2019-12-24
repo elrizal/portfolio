@@ -2,7 +2,7 @@ import Head from 'next/head'
 import '../css/styles.sass';
 import Hamburger from './hamburger';
 
-export default ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <div>
       <Head>
@@ -24,3 +24,4 @@ export default ({ children }) => {
     </div>
   )
 }
+export default Layout

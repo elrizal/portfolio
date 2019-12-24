@@ -4,11 +4,12 @@ import Layout from '../../../components/layout';
 import Button from '@material-ui/core/Button';
 
 const WebDev = () => {
+
   const router = useRouter();
   const {id} = router.query;
 
   return (
-    <Layout>
+<Layout>
       <div className="container">
         <h2 className="center">Web Development</h2><br/>
         <p className="center">Applications I've created as a result of collaboration in
@@ -64,8 +65,8 @@ const WebDev = () => {
               <a>Case Study</a>
             </Link>
             </Button>&nbsp;
-            <Button variant="outlined">
-              <a href="https://github.com/elrizal/CookWithNana" target="_blank">Github</a>
+            <Button variant="outlined" href="https://github.com/elrizal/CookWithNana" target="_blank">
+              <a>Github</a>
             </Button>&nbsp;
             <Button
               href="https://peaceful-woodland-77310.herokuapp.com/"
@@ -142,8 +143,7 @@ const WebDev = () => {
             <h3>Product Pages and Refractoring for Equipment Zone</h3>
             <p>As a web developer at Equipment Zone, I creating separate campaign pages, as
               well as refractoring for legacy code on both the client and server side.<br/>
-              <b>Tech stack:</b>
-              HTML, CSS, JavaScript, PHP
+              <b>Tech stack:</b> JavaScript, PHP
             </p>
             <Button
               href="https://equipmentzone.com"

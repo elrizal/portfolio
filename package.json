@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "heroku-postbuild": "npm run build",
     "start": "next start"
   },
   "dependencies": {
@@ -20,16 +21,16 @@
     "babel-preset-es2015-ie": "^6.7.0",
     "bulma": "^0.8.0",
     "flubber": "^0.4.2",
-    "next": "^9.0.6",
+    "next": "^9.1.6",
     "next-seo": "^3.2.0",
     "node-sass": "^4.12.0",
     "popmotion": "^8.7.1",
     "postcss-cli": "^6.1.3",
     "prop-types": "^15.7.2",
-    "react": "^16.9.0",
+    "react": "^16.12.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-burger-menu": "^2.6.11",
-    "react-dom": "^16.9.0",
+    "react-dom": "^16.12.0",
     "react-mail-form": "^2.0.2",
     "react-parallax": "^2.2.4",
     "react-pose": "^4.0.10",
