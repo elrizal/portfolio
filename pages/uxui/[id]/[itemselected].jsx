@@ -7,7 +7,7 @@ import ArrowLeftRounded from '@material-ui/icons/ArrowLeftRounded';
 import Button from '@material-ui/core/Button';
 
 
-Comment = () => {
+const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
   return  <Layout>
