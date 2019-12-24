@@ -6,11 +6,10 @@ import Link from 'next/link';
 import ArrowLeftRounded from '@material-ui/icons/ArrowLeftRounded';
 import Button from '@material-ui/core/Button';
 
-export default function Comment() {
+const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
-  return (
-    <Layout>
+  return <Layout>
       <div className="fixed backbtn">
         <Link  href='/web/[id]' as='/web/index'>
           <a><ArrowLeftRounded style={{fontSize: 90}}/></a>
@@ -18,14 +17,18 @@ export default function Comment() {
       </div>
       <div className="container">
         {galleryList.map(obj => {
+          console.log(obj.id)
           if (itemselected == obj.order) {
-            return <div>
-              <div className="row">
+            return  <div className="row" key={obj.id.toString()}>
                 <div className="col-sm-12  col-lg-4 add-centering">
                     <img src={obj.image} className='aside-webimg' alt=""/>
                    <br />
-                    <Button a href={obj.live} variant="outlined" color="primary">Live Site</Button>&nbsp;
-                    <Button a href={obj.github} variant="outlined" color="primary">Github</Button>
+                    <Button variant="outlined" color="primary">
+                      <a href={obj.live} target="_blank">Demo</a>
+                      </Button>&nbsp;
+                    <Button variant="outlined" color="primary">
+                      <a href={obj.github} target="_blank">Github</a>
+                      </Button>
                 </div>
                 <div className="col-sm-12  col-lg-8">
                 <h1>{obj.title}</h1>
@@ -46,12 +49,11 @@ export default function Comment() {
                   <p>{obj.future}</p>
                 </div>
               </div>
-            </div>
           }
         })}
       </div>
     </Layout>
-  )
+  
 }
 
-//export default Comment
+export default Comment

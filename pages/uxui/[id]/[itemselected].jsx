@@ -7,11 +7,10 @@ import ArrowLeftRounded from '@material-ui/icons/ArrowLeftRounded';
 import Button from '@material-ui/core/Button';
 
 
-export default function Comment() {
+Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
-  return (
-    <Layout>
+  return  <Layout>
       <div className="fixed backbtn">
         <Link href='/uxui/[id]' as='/uxui/index'>
           <a>
@@ -52,12 +51,10 @@ export default function Comment() {
                 </div>
               </div>
             </div>
-            
           }
         })}
       </div>
     </Layout>
-  )
 }
 
-//export default Comment
+export default Comment

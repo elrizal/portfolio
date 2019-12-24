@@ -21,12 +21,12 @@ const Hamburger = props => {
               </li>
               <li>
                 <Link href='/web/[id]' as='/web/index'>
-                  <a  className="menu-item">web development</a>
+                  <a className="menu-item">web development</a>
                 </Link>
               </li>
               <li>
-                <Link href='/web/[id]' as='/uxui/index'>
-                  <a  className="menu-item">UX-Ui Design</a>
+                <Link href='/uxui/[id]' as='/uxui/index'>
+                  <a className="menu-item">UX-Ui Design</a>
                 </Link>
               </li>
               <li>

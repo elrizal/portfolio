@@ -16,38 +16,40 @@ const WebDev = () => {
         <br/>
         <div className="row">
           <div className="col-md-6 col-lg-4 case-contain">
-                <img
-                  src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/lit.jpg"
-                  className="case-thumb"
-                  alt="it's lit app"/>
+            <img
+              src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/lit.jpg"
+              className="case-thumb"
+              alt="it's lit app"/>
             <h3>It's Lit</h3>
             <p>
               This social app is targeted for users seeking to exchange books in their local
               area.<br/>
-              <b>Tech stack:</b>
-               JavaScript, jQuery, HTML5/CSS, MySQL & Node JS
+              <b>Tech stack: </b>
+              JavaScript, jQuery, HTML5/CSS, MySQL & Node JS
             </p>
             <Button variant="outlined">
-              <Link >
-                <a > Case Study</a>
-              </Link>
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/first-item`}>
+              <a>Case Study</a>
+            </Link>
             </Button>&nbsp;
-            <Button href="https://github.com/elrizal/its-lit"
+            <Button
+              href="https://github.com/elrizal/its-lit"
               target="_blank"
               variant="outlined">
-              <a>Github</a>
+              Github
             </Button>&nbsp;
-            <Button href="http://sleepy-peak-84439.herokuapp.com/"
+            <Button
+              href="http://sleepy-peak-84439.herokuapp.com/"
               target="_blank"
               variant="outlined">
-              <a>Demo</a>
+              Demo
             </Button>
           </div>
           <div className="col-md-6 col-lg-4 case-contain">
-                <img
-                  src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/cwn.jpg"
-                  className="case-thumb"
-                  alt="cook with nana"/>
+            <img
+              src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/cwn.jpg"
+              className="case-thumb"
+              alt="cook with nana"/>
             <h3>Cook With Nana</h3>
             <p>
               This messaging-based app serves as a platform for people who want to learn
@@ -58,9 +60,9 @@ const WebDev = () => {
               React JS, MySQL, Node, CSS
             </p>
             <Button variant="outlined">
-              <Link>
-                <a href="/web/[id]/[itemselected]" as={`/web/${id}/second-item`}>Case Study</a>
-              </Link>
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/second-item`}>
+              <a>Case Study</a>
+            </Link>
             </Button>&nbsp;
             <Button variant="outlined">
               <a href="https://github.com/elrizal/CookWithNana" target="_blank">Github</a>
@@ -69,14 +71,14 @@ const WebDev = () => {
               href="https://peaceful-woodland-77310.herokuapp.com/"
               target="_blank"
               variant="outlined">
-              <a>Demo</a>
+              Demo
             </Button>
           </div>
           <div className="col-md-6 col-lg-4 case-contain">
-                <img
-                  src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/train.jpg"
-                  className="case-thumb"
-                  alt="greycomm study"/>
+            <img
+              src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/train.jpg"
+              className="case-thumb"
+              alt="greycomm study"/>
             <h3>Train Scheduler</h3>
             <p>
               A brief experiment in identifying weak spots in train scheduling sites and
@@ -85,32 +87,32 @@ const WebDev = () => {
               jQuery, JavaScript, HTML5, CSS, Firebase
             </p>
             <Button variant="outlined">
-              <Link href="/web/[id]/[itemselected]" as={`/web/${id}/third-item`}>
-                <a>Case Study</a>
-              </Link>
+            <Link href="/campaign/[id]/[itemselected]" as={`/web/${id}/third-item`}>
+              <a>Case Study</a>
+            </Link>
             </Button>&nbsp;
             <Button
               href="https://github.com/elrizal/Train-Planning"
               target="_blank"
               variant="outlined">
-              <a>Github</a>
+              Github
             </Button>&nbsp;
             <Button
               href="https://trainplanner.herokuapp.com/"
               target="_blank"
               variant="outlined">
-              <a>Demo</a>
+              Demo
             </Button>
           </div>
         </div>
 
         <div className="row">
           <div className="col-md-6 col-lg-4 case-contain">
-                <img
-                  src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/gifgal.jpg"
-                  target="_blank"
-                  className="case-thumb"
-                  alt="it's lit app"/>
+            <img
+              src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/gifgal.jpg"
+              target="_blank"
+              className="case-thumb"
+              alt="it's lit app"/>
             <h3>Give a Gif</h3>
             <p>
               Looking for a quick time-killer? This app scoops up popular gifs based on topics
@@ -122,32 +124,32 @@ const WebDev = () => {
               href="https://github.com/elrizal/give-a-gif"
               target="_blank"
               variant="outlined">
-              <a>Github</a>
+              Github
             </Button>&nbsp;
             <Button
               href="https://elrizal.github.io/give-a-gif/"
               target="_blank"
               variant="outlined">
-              <a>Demo</a>
+              Demo
             </Button>
           </div>
-
           <div className="col-md-6 col-lg-4 case-contain">
             <img
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/72.jpg"
               target="_blank"
               className="case-thumb"
               alt="it's lit app"/>
-
             <h3>Product Pages and Refractoring for Equipment Zone</h3>
-            <p>
-              As a web developer at Equipment Zone, I creating separate campaign pages, as
+            <p>As a web developer at Equipment Zone, I creating separate campaign pages, as
               well as refractoring for legacy code on both the client and server side.<br/>
               <b>Tech stack:</b>
               HTML, CSS, JavaScript, PHP
             </p>
-            <Button a href="https://equipmentzone.com" target="_blank" variant="outlined">
-              <a>Company Site</a>
+            <Button
+              href="https://equipmentzone.com"
+              target="_blank"
+              variant="outlined">
+              Demo
             </Button>&nbsp;
             <Button
               href="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423946/work/f72.gif"
@@ -174,13 +176,13 @@ const WebDev = () => {
               href="https://github.com/elrizal/movr"
               target="_blank"
               variant="outlined">
-              <a>Github</a>
+              Github
             </Button>&nbsp;
             <Button
               href="https://moverapp.herokuapp.com/"
               target="_blank"
               variant="outlined">
-              <a>Demo</a>
+              Demo
             </Button>
           </div>
         </div>

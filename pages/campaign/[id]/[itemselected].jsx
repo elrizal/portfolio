@@ -6,11 +6,10 @@ import Link from 'next/link';
 import ArrowLeftRounded from '@material-ui/icons/ArrowLeftRounded';
 import Button from '@material-ui/core/Button';
 
-export default function Comment(props) {
+const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
-  return (
-    <Layout>
+  return <Layout>
       <div className="fixed backbtn">
         <Link href='/campaign/[id]' as='/campaign/index'>
           <a>
@@ -55,7 +54,6 @@ export default function Comment(props) {
         })}
       </div>
     </Layout>
-  )
 }
 
-//export default Comment
+export default Comment
