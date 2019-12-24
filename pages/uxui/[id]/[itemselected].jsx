@@ -31,11 +31,12 @@ export default function Comment() {
               <div className="row">
                 <div className="col-sm-12  col-lg-6">
                 <h1>{obj.title}</h1>
-                  <h2>{obj.company}</h2>
+                  <h2>{obj.company}</h2><br />
+                  <Button target="_blank" variant="outlined" href={obj.mainlink}>View Demo</Button><br />
+
                 <img src={obj.mainimg} alt="Equipment Zone" className='aside-caseimg  add-centering'/>
                 </div>
                 <div className="col-sm-12  col-lg-6">
-
                   <p>
                     <b>Responsibilities:</b> {obj.tasks}<br/>
                     <b>Project timeframe: </b>

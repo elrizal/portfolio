@@ -33,22 +33,14 @@ const Hamburger = props => {
                 <Link href='/campaign/' as='/campaign/index'>
                   <a className="menu-item">campaigns</a>
                 </Link>
-              </li>
-              
+              </li>   
               <li>
-                <a
-                  href='https://www.linkedin.com/in/erinlrizal'
-                  target='_blank'
-                  rel="noopener noreferrer">
-                  <i id='icons' className='fab fa-linkedin fa-lg'></i>
-                  LinkedIn
-                </a>
+              <i id='icons' className='fab fa-linkedin fa-lg'></i>
+                <a href='https://www.linkedin.com/in/erinlrizal' target='_blank'>
+                  LinkedIn </a>
               </li>
               <li>
-                <a
-                  href='https://www.github.com/elrizal'
-                  target='_blank'
-                  rel="noopener noreferrer">
+                <a href='https://www.github.com/elrizal'target='_blank' rel="noopener noreferrer">
                   <i id='icons' className='fab fa-github fa-lg'></i>
                   Github
                 </a>
