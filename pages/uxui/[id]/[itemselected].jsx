@@ -19,7 +19,6 @@ const Comment = () => {
             }}/>
           </a>
         </Link>
-
       </div>
       <div className="container">
         {galleryList.map(obj => {
