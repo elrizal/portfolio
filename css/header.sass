@@ -5,6 +5,7 @@ $font-second: 'Assistant', sans-serif
 $dark-color: #2a2e43
 $primary-color: #6eb6df
 $secondary-color: #69bba7
+
 a 
     font-weight: 500
     letter-spacing: .1em
@@ -17,11 +18,9 @@ a
 a, a:hover, a:active, a:visited
   text-decoration: none
 
-
-
 .aside-caseimg 
   max-width: 450px
-  margin: 20px
+  margin: 5px
   padding: 15px
   margin: 0 auto
 
@@ -62,7 +61,7 @@ a, a:hover, a:active, a:visited
 
 .containh1
   font-family: $font-header
-  font-size: 6.5em !important
+  font-size: 6.4em
   color: $dark-color
   text-transform: uppercase
   line-height: 1
@@ -275,7 +274,7 @@ a, a:hover, a:active, a:visited
 
 /* Gallery
 .case-thumb
-  max-height: 350px
+  width: 300px
   height: auto
 
 .subtitle
@@ -283,7 +282,6 @@ a, a:hover, a:active, a:visited
 
 .case-contain
  padding: 10px
-//  text-align: center
 
 .pageheader-img
   width: 100vw 
@@ -316,16 +314,14 @@ a, a:hover, a:active, a:visited
   flex-direction: column
 
 .backbtn
-  border-radius: 50%
-  font-weight: 700
+  left: -10px;
   text-transform: uppercase
-  top: 16%
-  padding: 20px
+  top: 23%
   color: $dark-color
   cursor: pointer
 
 
-$phone: "(min-width: 320px) and (max-width: 500px)"
+$phone: "(min-width: 300px) and (max-width: 500px)"
 $tablet: "(min-width: 500px) and (max-width: 1050px)"
 $desktop: "(min-width: 1025px) and (max-width: 1800px)"
 
@@ -334,32 +330,34 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
     font-size: 1em
 
   .header-title
-    font-size: 4em !important
+    font-size: 3em !important
 
   .titlecontain
     width: 70vw
     position: absolute
-    left: 23%
+    left: 50%
 
   .marbfront
     width: 1000px
     background-size: 1200px
 
   .aside-caseimg 
-    max-width: 300px
+    max-width: 100%
 
   .outlinesec
     width: 100% 
     padding: 10px
     max-height: auto 
 
+  .containh1 
+    font-size: 4em
 
 @media #{$tablet} 
   .header-title
     font-size: 6.8em !important
 
   .aside-caseimg 
-    max-width: 400px
+    max-width: 100%
 
   .outlinesec
     width: 50%

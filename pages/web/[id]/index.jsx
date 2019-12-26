@@ -16,7 +16,7 @@ const WebDev = () => {
           a development team or independently:</p>
         <br/>
         <div className="row">
-          <div className="col-md-6 col-lg-4 case-contain">
+          <div className="col-sm-12 col-md-6 col-lg-4 case-contain">
             <img
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/lit.jpg"
               className="case-thumb"
@@ -25,7 +25,7 @@ const WebDev = () => {
             <p>
               This social app is targeted for users seeking to exchange books in their local
               area.<br/>
-              <b>Tech stack: </b>
+              <br/><b>Tech stack: </b>
               JavaScript, jQuery, HTML5/CSS, MySQL & Node JS
             </p>
             <Button variant="outlined">
@@ -46,7 +46,7 @@ const WebDev = () => {
               Demo
             </Button>
           </div>
-          <div className="col-md-6 col-lg-4 case-contain">
+          <div className="col-sm-12 col-md-6 col-lg-4 case-contain">
             <img
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/cwn.jpg"
               className="case-thumb"
@@ -57,7 +57,7 @@ const WebDev = () => {
               cooking and those who want to connect to younger generations via teaching or
               offering advice.
               <br/>
-              <b>Tech stack:</b>
+              <br/><b>Tech stack: </b>
               React JS, MySQL, Node, CSS
             </p>
             <Button variant="outlined">
@@ -75,7 +75,7 @@ const WebDev = () => {
               Demo
             </Button>
           </div>
-          <div className="col-md-6 col-lg-4 case-contain">
+          <div className="col-sm-12 col-md-6 col-lg-4 case-contain">
             <img
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/train.jpg"
               className="case-thumb"
@@ -84,7 +84,7 @@ const WebDev = () => {
             <p>
               A brief experiment in identifying weak spots in train scheduling sites and
               creating cleaner UI interactions to confront them.<br/>
-              <b>Tech stack:</b>
+              <br/><b>Tech stack: </b>
               jQuery, JavaScript, HTML5, CSS, Firebase
             </p>
             <Button variant="outlined">
@@ -108,7 +108,7 @@ const WebDev = () => {
         </div>
 
         <div className="row">
-          <div className="col-md-6 col-lg-4 case-contain">
+          <div className="col-sm-12 col-md-6 col-lg-4 case-contain">
             <img
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/gifgal.jpg"
               target="_blank"
@@ -118,7 +118,7 @@ const WebDev = () => {
             <p>
               Looking for a quick time-killer? This app scoops up popular gifs based on topics
               of your choice from Giphy.com<br/>
-              <b>Tech stack:</b>
+              <br/><b>Tech stack: </b>
               jQuery, JavaScript, HTML5, CSS
             </p>
             <Button
@@ -134,22 +134,22 @@ const WebDev = () => {
               Demo
             </Button>
           </div>
-          <div className="col-md-6 col-lg-4 case-contain">
+          <div className="col-sm-12 col-md-6 col-lg-4 case-contain">
             <img
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/72.jpg"
               target="_blank"
               className="case-thumb"
               alt="it's lit app"/>
-            <h3>Product Pages and Refractoring for Equipment Zone</h3>
+            <h3>Product Pages and Refactoring for Equipment Zone</h3>
             <p>As a web developer at Equipment Zone, I creating separate campaign pages, as
-              well as refractoring for legacy code on both the client and server side.<br/>
-              <b>Tech stack:</b> JavaScript, PHP
+              well as replacing legacy code on both the client and server side.<br/>
+              <br/><b>Tech stack:</b> JavaScript, PHP
             </p>
             <Button
               href="https://equipmentzone.com"
               target="_blank"
               variant="outlined">
-              Demo
+              Website
             </Button>&nbsp;
             <Button
               href="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423946/work/f72.gif"
@@ -159,7 +159,7 @@ const WebDev = () => {
             </Button>
           </div>
 
-          <div className="col-md-6 col-lg-4 case-contain">
+          <div className="col-sm-12 col-md-6 col-lg-4 case-contain">
             <img
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423411/work/movr.jpg"
               target="_blank"
@@ -169,7 +169,7 @@ const WebDev = () => {
             <p>
               A recommendation site that matches developers who are looking to move with
               cities where the tech-industry is booming based on a quick survey.<br/>
-              <b>Tech stack:</b>
+              <br/><b>Tech stack: </b>
               Node JS, jQuery, JavaScript, HTML5, CSS
             </p>
             <Button
