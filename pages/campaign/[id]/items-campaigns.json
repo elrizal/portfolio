@@ -83,7 +83,7 @@
       "result":"With the leadership of the marketing team, we posted images accordingly to the best time of day, with catchy copy, etc. We were then able to go above our targeted website traffic after the posts gained momentum, and received positive feedback from the client on the design-side. Best of all; they requested to work with me for more projects! (whew)"
      },
      {"id": 7,
-      "order": "dev-item",
+      "order": "seventh-item",
       "title": "Avitae Summer Campaigns",
       "company": "Sircle Media",
       "timeframe": "May-August 2015",
@@ -94,8 +94,18 @@
       "reason": "",
       "process":"",
       "result": ""
+    },
+    {"id": 8,
+      "order": "ei-item",
+      "title": "Ginnybakes",
+      "company": "Sircle Media",
+      "timeframe": "March-April 2015",
+      "images": [],
+      "type": "online",
+      "role": "Designer, concept",
+      "description": "",
+      "reason": "",
+      "process":"",
+      "result": ""
     }
-     
-
-
     ]
