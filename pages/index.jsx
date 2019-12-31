@@ -12,8 +12,6 @@ import ColorLens from '@material-ui/icons/ColorLens';
 import Contact from '../components/contact';
 import ReactContactForm from 'react-mail-form';
 
-// import People from '@material-ui/icons/People';
-
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576876788/headerlight.jpg'
 
 const Home = () => {
