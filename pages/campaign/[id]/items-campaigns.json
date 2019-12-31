@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "order": "first-item",
+      "order": "gc-recruiting",
       "title": "New Hire Recruiting",
       "company": "Greycomm Studios",
       "timeframe": "July - September 2015",
@@ -14,7 +14,7 @@
       "result": "With our Facebook account containing a reach towards students majoring in film and digital media studies, we were able to obtain applications to outside universities as well. Due to the influx of 100+ applications, we were able to go over our targeted applicant pool and find talent not associated with the company prior; and soon-to-be future managers!"
     },     {
       "id": 2,
-      "order": "second-item",
+      "order": "women-of-color-art-direction",
       "title": "Out-Of-Home Ads and Social Media promotion",
       "company": "For the Women of Color Conference, Baltimore, MD",
       "timeframe": "September - December 2014",
@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "order": "third-item",
+      "order": "ccsj-hiring",
       "title": "Volunteer Recruitment",
       "company": "Community Center for Service and Justice",
       "timeframe": "January 2015",
@@ -42,7 +42,7 @@
     },
     {
       "id": 4,
-      "order": "fourth-item",
+      "order": "fh-holidays",
       "title": "Pre-Holiday sales email campaign",
       "company": "FH Group International",
       "timeframe": "November 2016",
