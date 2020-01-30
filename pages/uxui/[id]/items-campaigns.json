@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "order": "first-item",
+    "order": "insurance",
     "title": "Enrollment for life insurance form",
     "company": "Adams Direct & Media's insurance client",
     "timeframe": "October 2018 - March 2019",
@@ -16,7 +16,7 @@
   },
   {
     "id": 2,
-    "order": "second-item",
+    "order": "eq-uiguide",
     "title": "UI Design Guide",
     "company": "Equipment Zone",
     "timeframe": "April 2018 - June 2018",
@@ -33,7 +33,7 @@
   },
     {
       "id": 3,
-      "order": "third-item",
+      "order": "wherefor",
       "title": "Where For redesign",
       "company": "Capstone project at Springboard",
       "timeframe": "December 2016 - August 2017",

@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
       <div className="customfooter">
       <footer>
         <div className="container">
-        <p>&#169; 2019 Erin Leigh Rizal</p>
+        <p>&#169; 2020 Erin Leigh Rizal</p>
         </div>
       </footer>
       </div>
