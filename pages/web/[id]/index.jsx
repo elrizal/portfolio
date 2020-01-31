@@ -29,7 +29,7 @@ const WebDev = () => {
               JavaScript, jQuery, HTML5/CSS, MySQL & Node JS
             </p>
             <Button variant="outlined">
-            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/first-item`}>
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/itslit`}>
               <a>Case Study</a>
             </Link>
             </Button>&nbsp;
@@ -61,7 +61,7 @@ const WebDev = () => {
               React JS, MySQL, Node, CSS
             </p>
             <Button variant="outlined">
-            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/second-item`}>
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/cookwithnana`}>
               <a>Case Study</a>
             </Link>
             </Button>&nbsp;
@@ -79,7 +79,7 @@ const WebDev = () => {
             <img
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/train.jpg"
               className="case-thumb"
-              alt="greycomm study"/>
+              alt="train scheduler"/>
             <h3>Train Scheduler</h3>
             <p>
               A brief experiment in identifying weak spots in train scheduling sites and
@@ -88,7 +88,7 @@ const WebDev = () => {
               jQuery, JavaScript, HTML5, CSS, Firebase
             </p>
             <Button variant="outlined">
-            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/third-item`}>
+            <Link href="/web/[id]/[itemselected]" as={`/web/${id}/planner`}>
               <a>Case Study</a>
             </Link>
             </Button>&nbsp;
@@ -139,7 +139,7 @@ const WebDev = () => {
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/72.jpg"
               target="_blank"
               className="case-thumb"
-              alt="it's lit app"/>
+              alt="Equipment Zone product pages"/>
             <h3>Product Pages and Refactoring for Equipment Zone</h3>
             <p>As a web developer at Equipment Zone, I creating separate campaign pages, as
               well as replacing legacy code on both the client and server side.<br/>
@@ -164,7 +164,7 @@ const WebDev = () => {
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423411/work/movr.jpg"
               target="_blank"
               className="case-thumb"
-              alt="it's lit app"/>
+              alt="movr"/>
             <h3>Movr</h3>
             <p>
               A recommendation site that matches developers who are looking to move with
