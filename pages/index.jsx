@@ -3,13 +3,13 @@ import {Parallax} from 'react-parallax';
 import ScrollAnimation from 'react-animate-on-scroll';
 import '../css/styles.sass';
 import Hamburger from '../components/hamburger';
-import Example from '../components/svgtest'
+import Blob from '../components/blob'
 import Introgallery from '../components/introgal';
 import {NextSeo} from 'next-seo';
 import Code from '@material-ui/icons/Code';
 import Storage from '@material-ui/icons/Storage';
 import ColorLens from '@material-ui/icons/ColorLens';
-import Contact from '../components/contact';
+// import Contact from '../components/contact';
 import ReactContactForm from 'react-mail-form';
 
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576876788/headerlight.jpg'
@@ -41,7 +41,7 @@ const Home = () => {
           <div className="container">
             <div className="row aboutsec">
               <div className="col-sm-12 col-md-5 col-lg-4 center">
-                <Example/>
+                <Blob/>
               </div>
               <div className="col-sm-12 col-md-7 col-lg-8">
                 <h2>About</h2>
@@ -116,7 +116,7 @@ const Home = () => {
 
       <div className="row">
         <footer className="custom-footer">
-          &#169; 2019 Erin Leigh Rizal
+          &#169; 2020 Erin Leigh Rizal
         </footer>
       </div>
     </div>

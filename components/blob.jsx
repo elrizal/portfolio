@@ -22,7 +22,7 @@ const Icon = posed.path(pathIds.reduce((config, id) => {
   return config;
 }, {}));
 
-class Example extends React.Component {
+class Blob extends React.Component {
   state = {
     pathIndex: 0
   };
@@ -64,4 +64,4 @@ class Example extends React.Component {
   }
 }
 
-export default Example;
+export default Blob;

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "order": "first-item",
+    "order": "itslit",
     "title": "It's Lit",
     "type": "Social",
     "timeframe": "February - March 2018",
@@ -25,7 +25,7 @@
   },
   {
     "id": 2,
-    "order": "second-item",
+    "order": "cookwithnana",
     "title": "Cook With Nana",
     "timeframe": "February - March 2018",
     "type": "Social",
@@ -46,7 +46,7 @@
   },
   {
     "id": 3,
-    "order": "third-item",
+    "order": "planner",
     "title": "Conductor's Planner",
     "timeframe": "January 2018 (initial stage), currently reiterating",
     "type": "Scheduling",
