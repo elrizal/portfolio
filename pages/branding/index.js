@@ -4,7 +4,7 @@ import Layout from '../../../components/layout';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 
-const Artdir = () => {
+const Branding = () => {
 
   const router = useRouter();
   const {id} = router.query;
@@ -90,4 +90,4 @@ const Artdir = () => {
   )
 }
 
-export default Artdir;
+export default Branding;
