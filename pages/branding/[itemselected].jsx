@@ -10,18 +10,7 @@ const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
   return <Layout>
-      <div className="fixed backbtn">
-        <Link href='/campaign/[id]' as='/campaign/index'>
-          <a>
-            <ArrowLeftRounded style={{
-              fontSize: 90
-            }}/>
-          </a>
-        </Link>
-      </div>
-      <div className="container ">
-
-      </div>
+   
     </Layout>
 }
 
