@@ -1,6 +1,6 @@
 import galleryList from './items-campaigns.json';
-import Layout from '../../../components/layout'
 import React from 'react';
+import Layout from '../../../components/layout';
 import {useRouter} from 'next/router'
 import Link from 'next/link';
 import ArrowLeftRounded from '@material-ui/icons/ArrowLeftRounded';
