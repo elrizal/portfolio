@@ -1,5 +1,3 @@
-import galleryList from './items-campaigns.json';
-
 import React from 'react';
 import {useRouter} from 'next/router';
 import Link from 'next/link';
