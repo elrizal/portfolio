@@ -1,6 +1,5 @@
 import {useRouter} from 'next/router';
 import Link from 'next/link';
-import Layout from '../../../components/layout';
 import Button from '@material-ui/core/Button';
 
 const WebDev = () => {
@@ -9,7 +8,7 @@ const WebDev = () => {
   const {id} = router.query;
 
   return (
-<Layout>
+<div>
       <div className="container animated fadeIn">
         <h2 className="center">Web Development</h2><br/>
         <p className="center">Applications I've created as a result of collaboration in
@@ -187,7 +186,7 @@ const WebDev = () => {
           </div>
         </div>
       </div>
-    </Layout>
+    </div>
   )
 }
 
