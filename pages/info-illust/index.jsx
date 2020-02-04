@@ -10,7 +10,7 @@ const Infoillust = () => {
   const {id} = router.query;
 
   return (
-    <Layout>
+    <div>
       <div className="container center animated fadeIn">
       <h2>Infoillust</h2>
       <p>Case studies of online and out-of-home Infoillust where I was a lead visual designer:</p>
@@ -86,7 +86,7 @@ const Infoillust = () => {
           </div>
         </div>
       </div>
-    </Layout>
+    </div>
   )
 }
 

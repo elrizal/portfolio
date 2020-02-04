@@ -1,6 +1,6 @@
-./pages/branding
-./pages/info-illust
-./pages/print
+../pages/branding
+../pages/info-illust
+../pages/print
 
 # Logs
 logs
