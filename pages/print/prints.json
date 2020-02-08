@@ -1,12 +1,35 @@
 [{
     "id":1,
-    "title": "FH Accessory Product Packaging",
+    "endpoint":"fh-pu-packaging",
+    "title": "FH Product: New Leather Cover Line 2017",
     "company":"FH Group",
     "role":"design"
 },
 {
     "id":2,
+    "endpoint":"fh-fabric-packaging",
+    "title": "FH Product: New Fabric Cover Line 2017",
+    "company":"FH Group",
+    "role":"design"
+},
+{
+    "id":3,
+    "endpoint":"fh-pu-packaging",
+    "title": "FH Product: New Accessory Line 2017",
+    "company":"FH Group",
+    "role":"design"
+},
+{
+    "id":4,
+    "endpoint":"casswell-eo-packaging",
     "title": "Essential Oils Packaging",
     "company":"Caswell-Massey",
     "role":"design"
+},{
+    "id":5,
+    "endpoint":"staffing-shirt",
+    "title": "Student Life Staffing",
+    "company":"Loyola University Maryland",
+    "role":"concept, logo design",
+    "year":2015
 }]
