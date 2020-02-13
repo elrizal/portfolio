@@ -5,14 +5,9 @@ import Link from 'next/link';
 const Introgallery = () => {
   return (
     <React.Fragment>
-      <div className="row">
-        <div className="container">
-
-        </div>
-      </div>
       <div className="row center">
         <Link href='/web/[id]' as='/web/index'>
-          <a className="col-sm-12 col-md-4 col-lg-4 casegal web">
+          <a className="col-sm-12 col-md-4 col-lg-4 dark-text casegal web">
             <h3 className="label">Applications</h3>
           </a>
         </Link>
@@ -30,6 +25,27 @@ const Introgallery = () => {
           </a>
         </Link>
       </div>
+
+      {/* <div className="row center">
+        <Link href='/branding/[id]' as='/branding/index'>
+          <a className="col-sm-12 col-md-4 col-lg-4 casegal camp">
+            <h3 className="label">Branding</h3>
+          </a>
+        </Link>
+        <Link href='/print/[id]' as='/print/index'>
+          <a className="col-sm-12 col-md-4 col-lg-4 casegal web">
+            <h3 className="label">Print Design</h3>
+          </a>
+        </Link>
+        <Link href='/info-illust/[id]' as='/info-illust/index'>
+          <a className="col-sm-12 col-md-4 col-lg-4 casegal ux">
+            <div className="container"></div>
+            <h3 className="label">
+              Information Illustration
+            </h3>
+          </a>
+        </Link>
+      </div> */}
     </React.Fragment>
   )
 }
