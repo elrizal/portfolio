@@ -26,7 +26,7 @@ const Introgallery = () => {
         </Link>
       </div>
 
-      <div className="row center">
+      {/* <div className="row center">
         <Link href='/branding/[id]' as='/branding/index'>
           <a className="col-sm-12 col-md-4 col-lg-4 casegal branding">
             <h3 className="label">Branding</h3>
@@ -41,11 +41,11 @@ const Introgallery = () => {
           <a className="col-sm-12 col-md-4 col-lg-4 casegal infoillust">
             <div className="container"></div>
             <h3 className="label">
-              Information Illustration
+              Infographics
             </h3>
           </a>
         </Link>
-      </div>
+      </div> */}
     </React.Fragment>
   )
 }

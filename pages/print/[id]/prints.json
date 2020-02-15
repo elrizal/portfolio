@@ -1,0 +1,72 @@
+[{
+        "id": 1,
+        "endpoint": "fh-pu-packaging",
+        "title": "FH Product: Varsity PU Covers 2017",
+        "company": "FH Group",
+        "role": "Assistant art director, concept and print logistics",
+        "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555424248/work/prints/PU006115.png",
+        "moreimgs":[],
+        "description": " ",
+        "process": "",
+        "result":""
+    },
+    {
+        "id": 2,
+        "endpoint": "fh-fabric-packaging",
+        "title": "FH Product: New Fabric Cover Line 2017",
+        "company": "FH Group",
+        "role": "design",
+        "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555424248/work/prints/PU006115.png",
+        "moreimgs":[],
+        "description": " ",
+        "process": "",
+        "result":""
+    },
+    {
+        "id": 3,
+        "endpoint": "fh-pu-acc",
+        "title": "FH Product: New Accessory Line 2017",
+        "company": "FH Group",
+        "role": "design",
+        "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555424248/work/prints/PU006115.png",
+        "moreimgs":[],
+        "description": " ",
+        "process": "",
+        "result":""
+    },
+    {
+        "id": 4,
+        "endpoint": "casswell-eo-packaging",
+        "title": "Essential Oils Packaging",
+        "company": "Caswell-Massey",
+        "role": "design",
+        "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555424248/work/prints/PU006115.png",
+        "moreimgs":[],
+        "description": " ",
+        "process": "",
+        "result":""
+    }, {
+        "id": 5,
+        "endpoint": "staffing-shirt",
+        "title": "Student Life Staffing",
+        "company": "Loyola University Maryland",
+        "role": "concept, logo design",
+        "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555424248/work/prints/PU006115.png",
+        "moreimgs":[],
+        "description": " ",
+        "process": "",
+        "result":""
+    }, {
+        "id": 6,
+        "endpoint": "custom-print",
+        "title": "'Passion' Project: Custom Print",
+        "company": "n.a.",
+        "role": "concept and illustration",
+        "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555424248/work/prints/PU006115.png",
+        "moreimgs":[],
+        "description": " ",
+        "process": "",
+        "result":"",
+        "year": "2015-2017"
+    }
+]
