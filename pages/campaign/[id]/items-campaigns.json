@@ -108,6 +108,20 @@
     "reason": "",
     "process": "",
     "result": ""
+  },
+  {
+    "id": 9,
+    "order": "greycomm-ads",
+    "title": "Advertisements for Workshops in Broadcasting",
+    "company": "Greycomm Studios",
+    "timeframe": "September 2015",
+    "images": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555424014/work/greymugfinal.png", "https://res.cloudinary.com/diuubtvqd/image/upload/v1555424013/work/greycommsticker.png"],
+    "type": "online and out-of-home",
+    "role": "Art direction (conceptualizing)",
+    "description": "This project was a 3-month advertisement campaign that aimed to generate interest in workshops created by Greycomm Studios, Loyola University. Targeted at entry-level professionals to students, these ads were placed throughout college campuses and social media accounts. Promotional items (mugs, stickers) were also given to those who signed up or visited the studio.",
+    "reason": "",
+    "process": "",
+    "result": ""
   }
 
 ]
