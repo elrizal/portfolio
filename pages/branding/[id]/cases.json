@@ -49,6 +49,19 @@
   },
   {
     "id": 5,
+    "endpoint":"gy-identity",
+    "title":"Rebrand for Greycomm Studios, 2015",
+    "role":"Art director and digital medial specialist",
+    "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/atn-logos.png",
+    "addimgs":["https://res.cloudinary.com/diuubtvqd/image/upload/v1555424014/work/greymugfinal.png","https://res.cloudinary.com/diuubtvqd/image/upload/v1555424013/work/greycommsticker.png"],
+    "timeline":"December 2015",
+    "description":"",
+    "process":"",
+    "processimgs":[],
+    "final":""
+  },
+  {
+    "id": 6,
     "endpoint":"renhaiti",
     "title":"Branding for Rendez-vous Haiti",
     "role":"Volunteer art director",

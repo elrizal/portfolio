@@ -11,13 +11,13 @@ const Comment = () => {
 
   return  <Layout>
       <div className="fixed backbtn">
-        <Link href='/branding/[id]' as='/branding/index'>
+     
           <a>
-            <ArrowLeftRounded style={{
+            <ArrowLeftRounded onClick={() => Router.back()} style={{
               fontSize: 90
             }}/>
           </a>
-        </Link>
+       
       </div>
       <div className="container">
         {galleryList.map(obj => {
