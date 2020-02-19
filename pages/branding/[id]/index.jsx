@@ -4,7 +4,6 @@ import Button from '@material-ui/core/Button';
 import Layout from '../../../components/layout';
 
 const Branding = () => {
-
   const router = useRouter();
   const {id} = router.query;
 
@@ -31,7 +30,22 @@ const Branding = () => {
               </Link>
             </Button>
           </div>
-
+          <div className="col-md-6 col-lg-4 case-contain">
+            <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/gy-identity`}>
+              <a><img
+                src="https://res.cloudinary.com/diuubtvqd/image/upload/v1581807746/work/branding/gy-campaigns.jpg"
+                className="case-thumb"
+                alt="Logo for LUMD Student Life"/></a>
+            </Link>
+            <p>
+              <b>Rebrand for Greycomm Studios, 2015</b>
+            </p>
+            <Button variant="outlined">
+              <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/gy-identity`}>
+                <a>Case Study</a>
+              </Link>
+            </Button>
+          </div>
           <div className="col-md-6 col-lg-4 case-contain">
             <Link
               href="/branding/[id]/[itemselected]"
@@ -53,22 +67,7 @@ const Branding = () => {
             </Button>
           </div>
 
-          <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/sheas`}>
-              <a><img
-                src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg"
-                className="case-thumb"
-                alt="Logo for LUMD Student Life"/></a>
-            </Link>
-            <p>
-              <b>Logo for Shea's Cuts, NJ</b>
-            </p>
-            <Button variant="outlined">
-              <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/sheas`}>
-                <a>Case Study</a>
-              </Link>
-            </Button>
-          </div>
+
         </div>
         <div className="row">
           <div className="col-md-6 col-lg-4 case-contain">
@@ -98,7 +97,7 @@ const Branding = () => {
                 alt="Logo for LUMD Student Life"/></a>
             </Link>
             <p>
-              <b>Logo and Identity for Student Life</b>
+              <b>Branding for Rendez-vous Haiti"</b>
             </p>
             <Button variant="outlined">
               <Link
@@ -108,11 +107,10 @@ const Branding = () => {
               </Link>
             </Button>
           </div>
-
           <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/dresjay`}>
+            <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/sheas`}>
               <a><img
-                src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/showcase-rh.jpg"
+                src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg"
                 className="case-thumb"
                 alt="Logo for LUMD Student Life"/></a>
             </Link>
@@ -120,11 +118,12 @@ const Branding = () => {
               <b>Logo for Shea's Cuts, NJ</b>
             </p>
             <Button variant="outlined">
-              <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/dresjay`}>
+              <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/sheas`}>
                 <a>Case Study</a>
               </Link>
             </Button>
           </div>
+  
         </div>
       </div>
     </Layout>
