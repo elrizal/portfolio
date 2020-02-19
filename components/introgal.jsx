@@ -1,10 +1,10 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import Link from 'next/link';
 
 const Introgallery = () => {
   return (
     <React.Fragment>
+   
       <div className="row center">
         <Link href='/web/[id]' as='/web/index'>
           <a className="col-sm-12 col-md-4 col-lg-4 dark-text casegal web">
@@ -41,11 +41,11 @@ const Introgallery = () => {
           <a className="col-sm-12 col-md-4 col-lg-4 casegal infoillust">
             <div className="container"></div>
             <h3 className="label">
-              Infographics
+              Illustrations
             </h3>
           </a>
         </Link>
-      </div> */}
+      </div>  */}
     </React.Fragment>
   )
 }

@@ -1,9 +1,10 @@
-import galleryList from './cases.json';
+import galleryList from './illust.json';
 import React from 'react';
 import {useRouter} from 'next/router'
 import Link from 'next/link';
 import ArrowLeftRounded from '@material-ui/icons/ArrowLeftRounded';
 import Layout from '../../../components/layout';
+import Router from 'next/router';
 
 const Comment = () => {
   const router = useRouter();
@@ -12,8 +13,8 @@ const Comment = () => {
   return  <Layout>
       <div className="fixed backbtn">
         <Link href='/branding/[id]' as='/branding/index'>
-          <a>
-            <ArrowLeftRounded style={{
+        <a>
+            <ArrowLeftRounded onClick={() => Router.back()} style={{
               fontSize: 90
             }}/>
           </a>
@@ -25,8 +26,9 @@ const Comment = () => {
             return <div>
               <div className="row animated fadeIn">
                 <div className="col-sm-12  col-lg-6">
-
-                <img src={obj.img} alt="Case" className='aside-caseimg  add-centering'/>
+                <a href={obj.img} target="_blank">
+                <img loading="lazy" src={obj.img} alt="Case" className='aside-caseimg  add-centering'/>
+                </a>
                 </div>
                 <div className="col-sm-12  col-lg-6">
                 <h1>{obj.title}</h1>

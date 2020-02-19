@@ -8,6 +8,7 @@ import Introgallery from '../components/introgal';
 import {NextSeo} from 'next-seo';
 import Code from '@material-ui/icons/Code';
 import Storage from '@material-ui/icons/Storage';
+import People from '@material-ui/icons/People';
 import ColorLens from '@material-ui/icons/ColorLens';
 // import Contact from '../components/contact';
 import ReactContactForm from 'react-mail-form';
@@ -54,45 +55,45 @@ const Home = () => {
                 <p>Currently, I specialize in using these tools to build full stack applications
                   and user experiences:</p>
                 <div className="row center">
-                  <div className=" outlinesec">
+                  <div className="outlinesec">
                     <Code style={{
-                      fontSize: 25
+                      fontSize: 30
                     }}/>
                     <h3 className="outheader">Front End:</h3>
                     JavaScript, jQuery, CSS, Sass, React JS
                   </div>
-                  <div className=" outlinesec">
+                  <div className="outlinesec">
                     <Storage style={{
-                      fontSize: 25
+                      fontSize: 30
                     }}/>
                     <h3 className="outheader">Back End:</h3>
                     Node JS, Express, Mongo, MySQL, Sequelize
                   </div>
-                  {/* <div className=" outlinesec">
+                  <div className="outlinesec">
                   <People style={{
-                    fontSize: 25
+                    fontSize: 30
                   }}/>
                   <h3 className="outheader">UX Design:</h3>
                   Usability testing, A-B testing, interview facilitation
-                </div> */}
-                  <div className=" outlinesec">
+                </div>
+                  <div className="outlinesec">
                     <ColorLens style={{
-                      fontSize: 25
+                      fontSize: 30
                     }}/>
                     <h3 className="outheader">UI Design:</h3>
                     Adobe Photoshop, Illustrator, InDesign, InVision, Sketch
                   </div>
                 </div>
-                <div className="row extra-top">
+                <div className="row extra-top extra-bottom">
                   <h2>Project categories</h2>
-                  <br/>
+                
                 </div>
               </div>
             </div>
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn='fadeIn'>
+        <ScrollAnimation animateIn='fadeInUp'>
           <Introgallery/>
         </ScrollAnimation>
       </div>
