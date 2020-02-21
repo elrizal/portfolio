@@ -93,7 +93,7 @@ const Home = () => {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn='fadeInUp'>
+        <ScrollAnimation animateIn='fadeIn'>
           <Introgallery/>
         </ScrollAnimation>
       </div>
