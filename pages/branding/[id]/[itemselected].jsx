@@ -3,22 +3,14 @@ import React from 'react';
 import {useRouter} from 'next/router'
 import ArrowLeftRounded from '@material-ui/icons/ArrowLeftRounded';
 import Layout from '../../../components/layout';
-import Router from 'next/router';
+import BackBtn from '../../../components/back';
 
 const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
 
   return <Layout>
-    <div className="fixed backbtn">
-      <a>
-        <ArrowLeftRounded
-          onClick={() => Router.back()}
-          style={{
-          fontSize: 90
-        }}/>
-      </a>
-    </div>
+    <BackBtn/>
     <div className="container">
       {galleryList.map(obj => {
         if (itemselected == obj.endpoint) {

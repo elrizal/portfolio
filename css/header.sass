@@ -3,8 +3,9 @@ $font-header: 'Poppins', sans-serif
 $font-body: 'Lato', sans-serif
 $font-second: 'Assistant', sans-serif
 $dark-color: #2a2e43
-$primary-color: #6eb6df
-$secondary-color: #69bba7
+$light: #2388c2
+$primary-color: #5fabd6
+$secondary-color: #506b9c
 
 a 
     font-weight: 500
@@ -164,50 +165,81 @@ a, a:hover, a:active, a:visited
 .web
   background-color: lightblue
   background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573844888/webhover.png)
-  -webkit-transition: background-image .4s
-  transition: background-image .4s
+  -webkit-transition: background-color .4s
+  transition: background-color .4s
 
   &:hover
-    background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573844888/machover.png)
-    -webkit-transition: background-image .4s
-    transition: background-image .4s
+    background-color: rgb(8,92,159)
+    background-color: -moz-linear-gradient(342deg, rgba(8,92,159,1) 16%, rgba(106,212,252,1) 100%)
+    background-color: -webkit-linear-gradient(342deg, rgba(8,92,159,1) 16%, rgba(106,212,252,1) 100%)
+    background-color: linear-gradient(342deg, rgba(8,92,159,1) 16%, rgba(106,212,252,1) 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#085c9f",endColorstr="#6ad4fc",GradientType=1)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#085c9f",endColorstr="#6ad4fc",GradientType=1)
+    -webkit-transition: background-color .4s
+    transition: background-color .4s
 
 .camp
-  background-color: #89dfca
+  background-color: lightblue
   background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573842921/camp.png)
-  -webkit-transition: background-image .2s
-  transition: background-image .2s
+  -webkit-transition: background-color .4s
+  transition: background-color .4s
 
   &:hover
-    background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573841882/adshover.png)
-    -webkit-transition: background-image .2s
-    transition: background-image .2s
+    background-color: $light
+    color: white
+    -webkit-transition: background-color .4s
+    transition: background-color .4s
 
 .ux
   background-color: $primary-color
   background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573835461/uxcase.png)
-  -webkit-transition: background-image .4s
-  transition: background-image .4s
+  -webkit-transition: background-color .4s
+  transition: background-color .4s
 
   &:hover
-    background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1573835461/uxcase-hover.png)
-    -webkit-transition: background-image .4s
-    transition: background-image .4s
+    background-color: $light
+    color: whiteHey 
+    -webkit-transition: background-color .4s
+    transition: background-color .4s
 
 .print
   background-color: $primary-color
   background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1581620434/print.png)
+  -webkit-transition: background-color .4s
+  transition: background-color .4s
+
+  &:hover
+    background-color: $light
+    color: whiteHey 
+    -webkit-transition: background-color .4s
+    transition: background-color .4s 
 
 .infoillust
-  background-color: #89dfca
+  background-color: lightblue
   background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1581620434/illustcase.png)
+  -webkit-transition: background-color .4s
+  transition: background-color .4s
+
+  &:hover
+    background-color: $light
+    color: whiteHey 
+    -webkit-transition: background-color .4s
+    transition: background-color .4s
 
 .branding
-   background: lightblue
-   background-size: contain
-   background-position: center
-   background-repeat: no-repeat
-   background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1581621475/brandshowcase.png) 
+  background: lightblue
+  background-size: contain
+  background-position: center
+  background-repeat: no-repeat
+  background-image: url(https://res.cloudinary.com/diuubtvqd/image/upload/v1581621475/brandshowcase.png)
+  -webkit-transition: background-color .4s
+  transition: background-color .4s
+
+  &:hover
+    background-color: $light
+    color: whiteHey 
+    -webkit-transition: background-color .4s
+    transition: background-color .4s
 
 #introgridc
   line-height: 1px !important
