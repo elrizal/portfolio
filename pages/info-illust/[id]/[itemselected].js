@@ -1,25 +1,14 @@
 import galleryList from './illust.json';
 import React from 'react';
 import {useRouter} from 'next/router'
-import Link from 'next/link';
-import ArrowLeftRounded from '@material-ui/icons/ArrowLeftRounded';
 import Layout from '../../../components/layout';
-import Router from 'next/router';
-
+import BackBtn from '../../../components/back';
 const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
 
   return  <Layout>
-      <div className="fixed backbtn">
-        <Link href='/branding/[id]' as='/branding/index'>
-        <a>
-            <ArrowLeftRounded onClick={() => Router.back()} style={{
-              fontSize: 90
-            }}/>
-          </a>
-        </Link>
-      </div>
+      <BackBtn/>
       <div className="container">
         {galleryList.map(obj => {
           if (itemselected == obj.endpoint) {
