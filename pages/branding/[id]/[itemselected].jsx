@@ -16,25 +16,22 @@ const Comment = () => {
         if (itemselected == obj.endpoint) {
           return <div>
             <div className="row animated fadeIn">
-              <div className="col-sm-12  col-lg-6">
-
+              <div className="col-sm-12  col-lg-5">
                 <img src={obj.img} alt="Case" className='aside-caseimg  add-centering'/>
               </div>
-              <div className="col-sm-12  col-lg-6">
+              <div className="col-sm-12  col-lg-7">
                 <h1>{obj.title}</h1>
 
                 <p>
-                  <b>Responsibilities:</b>
+                  <b>Responsibilities: </b>
                   {obj.role}<br/>
-                  <b>Project timeframe:
-                  </b>
-                  {obj.timeframe}
+                  <b>Project timeframe: 
+                  </b> {obj.timeline}
                 </p>
                 <h3>About the project</h3>
                 <p>{obj.description}</p>
                 <h3>The process</h3>
                 <p>{obj.process}</p>
-                <h3>Result</h3>
                 <p>{obj.final}</p>
               </div>
             </div>

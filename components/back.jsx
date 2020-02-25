@@ -2,7 +2,7 @@ import React from 'react';
 import Router from 'next/router';
 import ArrowLeftRounded from '@material-ui/icons/ArrowLeftRounded';
 
-const BackBtn = () => {
+const BackBtn = () => (
     <div className="fixed backbtn">
     <a>
       <ArrowLeftRounded
@@ -12,5 +12,5 @@ const BackBtn = () => {
       }}/>
     </a>
   </div>
-}
+)
 export default BackBtn
