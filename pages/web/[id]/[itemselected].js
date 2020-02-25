@@ -4,6 +4,7 @@ import React from 'react';
 import {useRouter} from 'next/router';
 import Button from '@material-ui/core/Button';
 import BackBtn from '../../../components/back';
+
 const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
