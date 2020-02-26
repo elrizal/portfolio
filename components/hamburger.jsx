@@ -2,7 +2,6 @@ import React from "react";
 import { stack as Menu } from 'react-burger-menu'
 import '../css/hamburger.sass'
 import Link from 'next/link';
-
 const logo = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576674564/tiger-white-long.png'
 const Hamburger = props => {
   return (
@@ -34,21 +33,21 @@ const Hamburger = props => {
                   <a className="menu-item">campaigns</a>
                 </Link>
               </li> 
-              <li>
+              {/* <li>
                 <Link href='/print/' as='/print/index'>
                   <a className="menu-item">Print & Packaging</a>
                 </Link>
               </li>  
               <li>
                 <Link href='/info-illust/' as='/info-illust/index'>
-                  <a className="menu-item">Infographics</a>
+                  <a className="menu-item">Illustrations</a>
                 </Link>
               </li>    
               <li>
                 <Link href='/branding/' as='/branding/index'>
                   <a className="menu-item">Branding</a>
                 </Link>
-              </li>     
+              </li>      */}
               <li>
               <i id='icons' className='fab fa-linkedin fa-lg'></i>
                 <a href='https://www.linkedin.com/in/erinlrizal' target='_blank'>
