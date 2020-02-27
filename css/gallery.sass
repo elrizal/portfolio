@@ -1,0 +1,76 @@
+body,
+html 
+  display: flex
+  
+  @supports(display: grid) 
+    display: block
+  
+.message 
+  border: 1px solid #d2d0d0
+  padding: 2em
+  font-size: 1.7vw
+  
+  @supports(display: grid) 
+    display: none
+  
+.section 
+  display: none
+  
+  @media screen and (min-width: 768px) 
+    padding: 4rem
+  
+  @supports(display: grid) 
+    display: block
+  
+h1 
+  font-size: 2rem
+  margin: 0 0 1.5em
+
+.grid 
+  display: grid
+  grid-gap: 20px
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr))
+  grid-auto-rows: auto
+  grid-auto-flow: row dense
+
+.item 
+  position: relative
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  box-sizing: border-box
+  grid-column-start: auto
+  grid-row-start: auto
+  transition: transform 0.3s ease-in-out
+  
+  &:after 
+    content: ''
+    position: absolute
+    width: 100%
+    height: 100%
+
+  &--medium 
+    grid-row-end: span 2  
+
+  &--large 
+    grid-row-end: span 3
+  
+  &--full 
+    grid-column-end: auto
+
+    @media screen and (min-width: 768px) 
+      grid-column: 1/-1
+      grid-row-end: span 2
+    
+  &__details 
+    position: relative
+    z-index: 1
+    padding: 15px
+    color: #444
+    background: #fff
+    letter-spacing: 1px
+    
+    &:before 
+      font-weight: bold
+      font-size: 1.1rem
+      padding-right: 0.5em

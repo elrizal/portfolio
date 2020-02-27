@@ -21,7 +21,6 @@ const Comment = () => {
               </div>
               <div className="col-sm-12  col-lg-7">
                 <h1>{obj.title}</h1>
-
                 <p>
                   <b>Responsibilities: </b>
                   {obj.role}<br/>

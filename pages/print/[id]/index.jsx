@@ -1,104 +1,33 @@
-import {useRouter} from 'next/router';
-import Link from 'next/link';
-import Button from '@material-ui/core/Button';
 import Layout from '../../../components/layout';
-import PrintList from './prints.json';
+import galleryList from './prints.json';
+import GalleryItem from '../../../components/galleryItem';
 
 const Print = () => {
-  const router = useRouter();
-  const {id} = router.query;
-
   return (
     <Layout>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/print/[id]/[itemselected]" as={`/print/${id}/casswell-eo-packaging`}>
-              <a><img
-                src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555424248/work/prints/PU006115.png"
-                className="case-thumb"
-                alt="greycomm study"/></a>
-            </Link>
-            <p>
-              <b>Caswell Massey Essential Oils</b>
-            </p>
-            <Button variant="outlined">
-              <Link href="/print/[id]/[itemselected]" as={`/print/${id}/casswell-eo-packaging`}>
-                <a>Case Study</a>
-              </Link>
-            </Button>
-          </div>
+      <div className="container center">
+        <h2>Infographics and Illustration</h2>
+        <p>Designs I've created in order to inform users or custom product illustrations
+          as "passion projects".
+        </p>
+      </div>
+        <div className=" container">
 
-          <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/print/[id]/[itemselected]" as={`/print/${id}/fh-fabric-packaging`}>
-              <a><img
-                src="https://res.cloudinary.com/diuubtvqd/image/upload/v1581791613/work/prints/varsity.jpg"
-                className="case-thumb"
-                alt="greycomm study"/></a>
-            </Link>
-            <p>
-              <b>FH Group Product: PU Fabric Seat Covers 2017</b>
-            </p>
-            <Button variant="outlined">
-              <Link href="/print/[id]/[itemselected]" as={`/print/${id}/fh-fabric-packaging`}>
-                <a>Case Study</a>
-              </Link>
-            </Button>
-          </div>
-
-          <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/print/[id]/[itemselected]" as={`/print/${id}/fh-fabric-packaging`}>
-              <a><img
-                src="https://res.cloudinary.com/diuubtvqd/image/upload/v1581791613/work/prints/varsity.jpg"
-                className="case-thumb"
-                alt="greycomm study"/></a>
-            </Link>
-            <p>
-              <b>FH Group Product: PU Fabric Seat Covers 2017</b>
-            </p>
-            <Button variant="outlined">
-              <Link href="/print/[id]/[itemselected]" as={`/print/${id}/fh-fabric-packaging`}>
-                <a>Case Study</a>
-              </Link>
-            </Button>
+          <div className="grid">
+            {galleryList.map(order => (<GalleryItem
+              key={order.id}
+              title={order.title}
+              img={order.img}
+              property={order.property}
+              company={order.company}
+              role={order.role}
+              endpoint={order.endpoint}/>))
+}
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/print/[id]/[itemselected]" as={`/print/${id}/casswell-eo-packaging`}>
-              <a><img
-                src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555424248/work/prints/PU006115.png"
-                className="case-thumb"
-                alt="greycomm study"/></a>
-            </Link>
-            <p>
-              <b>Caswell Massey Essential Oils</b>
-            </p>
-            <Button variant="outlined">
-              <Link href="/print/[id]/[itemselected]" as={`/print/${id}/casswell-eo-packaging`}>
-                <a>Case Study</a>
-              </Link>
-            </Button>
-          </div>
-
-          <div className="col-md-6 col-lg-4 case-contain">
-            <Link href="/print/[id]/[itemselected]" as={`/print/${id}/fh-fabric-packaging`}>
-              <a><img
-                src="https://res.cloudinary.com/diuubtvqd/image/upload/v1581791613/work/prints/varsity.jpg"
-                className="case-thumb"
-                alt="greycomm study"/></a>
-            </Link>
-            <p>
-              <b>FH Group Product: PU Fabric Seat Covers 2017</b>
-            </p>
-            <Button variant="outlined">
-              <Link href="/print/[id]/[itemselected]" as={`/print/${id}/fh-fabric-packaging`}>
-                <a>Case Study</a>
-              </Link>
-            </Button>
-          </div>
-        </div>
+      <div className="message">
+        Sorry, your browser does not support CSS Grid. 😅
       </div>
     </Layout>
   )
