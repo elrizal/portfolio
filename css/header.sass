@@ -254,7 +254,6 @@ a, a:hover, a:active, a:visited
   bottom: -4%
   width: 100%
 
-
 .align-center
   text-align: center
 
@@ -315,8 +314,10 @@ a, a:hover, a:active, a:visited
 
 /* Gallery
 .case-thumb
-  width: 300px
+  max-width: 350px
+  margin: 5px
   height: auto
+  margin: 0 auto
 
 .subtitle
   color: #999999
@@ -367,7 +368,11 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
 
 @media #{$phone}
   p
-    font-size: 1em
+    font-size: 1.3em
+
+  .case-thumb
+    min-width: 100%
+    height: auto
 
   .header-title
     font-size: 3em !important
@@ -393,6 +398,11 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
     font-size: 4em
 
 @media #{$tablet} 
+  .case-thumb
+    max-width: 360px
+    height: auto 
+
+
   .header-title
     font-size: 6.8em !important
 
