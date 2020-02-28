@@ -25,10 +25,9 @@ const Print = () => {
           }
         </div>
       </div>
-
-      <div className="message">
+      {/* <div className="message">
         Sorry, your browser does not support CSS Grid. 😅
-      </div>
+      </div> */}
     </Layout>
   )
 }

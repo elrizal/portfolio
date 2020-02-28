@@ -37,7 +37,7 @@ const GalleryItem = (props) => {
       <div className="item item--medium">
         <img src={props.img} className="case-thumb" alt={props.title}/>
         <div className="item__details">
-          <h3>{props.title}</h3>
+          <b>{props.title}</b>
           <p>
             <b>Company:&ensp;
             </b>
