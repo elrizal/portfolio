@@ -1,6 +1,6 @@
 [{
         "id": 1,
-        "endpoint": "fh-pu-packaging",
+        "category":"branding", "endpoint": "fh-pu-packaging",
         "title": "Varsity PU Packaging 2017",
         "company": "FH Group",
         "role": "Assistant art director, concept and print logistics",
@@ -8,11 +8,13 @@
         "moreimgs":[],
         "description": "",
         "process": "",
-        "result":""
+        "result":"",
+        "github":"lrizal.com",
+        "live":"lrizal.com"
     },
     {
         "id": 2,
-        "endpoint": "fh-fabric-packaging",
+        "category":"branding", "endpoint": "fh-fabric-packaging",
         "title": "Modern Fabric Cover Packaging 2017",
         "company": "FH Group",
         "role": "Concept and design",
@@ -20,11 +22,13 @@
         "moreimgs":[],
         "description": " ",
         "process": "",
-        "result":""
+        "result":"",
+        "github":"lrizal.com",
+        "live":"lrizal.com"
     },
     {
         "id": 3,
-        "endpoint": "fh-pu-acc",
+        "category":"branding", "endpoint": "fh-pu-acc",
         "title": "FH Accessories Packaging",
         "company": "FH Group",
         "role": "Concept, social media promotion and design",
@@ -36,7 +40,7 @@
     },
     {
         "id": 4,
-        "endpoint": "casswell-eo-packaging",
+        "category":"branding", "endpoint": "casswell-eo-packaging",
         "title": "Essential Oils Packaging",
         "company": "Caswell-Massey",
         "role": "design",
@@ -47,7 +51,7 @@
         "result":""
     }, {
         "id": 5,
-        "endpoint": "staffing-shirt",
+        "category":"branding", "endpoint": "staffing-shirt",
         "title": "Student Life Staffing",
         "company": "Loyola University Maryland",
         "role": "Concept, print coordination / distribution, logo design (also featured in branding case studies)",

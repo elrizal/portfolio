@@ -6,25 +6,25 @@ const Print = () => {
   return (
     <Layout>
       <div className="container center">
-        <h2>Infographics and Illustration</h2>
-        <p>Designs I've created in order to inform users or custom product illustrations
-          as "passion projects".
+        <h2>Print Packaging</h2>
+        <p>Cases where I created the design of products in the ecommerce/direct-to-consumer industry. 
         </p>
       </div>
-        <div className=" container">
-
-          <div className="grid">
-            {galleryList.map(order => (<GalleryItem
-              key={order.id}
-              title={order.title}
-              img={order.img}
-              property={order.property}
-              company={order.company}
-              role={order.role}
-              endpoint={order.endpoint}/>))
-}
-          </div>
+      <div className="container">
+        <div className="grid">
+          { galleryList.map(order => (<GalleryItem
+            key={order.id}
+            title={order.title}
+            img={order.img}
+            property={order.property}
+            company={order.company}
+            role={order.role}
+            endpoint={order.endpoint}
+            live={order.live}
+            github={order.github}/>))
+          }
         </div>
+      </div>
 
       <div className="message">
         Sorry, your browser does not support CSS Grid. 😅
