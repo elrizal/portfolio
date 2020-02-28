@@ -1,19 +1,37 @@
-import {useRouter} from 'next/router';
-import Link from 'next/link';
-import Button from '@material-ui/core/Button';
 import Layout from '../../../components/layout';
+import GalleryItem from '../../../components/galleryItem';
+import galleryList from './cases.json';
 
 const Branding = () => {
-  const router = useRouter();
-  const {id} = router.query;
-
   return (
     <Layout>
       <div className="container center animated fadeIn">
         <h2>Branding</h2>
         <p>Cases where I led the visual direction for identity design and
           online/Out-of-home brand voice</p>
-        <div className="row">
+
+          <div className="container">
+        <div className="grid">
+          { galleryList.map(order => (<GalleryItem
+            key={order.id}
+            category={order.category}
+            title={order.title}
+            img={order.img}
+            property={order.property}
+            company={order.company}
+            role={order.role}
+            endpoint={order.endpoint}
+            live={order.live}
+            github={order.github}/>))
+          }
+        </div>
+      </div>
+      <div className="message">
+        Sorry, your browser does not support CSS Grid. 😅
+      </div>
+
+
+        {/* <div className="row">
           <div className="col-md-6 col-lg-4 case-contain">
             <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/mycroft`}>
               <a><img
@@ -24,11 +42,11 @@ const Branding = () => {
             <p>
               <b>Logo design for Mycroft</b>
             </p>
-            <Button variant="outlined">
+            <button variant="outlined">
               <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/mycroft`}>
                 <a>Case Study</a>
               </Link>
-            </Button>
+            </button>
           </div>
           <div className="col-md-6 col-lg-4 case-contain">
             <Link href="/branding/[id]/[itemselected]" as={`/branding/${id}/gy-identity`}>
@@ -122,9 +140,8 @@ const Branding = () => {
                 <a>Case Study</a>
               </Link>
             </Button>
-          </div>
-  
-        </div>
+          </div> 
+        </div> */}
       </div>
     </Layout>
   )

@@ -8,7 +8,7 @@ const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
 
-  return  <Layout>
+  return (<Layout>
       <BackBtn/>
       <div className="container">
         {galleryList.map(obj => {
@@ -16,7 +16,6 @@ const Comment = () => {
             return <div>
               <div className="row animated fadeIn">
                 <div className="col-sm-12  col-lg-6">
-
                 <img src={obj.img} alt="Case" className='aside-caseimg  add-centering'/>
                 </div>
                 <div className="col-sm-12  col-lg-6">
@@ -39,7 +38,7 @@ const Comment = () => {
           }
         })}
       </div>
-    </Layout>
+    </Layout>)
 }
 
 export default Comment
