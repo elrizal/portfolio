@@ -24,7 +24,7 @@ const Comment = () => {
                   <p>
                     <b>Responsibilities:</b> {obj.role}<br/>
                     <b>Project timeframe: </b>
-                    {obj.timeframe}
+                    {obj.timeline}
                   </p>
                   <h3>About the project</h3>
                   <p>{obj.description}</p>
