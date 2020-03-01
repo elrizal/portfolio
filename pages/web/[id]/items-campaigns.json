@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "order": "itslit",
+    "category": "web", "endpoint": "itslit",
     "title": "It's Lit",
     "type": "Social",
     "timeframe": "February - March 2018",
-    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/lit.jpg",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/lit.jpg",
     "tech": [
       "JavaScript",
       "HTML5",
@@ -25,11 +25,11 @@
   },
   {
     "id": 2,
-    "order": "cookwithnana",
+    "category": "web", "endpoint": "cookwithnana",
     "title": "Cook With Nana",
     "timeframe": "February - March 2018",
     "type": "Social",
-    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/cwn.jpg",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/cwn.jpg",
     "tech": [
       "JavaScript",
       "HTML5",
@@ -46,11 +46,11 @@
   },
   {
     "id": 3,
-    "order": "planner",
+    "category": "web", "endpoint": "planner",
     "title": "Conductor's Planner",
     "timeframe": "January 2018 (initial stage), currently reiterating",
     "type": "Scheduling",
-    "image": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/train.jpg",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/train.jpg",
     "tech": [
       "JavaScript",
       "HTML5",
