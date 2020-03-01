@@ -2,11 +2,11 @@ import Layout from '../../../components/layout';
 import GalleryItem from '../../../components/galleryItem';
 import galleryList from './cases.json';
 
-const Branding = () => {
+const InformationIllustrations = () => {
   return (
     <Layout>
       <div className="container center animated fadeIn">
-        <h2>Branding</h2>
+        <h2>Illustrations</h2>
         <p>Cases where I led the visual direction for identity design and
           online/Out-of-home brand voice</p>
 
@@ -32,4 +32,4 @@ const Branding = () => {
   )
 }
 
-export default Branding;
+export default InformationIllustrations;
