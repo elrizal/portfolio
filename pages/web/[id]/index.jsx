@@ -1,4 +1,3 @@
-import {useRouter} from 'next/router';
 import galleryList from './items-campaigns.json';
 import Layout from '../../../components/layout';
 import GalleryItem from '../../../components/galleryItem';

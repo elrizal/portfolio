@@ -16,7 +16,7 @@ const Comment = () => {
             return <div>
               <div className="row animated fadeIn">
                 <div className="col-sm-12  col-lg-6">
-                <img src={obj.img} alt="Case" className='aside-caseimg  add-centering'/>
+                <img src={obj.img} alt="Case" className='aside-caseimg add-centering'/>
                 </div>
                 <div className="col-sm-12  col-lg-6">
                 <h1>{obj.title}</h1>
