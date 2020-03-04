@@ -7,7 +7,7 @@ const UserEx = () => {
     <Layout>
       <div className="container center">
         <h2>User Experience Case Studies</h2>
-        <p>  </p>
+        <p>Projects where I've exclusively focused in creating the user experiences, visual UX and/or project management of products: </p>
       </div>
       <div className="container">
         <div className="grid">
