@@ -12,7 +12,7 @@ const Comment = () => {
     <div className="container ">
       {galleryList
         .map(function (obj, id) {
-          if (itemselected == obj.order) {
+          if (itemselected == obj.endpoint) {
             return <div className="row animated fadeIn" key={obj.id}>
               <div className="col-sm-12 col-lg-6 add-centering">
                 {obj
