@@ -11,35 +11,44 @@ const Comment = () => {
   return <Layout>
     <BackBtn/>
     <div className="container">
-
       {galleryList.map(obj => {
         if (itemselected == obj.endpoint) {
-          return <div>
-            <div className="row animated fadeIn">
-              <div className="col-sm-12  col-lg-6">
+          return <div className="row animated fadeIn">
+            <div className="col-sm-12 col-md-8 col-lg-5">
+            <img src={obj.img} alt="Case" className='aside-caseimg add-centering'/>
+            <div className="row">
 
-                <img src={obj.img} alt="Case" className='aside-caseimg add-centering'/>
-              </div>
-              <div className="col-sm-12  col-lg-6">
-
-                <h1>{obj.title}</h1>
-                <h2>{obj.company}</h2>
-                <p>
-                  <b>Responsibilities:&ensp;</b>
-                  {obj.role}<br/>
-                  <b>Project timeframe:&ensp;
-                  </b>
-                  {obj.timeline}
-                </p>
-                <h3>About the project</h3>
-                <p>{obj.description}</p>
-                <h3>The process</h3>
-                <p>{obj.process}</p>
-                {/* <h3>Result</h3>
-                <p>{obj.final}</p> */}
-              </div>
+            {obj.images.map(objImg => {
+                return <div className="col-sm-6 col-md-6 col-lg-6">
+                  <a href={objImg} target="_blank">
+                  <img src={objImg} alt="01" className="added-imgs"/>
+                </a>
+                  </div>
+              })}
             </div>
+            </div>
+              <div className="col-sm-12 col-md-4 col-lg-7">
+              <h1>{obj.title}</h1>
+              <h2>{obj.company}</h2>
+              <p>
+                <b>Responsibilities:&ensp;</b>
+                {obj.role}<br/>
+                <b>Project timeframe:&ensp;
+                </b>
+                {obj.timeline}
+              </p>
+           
+            <h3>About the project</h3>
+            <p>{obj.description}</p>
+            <h3>The process</h3>
+            <p>{obj.process}</p>
+            </div>
+
+
+
+
           </div>
+
         }
       })}
     </div>

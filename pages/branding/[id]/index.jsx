@@ -23,7 +23,7 @@ const Branding = () => {
               endpoint={order.endpoint}
               live={order.live}
               github={order.github}/>))
-}
+            }
           </div>
         </div>
         <div className="message">

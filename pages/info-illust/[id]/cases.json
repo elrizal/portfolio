@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "category":"info-illust", "category":"info-illust", "endpoint": "fh-installation",
+    "category":"info-illust", "endpoint": "fh-installation",
     "title":"Product Installation",
     "company":"FH Group International",
     "role":"Visual concept, layout",
@@ -13,7 +13,7 @@
 },
 {
     "id": 2,
-    "category":"info-illust", "category":"info-illust", "endpoint": "fh-mockupillust",
+    "category":"info-illust", "endpoint": "fh-mockupillust",
     "title":"Product Mock-Up",
     "company":"FH Group International",
     "role":"Visual concept, layout",
