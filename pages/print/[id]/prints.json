@@ -4,11 +4,11 @@
     "endpoint": "casswell-eo-packaging",
     "title": "Essential Oils Packaging",
     "company": "Caswell-Massey",
-    "role": "Composite and print layout, ",
-    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583364962/work/print/centuries.jpg",
-    "addimgs": [],
-    "description": " ",
-    "process": "",
+    "role": "Composite and print layout",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583470709/work/centuries.jpg",
+    "addimgs": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555424248/work/prints/eolabels.jpg"],
+    "description": "Labeling layout and display for print production of a new line of perfumery oils sold by Caswell-Massey.",
+    "process": "After recieving the logo design from our senior freelancer, I created a mark-up for our venders to print.",
     "result": ""
 }, {
     "id": 2,
@@ -17,13 +17,11 @@
     "title": "Modern Fabric Cover Packaging 2017",
     "company": "FH Group",
     "role": "Concept and design",
-    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583383761/work/print/mod.jpg",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583470531/work/mod.jpg",
     "addimgs": [],
     "description": " ",
     "process": "",
-    "result": "",
-    "github": "lrizal.com",
-    "live": "lrizal.com"
+    "result": ""
 }, {
     "id": 1,
     "category": "print",
@@ -31,7 +29,7 @@
     "title": "Varsity PU Packaging 2017",
     "company": "FH Group",
     "role": "Assistant art director, concept and print logistics",
-    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1581791613/work/prints/varsity.jpg",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583470531/work/min.jpg",
     "addimgs": [],
     "description": "",
     "process": "",
