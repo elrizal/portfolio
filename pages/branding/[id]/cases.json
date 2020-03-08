@@ -42,8 +42,8 @@
     "images":["https://res.cloudinary.com/diuubtvqd/image/upload/v1555424014/work/greymugfinal.png","https://res.cloudinary.com/diuubtvqd/image/upload/v1555424013/work/greycommsticker.png"],
     "video":"",
     "timeline":"June-July 2015",
-    "description":"",
-    "process":"",
+    "description":"Greycomm Studios is a television studio based in Baltimore, MD. It often invites college freshman to get hands-on experience in theb roadcast industry, while also incorporating the latest technoloiges. For years, Greycomm had a steady and straight-forward 'brand voice'; the downside, however, was that it lacked the creative ingenuity that the studio was known for. As a lead designer there, the studio director and I initiated sets of illustrations and design motifs from 2015 and onward.",
+    "process":"Given that I had worked with the studio since I was a junior, I wanted to 'tell the story' of the station. I did heuristic analysis into the differect art directions of similar broadcast stations, and eventually found that they tried to echo larger corporations such as NBC or Fox. From here, I decided that there was a big opportunity to display the energy of the studio. Brighter palletes, nods to the different departments and programs were all unique features I targeted in the final designs. As the studio has scaled up in online presence, the final design has always stayed as a first impression for students and professionals seeking to get their foot in the door in the industry. ",
     "processimgs":[],
     "final":""
   },
@@ -94,13 +94,15 @@
   },
   {
     "id": 7,
-    "category":"branding", "endpoint":"dresjay",
+    "category":"branding", 
+    "endpoint":"dresjay",
     "title":"Logo for Dresjay",
     "company":"N/A",
-    "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1583301385/work/branding/dresjay.jpg", "role":"Logo design",
+    "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1583301385/work/branding/dresjay.jpg", 
+    "role":"Logo design",
     "timeline":"January 2016",
-    "description":"",
-    "process":"",
+    "description":"Dresjay is an independent musical artist that needed a logo to represent his album covers.",
+    "process":"The process involved a brief ideation phase with the artist. I did a short analysis on similar artists and their own art style, in order to find a unique stamp for Dresjay. After a sketching mock-ups, the client agreed that the final contained all the elements that he was looking for.",
     "images":["https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/dresjay-logos.png"],
     "final":""
   }
