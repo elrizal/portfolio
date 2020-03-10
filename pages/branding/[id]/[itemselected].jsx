@@ -15,19 +15,21 @@ const Comment = () => {
         if (itemselected == obj.endpoint) {
           return <div className="row animated fadeIn">
             <div className="col-sm-12 col-md-8 col-lg-5">
-            <img src={obj.img} alt="Case" className='aside-caseimg add-centering'/>
-            <div className="row">
+              <img src={obj.img} alt="Case" className='aside-caseimg add-centering'/>
+              <div className="row">
 
-            {obj.images.map(objImg => {
-                return <div className="col-sm-6 col-md-6 col-lg-6">
-                  <a href={objImg} target="_blank">
-                  <img src={objImg} alt="01" className="added-imgs"/>
-                </a>
-                  </div>
-              })}
+                {obj
+                  .images
+                  .map(objImg => {
+                    return <div className="col-sm-6 col-md-6 col-lg-6">
+                      <a href={objImg.prev} target="_blank">
+                        <img src={objImg.prev} alt="01" className="added-imgs"/>
+                      </a>
+                    </div>
+                  })}
+              </div>
             </div>
-            </div>
-              <div className="col-sm-12 col-md-4 col-lg-7">
+            <div className="col-sm-12 col-md-4 col-lg-7">
               <h1>{obj.title}</h1>
               <h2>{obj.company}</h2>
               <p>
@@ -37,18 +39,12 @@ const Comment = () => {
                 </b>
                 {obj.timeline}
               </p>
-           
-            <h3>About the project</h3>
-            <p>{obj.description}</p>
-            <h3>The process</h3>
-            <p>{obj.process}</p>
+              <h3>About the project</h3>
+              <p>{obj.description}</p>
+              <h3>The process</h3>
+              <p>{obj.process}</p>
             </div>
-
-
-
-
           </div>
-
         }
       })}
     </div>
