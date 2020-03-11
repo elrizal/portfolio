@@ -7,8 +7,8 @@ const Branding = () => {
     <Layout>
       <div className="container center animated fadeIn">
         <h2>Branding</h2>
-        <p>Cases where I led the visual direction for identity design and
-          online/Out-of-home brand voice</p>
+        Cases where I led the visual direction for identity design and
+          online/Out-of-home brand voice.<br /><br />
 
         <div className="container">
           <div className="grid">

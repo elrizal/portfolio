@@ -37,23 +37,18 @@ const GalleryItem = (props) => {
       <div className="item item--medium">
         <img src={props.img} className="case-thumb" alt={props.title}/>
         <div className="item__details">
-          <b>{props.title}</b>
-          <p>
-            <b>Company:&ensp;
-            </b>
-            {props.company}<br/>
-            <b>Role:&ensp;
-            </b>
-            {props.role}
-          </p>
-            <div className="row">
+          <h3>{props.title}</h3>
+          <b>Company:</b>&ensp;{props.company}<br />
+            <b>Role(s):</b>&ensp;{props.role}<br />
+          <div className="row extra-top">
             <button>
-            <Link href={`/${props.category}/[id]/[itemselected]`} as={`/${props.category}/${id}/${props.endpoint}`}>
-              <a>Case Study</a>
-            </Link>
-          </button>{checkLinks(props)}
-            </div>
-
+              <Link
+                href={`/${props.category}/[id]/[itemselected]`}
+                as={`/${props.category}/${id}/${props.endpoint}`}>
+                <a>Case Study</a>
+              </Link>
+            </button>{checkLinks(props)}
+          </div>
         </div>
       </div>
     </div>

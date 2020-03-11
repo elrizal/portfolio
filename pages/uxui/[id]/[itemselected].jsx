@@ -8,13 +8,10 @@ import BackBtn from '../../../components/back';
 const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
-
   return  <Layout>
       <BackBtn/>
-     
       <div className="container">
         {galleryList.map(obj => {
-
           if (itemselected == obj.endpoint) {
             return <div>
               <div className="row animated fadeIn">

@@ -47,17 +47,17 @@
     "id": 4,
     "category": "branding",
     "endpoint": "atn-brand",
-    "title": "Rebrand",
+    "title": "Logo Redesign",
     "company": "Action Together Now",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583292169/work/branding/atn.jpg",
     "role": "Art direction",
     "original": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/atn-logos.png",
     "images": [{
+      "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583292170/work/branding/facebookatn.jpg",
+      "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583814013/work/branding/atn-fb-preview.jpg"
+  },{
         "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/atn-logos.png",
         "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/atn-logos.png"
-    }, {
-        "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583292170/work/branding/facebookatn.jpg",
-        "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583292170/work/branding/facebookatn.jpg"
     }],
     "timeline": "December 2015",
     "description": "Action Together Now is a non-profit that aims to educate wide audiences on social and political issues. Since their initial branding was inconsistent, I volunteered to create a new approach to their visual identity. ",
@@ -70,7 +70,8 @@
     "company": "Shea's Cuts NJ",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583293655/work/branding/sheas.jpg",
     "role": "Conceptualizing and design",
-    "images": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg"],
+    "images": [{"img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg",
+      "prev":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg"}],
     "timeline": "March 2017",
     "description": "Shea’s Cuts is a NJ based barber shop. As a freelance designer at Nine73, I was tasked with creating the business’ identity. ",
     "process": "My client’s main focus was to combine his personal ties to Irish motifs while creating a ‘brand voice’ that was up to speed with competing stylists. After initial conversation with the client, I researched minimalistic approaches to popular hair products targeted for male demographics. Since there appeared to be a theme in making logos with a focus on tools, I decided to use symbols that incorporated oldschool symbols of barber shops for contrast. After additional options, the client quickly narrowed it down to the final shown here."

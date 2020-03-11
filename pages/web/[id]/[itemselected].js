@@ -12,14 +12,14 @@ const Comment = () => {
     <BackBtn/>
     <div className="container ">
       {galleryList.map(obj => {
-        if (itemselected == obj.order) {
+        if (itemselected == obj.endpoint) {
           return <div className="container"><div
             className="row animated fadeIn"
             key={obj
             .id
             .toString()}>
-            <div className="col-sm-12  col-lg-4 add-centering">
-              <img src={obj.image} className='aside-webimg' alt=""/>
+            <div className="col-sm-12 col-md-6 col-lg-5 add-centering">
+              <img src={obj.img} className='aside-webimg' alt=""/>
               <br/>
               <Button variant="outlined" color="primary">
                 <a href={obj.live} target="_blank">Demo</a>
@@ -28,7 +28,7 @@ const Comment = () => {
                 <a href={obj.github} target="_blank">Github</a>
               </Button><br/><br/>
             </div>
-            <div className="col-sm-12  col-lg-8">
+            <div className="col-sm-12 col-md-6  col-lg-7">
               <h1>{obj.title}</h1>
               <p>
                 <b>My role: </b>
