@@ -6,7 +6,7 @@ const WebDev = () => {
   return (
     <Layout>
       <div className="container animated fadeIn">
-        <h2 className="center">Web Development</h2><br/>
+      <h2 className="center">Web Development</h2>
         <p className="center">Applications I've created as a result of collaboration in
           a development team or independently:</p>
         <br/>
@@ -17,10 +17,10 @@ const WebDev = () => {
             img={order.img}
             category={order.category}
             property={order.property}
-            company={order.company}
             role={order.role}
             endpoint={order.endpoint}
             live={order.live}
+            prevdesc={order.prevdesc}
             github={order.github}/>))
 }
         </div>
@@ -35,11 +35,7 @@ const WebDev = () => {
             <h3>Give a Gif</h3>
             <p>
               Looking for a quick time-killer? This app scoops up popular gifs based on topics
-              of your choice from Giphy.com<br/>
-              <br/>
-              <b>Tech stack:
-              </b>
-              jQuery, JavaScript, HTML5, CSS
+              of your choice from Giphy.com; Made with JavaScript, HTML5, CSS
             </p>
             <button
               href="https://github.com/elrizal/give-a-gif"
@@ -62,10 +58,8 @@ const WebDev = () => {
               alt="Equipment Zone product pages"/>
             <h3>Product Pages and Refactoring for Equipment Zone</h3>
             <p>As a web developer at Equipment Zone, I creating separate campaign pages, as
-              well as replacing legacy code on both the client and server side.<br/>
-              <br/>
-              <b>Tech stack:</b>
-              JavaScript, PHP
+              well as replacing legacy code on both the client and server side. Bulit with
+              JavaScript, PHP.
             </p>
             <button href="https://equipmentzone.com" target="_blank" variant="outlined">
               Website
@@ -87,11 +81,8 @@ const WebDev = () => {
             <h3>Movr</h3>
             <p>
               A recommendation site that matches developers who are looking to move with
-              cities where the tech-industry is booming based on a quick survey.<br/>
-              <br/>
-              <b>Tech stack:
-              </b>
-              Node JS, jQuery, JavaScript, HTML5, CSS
+              cities where the tech-industry is booming based on a quick survey.
+              Built with Node JS, jQuery, JavaScript, HTML5, CSS.
             </p>
             <button
               href="https://github.com/elrizal/movr"

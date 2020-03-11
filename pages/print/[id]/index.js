@@ -5,12 +5,12 @@ import GalleryItem from '../../../components/galleryItem';
 const Print = () => {
   return (
     <Layout>
-      <div className="container animated fadeIn center">
+      <div className="container  center">
         <h2>Print Packaging</h2>
-        <p>Cases where I created the design of products in the ecommerce/direct-to-consumer industry. 
-        </p>
+        Cases where I created the design of products in the ecommerce/direct-to-consumer industry. 
+        <br /><br />
       </div>
-      <div className="container">
+      <div className="container animated fadeIn">
         <div className="grid">
           { galleryList.map(order => (<GalleryItem
             key={order.id}

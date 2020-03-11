@@ -7,21 +7,23 @@
     "role": "Composite and print layout",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583470709/work/centuries.jpg",
     "addimgs": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555424248/work/prints/eolabels.jpg"],
+    "timeline": "June - July 2017",
     "description": "Labeling layout and display for print production of a new line of perfumery oils sold by Caswell-Massey.",
-    "process": "After recieving the logo design from our senior freelancer, I created a mark-up for our venders to print.",
+    "process": "After recieving the logo design from our senior freelancer, I created a mark-up for our venders to print. As the in-house designer, I coordinated the spot printing for our labels. The challenging piece, however, was to quality-control the intricate points of the design, since our out-of-house print shop was unable to create accuarte shine/raised emboss marks.",
     "result": ""
 }, {
     "id": 2,
     "category": "print",
-    "endpoint": "fh-fabric-packaging",
+    "endpoint": "modfabric-packaging",
     "title": "Modern Fabric Cover Packaging 2017",
     "company": "FH Group",
     "role": "Concept and design",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583470531/work/mod.jpg",
     "addimgs": [],
-    "description": " ",
-    "process": "",
-    "result": ""
+    "timeline": "September - December 2017",
+    "description": "As part of an effort to catch up to our competitors in visual direction, I created individualized 'brand voice' for our new lines of items. Targeting customers that had weaker orders (20-35-year-olds and young families) compared to other groups, we focused on design styles that were also similar to common lifestyle brands.",
+    "process": "Upon researching commonly purchased brands among the target group, I compared visual cues from popular brands from Birchbox to Starbucks for their flexibility in style and wide consumer-target range. After creating several mock-ups, I narrowed down the selections based on the art director's decision to keep our visual direction tailored to each product. The final choice is based on the sleek and minimalist approach to the chairs' design, as well as input from our sales team.",
+    "result": "After listing the new products on our website and platforms (Amazon, Walmart), the product was effective in hitting our goal to raise our sales among our target audience. "
 }, {
     "id": 3,
     "category": "print",
@@ -31,6 +33,7 @@
     "role": "Assistant art director, concept and print logistics",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583470531/work/min.jpg",
     "addimgs": [],
+    "timeline": "September - December  2017",
     "description": "",
     "process": "",
     "result": ""
@@ -43,18 +46,7 @@
     "role": "Concept and design",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1581791613/work/prints/varsity.jpg",
     "addimgs": [],
-    "description": " ",
-    "process": "",
-    "result": ""
-}, {
-    "id": 3,
-    "category": "print",
-    "endpoint": "fh-pu-acc",
-    "title": "FH Accessories Packaging",
-    "company": "FH Group",
-    "role": "Concept, social media promotion and design",
-    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1581791613/work/prints/varsity.jpg",
-    "addimgs": [],
+    "timeline": "September - December 2017",
     "description": " ",
     "process": "",
     "result": ""
