@@ -43,6 +43,7 @@ const Comment = () => {
               <p>{obj.description}</p>
               <h3>The process</h3>
               <p>{obj.process}</p>
+              <p>{obj.result}</p>
             </div>
           </div>
         }
