@@ -22,7 +22,7 @@ const Comment = () => {
                   .images
                   .map(objImg => {
                     return <div className="col-sm-6 col-md-6 col-lg-6">
-                      <a href={objImg.prev} target="_blank">
+                      <a href={objImg.img} target="_blank">
                         <img src={objImg.prev} alt="01" className="added-imgs"/>
                       </a>
                     </div>
