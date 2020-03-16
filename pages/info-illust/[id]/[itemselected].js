@@ -16,8 +16,17 @@ const Comment = () => {
               <div className="row animated fadeIn">
                 <div className="col-sm-12  col-lg-6">
                 <a href={obj.img} target="_blank">
-                <img loading="lazy" src={obj.img} alt="Case" className='aside-caseimg  add-centering'/>
+                <img src={obj.img} alt="Case" className='aside-caseimg  add-centering'/>
                 </a>
+                {obj
+                  .additionalimgs
+                  .map(objImg => {
+                    return <div className="col-sm-6 col-md-6 col-lg-6">
+                      <a href={objImg} target="_blank">
+                        <img src={objImg} alt={obj.endpoint} className="added-imgs"/>
+                      </a>
+                    </div>
+                  })}
                 </div>
                 <div className="col-sm-12  col-lg-6">
                 <h1>{obj.title}</h1>

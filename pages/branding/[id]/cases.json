@@ -5,9 +5,14 @@
     "title": "Identity Design",
     "company": "Loyola University",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583299497/work/branding/showcase-studentlifegy.jpg",
-    "images": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1583259625/work/studlifeloyola.png", "https://res.cloudinary.com/diuubtvqd/image/upload/v1583259625/work/frontsl.jpg"],
+    "images": [{
+        "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583259625/work/studlifeloyola.png",
+        "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583259625/work/studlifeloyola.png"
+    }, {
+        "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583259625/work/frontsl.jpg",
+        "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583259625/work/frontsl.jpg"
+    }],
     "role": "Primary brand designer and resident advisor training staff",
-    "original": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-studentlife.jpg",
     "timeline": "May 2015 - June 2015",
     "description": "Loyola University Maryland’s student life department had a strong track record of receiving high ranks in college review sites prior to this project in 2015. Given the reputation, the department sought to increase a quickly identifiable brand voice that similar universities were not tapping into. Although the university itself has incredible art direction in its marketing, the student life section often relied on short-hand materials to market themselves to touring students. After highlighting this to my team, I was tasked with creating its identity design.",
     "process": "In creating the concept for the logo, I aimed to incorporate similar motifs to the university itself. Each section of the shield represents the core values of the university, so this was a particular element of their branding that was vital in referencing. But rather than be a carbon copy, we needed to show what we contribute to the university as a department; creating space for students by our initiatives. Rather than focus soley on the academics and philosophy of the university, I aimed to show the personable side to the college with our own version of Loyola’s creative voice. "
@@ -19,7 +24,10 @@
     "company": "Open Health Systems Lab (John Hopkins University)",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1581787677/work/branding/mycroft-show.jpg",
     "role": "Visual concept",
-    "images": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/mycroft.png"],
+    "images": [{
+        "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/mycroft.png",
+        "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/mycroft.png"
+    }],
     "timeline": "December 2015",
     "description": "MCM is an internal tool used by researchers at Open Health Systems Lab in John Hopkins University. The logo design was created in 2015 for the creation of this new application. ",
     "process": "The concept was based on the idea of neurons “firing off” during cognition and the connections we make during processing thought. Due to the focus of the brand, I decided to go with a straight-forward approach."
@@ -53,9 +61,9 @@
     "role": "Art direction",
     "original": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/atn-logos.png",
     "images": [{
-      "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583292170/work/branding/facebookatn.jpg",
-      "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583814013/work/branding/atn-fb-preview.jpg"
-  },{
+        "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583292170/work/branding/facebookatn.jpg",
+        "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583814013/work/branding/atn-fb-preview.jpg"
+    }, {
         "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/atn-logos.png",
         "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/atn-logos.png"
     }],
@@ -70,8 +78,10 @@
     "company": "Shea's Cuts NJ",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583293655/work/branding/sheas.jpg",
     "role": "Conceptualizing and design",
-    "images": [{"img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg",
-      "prev":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg"}],
+    "images": [{
+        "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg",
+        "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg"
+    }],
     "timeline": "March 2017",
     "description": "Shea’s Cuts is a NJ based barber shop. As a freelance designer at Nine73, I was tasked with creating the business’ identity. ",
     "process": "My client’s main focus was to combine his personal ties to Irish motifs while creating a ‘brand voice’ that was up to speed with competing stylists. After initial conversation with the client, I researched minimalistic approaches to popular hair products targeted for male demographics. Since there appeared to be a theme in making logos with a focus on tools, I decided to use symbols that incorporated oldschool symbols of barber shops for contrast. After additional options, the client quickly narrowed it down to the final shown here."
@@ -83,7 +93,7 @@
     "company": "Rendez-vous Haiti",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583299850/work/branding/redez.jpg",
     "role": "Volunteer art director",
-    "images": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/showcase-rh.jpg"],
+    "images": [{"img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/showcase-rh.jpg", "prev":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/showcase-rh.jpg"}],
     "timeline": "January 2014",
     "description": "Rendez-vous Haiti is a non-profit that fundraises, collaborates on the ongoing care of the Foyer Notre Dame de Lourdes and coordinates US volunteers service trips. Founded in 2010, the organization was lacking a clear brand voice prior to the creation of the logo.",
     "process": "Considering the founder’s value in conveying partnerships and collaboration with communities, I took the blunt route in creating the logo. Despite that hands are often design cliche in branding for nonprofits, I decided on this design to assert that RH was created to acknowledge their mentality of ‘working with’ people, rather than ‘helping them’ in a position of privilege. The bold colors were to represent Haiti’s own flag colors.",
@@ -100,6 +110,6 @@
     "timeline": "January 2016",
     "description": "Dresjay is an independent musical artist that needed a logo to represent his album covers.",
     "process": "The process involved a brief ideation phase with the artist. I did a short analysis on similar artists and their own art style, in order to find a unique stamp for Dresjay. After a sketching mock-ups, the client agreed that the final contained all the elements that he was looking for.",
-    "images": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/dresjay-logos.png"],
+    "images": [{"prev":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/dresjay-logos.png", "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/dresjay-logos.png"}],
     "final": ""
 }]
