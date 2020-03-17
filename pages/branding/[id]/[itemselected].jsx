@@ -3,6 +3,11 @@ import React from 'react';
 import {useRouter} from 'next/router'
 import Layout from '../../../components/layout';
 import BackBtn from '../../../components/back';
+import LazyLoad from 'react-lazyload';
+
+const Loading = () => (<div>
+  <h2>loading</h2>
+</div>)
 
 const Comment = () => {
   const router = useRouter();
@@ -17,7 +22,7 @@ const Comment = () => {
             <div className="col-sm-12 col-md-8 col-lg-5">
               <img src={obj.img} alt="Case" className='aside-caseimg add-centering'/>
               <div className="row">
-
+              <LazyLoad height={200}>
                 {obj
                   .images
                   .map(objImg => {
@@ -27,6 +32,7 @@ const Comment = () => {
                       </a>
                     </div>
                   })}
+                  </LazyLoad>
               </div>
             </div>
             <div className="col-sm-12 col-md-4 col-lg-7">
