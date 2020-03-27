@@ -17,6 +17,7 @@ const WebDev = () => {
             img={order.img}
             category={order.category}
             property={order.property}
+            company={order.company}
             role={order.role}
             endpoint={order.endpoint}
             live={order.live}
