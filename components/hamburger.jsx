@@ -33,7 +33,7 @@ const Hamburger = props => {
                   <a className="menu-item">campaigns</a>
                 </Link>
               </li> 
-              {/* <li>
+              <li>
                 <Link href='/print/' as='/print/index'>
                   <a className="menu-item">Print & Packaging</a>
                 </Link>
@@ -47,7 +47,7 @@ const Hamburger = props => {
                 <Link href='/branding/' as='/branding/index'>
                   <a className="menu-item">Branding</a>
                 </Link>
-              </li>      */}
+              </li>     
               <li>
               <i id='icons' className='fab fa-linkedin fa-lg'></i>
                 <a href='https://www.linkedin.com/in/erinlrizal' target='_blank'>
