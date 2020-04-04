@@ -34,7 +34,10 @@
     "react-parallax": "^2.2.4",
     "react-pose": "^4.0.10",
     "react-reveal": "^1.2.2",
+    "strip-ansi": "^6.0.0",
     "styled-components": "^4.4.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/runtime-corejs2": "^7.9.2"
+  }
 }

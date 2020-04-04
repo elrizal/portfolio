@@ -9,7 +9,6 @@ const Branding = () => {
         <h2>Branding</h2>
         Cases where I led the visual direction for identity design and
           online/Out-of-home brand voice.<br /><br />
-
         <div className="container">
           <div className="grid">
             {galleryList.map(order => (<GalleryItem
