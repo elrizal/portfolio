@@ -9,7 +9,7 @@ const UserEx = () => {
         <h2>User Experience Case Studies</h2>
         <p>Projects where I've exclusively focused in creating the user experiences, visual UX and/or project management of products: </p>
       </div>
-      <div className="container">
+      <div className="container animated fadeIn">
         <div className="grid">
           { galleryList.map(order => (<GalleryItem
             key={order.id}
