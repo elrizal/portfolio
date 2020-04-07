@@ -4,7 +4,6 @@ import Link from 'next/link';
 const Introgallery = () => {
   return (
     <React.Fragment>
-   
       <div className="row center">
         <Link href='/web/[id]' as='/web/index'>
           <a className="col-sm-12 col-md-4 col-lg-4 dark-text casegal web">

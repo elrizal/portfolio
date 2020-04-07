@@ -9,7 +9,7 @@ const Campaigns = () => {
         <h2>Campaign Case Studies</h2>
         <p> Projects where I created the visual direction for advertisement online and out-of-home. </p>
       </div>
-      <div className="container">
+      <div className="container animated fadeIn">
         <div className="grid">
           { galleryList.map(order => (<GalleryItem
             key={order.id}

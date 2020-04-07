@@ -10,7 +10,7 @@ const InformationIllustrations = () => {
         <p>Cases where I led the visual direction for identity design and
           online/Out-of-home brand voice</p>
 
-        <div className="container">
+        <div className="container animated fadeIn">
           <div className="grid">
             {galleryList.map(order => (<GalleryItem
               key={order.id}

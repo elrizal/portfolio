@@ -7,8 +7,7 @@ const WebDev = () => {
     <Layout>
       <div className="container animated fadeIn">
       <h2 className="center">Web Development</h2>
-        <p className="center">Applications I've created as a result of collaboration in
-          a development team or independently:</p>
+        <p className="center">Applications I've created in full stack development-</p>
         <br/>
         <div className="grid">
           {galleryList.map(order => (<GalleryItem
