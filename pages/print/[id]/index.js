@@ -5,7 +5,7 @@ import GalleryItem from '../../../components/galleryItem';
 const Print = () => {
   return (
     <Layout>
-      <div className="container  center">
+      <div className="container center">
         <h2>Print Packaging</h2>
         Cases where I created the design of products in the ecommerce/direct-to-consumer industry. 
         <br /><br />

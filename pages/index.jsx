@@ -10,8 +10,6 @@ import Code from '@material-ui/icons/Code';
 import Storage from '@material-ui/icons/Storage';
 import People from '@material-ui/icons/People';
 import ColorLens from '@material-ui/icons/ColorLens';
-//import ReactContactForm from 'react-mail-form';
-
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576876788/headerlight.jpg'
 
 const Home = () => {
@@ -21,7 +19,7 @@ const Home = () => {
         title="Erin Leigh Rizal - Developer and UX UI Designer"
         description="A portfolio of a full stack developer and designer."/>
       <Hamburger/>
-      <Parallax className="top" bgImage={backGround} strength={300} className="animated fadeIn">
+      <Parallax className="top" bgImage={backGround} strength={200} className="animated fadeIn">
         <div style={{
           height: 850
         }}>
@@ -33,7 +31,7 @@ const Home = () => {
               Rizal</h1>
             <h2 className='introh2'>Developer & Designer</h2>
           </div>
-          <div className='marbfront '></div>
+          <div className='marbfront'></div>
         </div>
       </Parallax>
 

@@ -24,7 +24,6 @@ const WebDev = () => {
             github={order.github}/>))
 }
         </div>
-
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-4 case-contain">
             <img
