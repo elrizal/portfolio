@@ -1,18 +1,18 @@
 [{
-    "id": 1,
-    "category": "campaign", "endpoint": "gc-recruiting",
-    "title": "New Hire Recruiting",
-    "company": "Greycomm Studios",
-    "timeframe": "July - September 2015",
-    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1576719479/greycominterest.jpg",
-    "images": ["https://static1.squarespace.com/static/546fc106e4b007974054777d/54748e0ae4b0e7532cedb0bd/56b9fa9c60b5e93ef6c9195a/1487787681788/interestmeeting.png?format=1500w"],
-    "type": "print/online",
-    "role": "visual direction",
-    "description": "Flyers and social media advertisements encouraging entry-level digital media specialists (in film, graphic design and broadcasting) to apply for volunteer, intern and part-time roles as part of the crew.",
-    "reason": "Prior to the campaign, students were reached through internal referral. In endpoint to boost the applicant pool with more talent, I designed and conceptualized the visual direction of the campaign in endpoint to represent our brands as creative and open to the ideas of people new to the field.",
-    "process": "In the initial stages, I reviewed the history of previous years- and found that, as one would assume, much of the best years in applicant numbers were due to higher emrollments of communications students compared to the lower performing years. Due to this, my team decided to reach towards more universities than previous years. In developing the visual direction of the posters, I based artistic direction on a combination of the studio brand and more modern trending styles of the time.",
-    "result": "With our Facebook account containing a reach towards students majoring in film and digital media studies, we were able to obtain applications to outside universities as well. Due to the influx of 100+ applications, we were able to go over our targeted applicant pool and find talent not associated with the company prior; and soon-to-be future managers!"
-  }, {
+  "id": 1,
+  "category": "campaign", "endpoint": "gc-recruiting",
+  "title": "New Hire Recruiting",
+  "company": "Greycomm Studios",
+  "timeframe": "July - September 2015",
+  "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1576719479/greycominterest.jpg",
+  "images": ["https://static1.squarespace.com/static/546fc106e4b007974054777d/54748e0ae4b0e7532cedb0bd/56b9fa9c60b5e93ef6c9195a/1487787681788/interestmeeting.png?format=1500w"],
+  "type": "print/online",
+  "role": "visual direction",
+  "description": "Flyers and social media advertisements encouraging entry-level digital media specialists (in film, graphic design and broadcasting) to apply for volunteer, intern and part-time roles as part of the crew.",
+  "reason": "Prior to the campaign, students were reached through internal referral. In endpoint to boost the applicant pool with more talent, I designed and conceptualized the visual direction of the campaign in endpoint to represent our brands as creative and open to the ideas of people new to the field.",
+  "process": "In the initial stages, I reviewed the history of previous years- and found that, as one would assume, much of the best years in applicant numbers were due to higher enrollments of communications students compared to the lower performing years. Due to this, my team decided to reach towards more universities than previous years. In developing the visual direction of the posters, I based artistic direction on a combination of the studio brand and more modern trending styles of the time.",
+  "result": "With our Facebook account containing a reach towards students majoring in film and digital media studies, we were able to obtain applications to outside universities as well. Due to the influx of 100+ applications, we were able to go over our targeted applicant pool and find talent not associated with the company prior; and soon-to-be future managers!"
+}, {
     "id": 2,
     "category": "campaign", "endpoint": "women-of-color-art-direction",
     "title": "Out-Of-Home Ads and Social Media promotion",
