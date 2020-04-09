@@ -10,6 +10,7 @@ import Code from '@material-ui/icons/Code';
 import Storage from '@material-ui/icons/Storage';
 import People from '@material-ui/icons/People';
 import ColorLens from '@material-ui/icons/ColorLens';
+import LazyLoad from 'react-lazyload';
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576876788/headerlight.jpg'
 
 const Home = () => {
@@ -19,12 +20,15 @@ const Home = () => {
         title="Erin Leigh Rizal - Developer and UX UI Designer"
         description="A portfolio of a full stack developer and designer."/>
       <Hamburger/>
-      <Parallax className="top" bgImage={backGround} strength={200} className="animated fadeIn">
+      <Parallax
+        className="top"
+        bgImage={backGround}
+        strength={200}
+        className="animated fadeIn">
         <div style={{
           height: 850
         }}>
           <div className="titlecontain  animated fadeIn">
-          
             <h1 className='containh1 header -title t-shadow animated pulse'>Erin
               <br/>Leigh
               <br/>
@@ -40,7 +44,7 @@ const Home = () => {
           <div className="container">
             <div className="row aboutsec">
               <div className="col-sm-12 col-md-5 col-lg-4 center">
-              <Blob/>
+                <Blob/>
               </div>
               <div className="col-sm-12 col-md-7 col-lg-8">
                 <h2>About</h2>
@@ -68,12 +72,12 @@ const Home = () => {
                     Node JS, Express, Mongo, MySQL, Sequelize
                   </div>
                   <div className="outlinesec">
-                  <People style={{
-                    fontSize: 30
-                  }}/>
-                  <h3 className="outheader">UX Design:</h3>
-                  Usability testing, A-B testing, interview facilitation
-                </div>
+                    <People style={{
+                      fontSize: 30
+                    }}/>
+                    <h3 className="outheader">UX Design:</h3>
+                    Usability testing, A-B testing, interview facilitation
+                  </div>
                   <div className="outlinesec">
                     <ColorLens style={{
                       fontSize: 30
@@ -84,7 +88,7 @@ const Home = () => {
                 </div>
                 <div className="row extra-top extra-bottom">
                   <h2>Project categories</h2>
-                
+
                 </div>
               </div>
             </div>
@@ -92,7 +96,10 @@ const Home = () => {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn='fadeIn'>
+          <LazyLoad>
           <Introgallery/>
+          </LazyLoad>
+          
         </ScrollAnimation>
       </div>
 
@@ -102,8 +109,9 @@ const Home = () => {
             <h2 className="center">Let's get in touch!</h2>
             <p>With all this said, I'm always excited to jump into a new project; or just
               grab a coffee to talk code and UX. If you need help on your next project or just
-              want to drop a hello, drop me a message on &nbsp;<a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
-                LinkedIn</a> or &nbsp;<a href='mailto:erin@lrizal.com'>
+              want to drop a hello, drop me a message on&nbsp;<a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
+                LinkedIn</a>
+              or&nbsp;<a href='mailto:erin@lrizal.com'>
                 erin@lrizal.com</a>.
             </p>
             {/* <div className="home-section-form">

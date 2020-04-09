@@ -5,10 +5,6 @@ import Layout from '../../../components/layout';
 import BackBtn from '../../../components/back';
 import LazyLoad from 'react-lazyload';
 
-const Loading = () => (<div>
-  <h2>loading</h2>
-</div>)
-
 const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
@@ -22,7 +18,7 @@ const Comment = () => {
             <div className="col-sm-12 col-md-8 col-lg-5">
               <img src={obj.img} alt="Case" className='aside-caseimg add-centering'/>
               <div className="row">
-              <LazyLoad height={200}>
+              <LazyLoad>
                 {obj
                   .images
                   .map(objImg => {

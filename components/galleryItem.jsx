@@ -1,6 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 import {useRouter} from 'next/router';
+import LazyLoad from 'react-lazyload';
 
 const GalleryItem = (props) => {
   const router = useRouter();
@@ -34,8 +35,13 @@ const GalleryItem = (props) => {
 
   return (
     <div className="para">
+
       <div className="item item--medium">
+      <LazyLoad>
+
         <img src={props.img} className="case-thumb" alt={props.title}/>
+        </LazyLoad>
+
         <div className="item__details">
           <h3>{props.title}</h3>
           <b>Company:</b>&ensp;{props.company}<br />
@@ -51,6 +57,7 @@ const GalleryItem = (props) => {
           </div>
         </div>
       </div>
+
     </div>
   )
 }
