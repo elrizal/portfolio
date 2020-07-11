@@ -40,7 +40,7 @@ class Blob extends React.Component {
   render() {
     return (
       <Fragment>
-        <svg className="introblob" viewBox="0 0 700 920">
+        <svg className="introblob" viewBox="0 0 700 900">
           <defs>
             <clipPath id="theClippingPath">
               <Icon

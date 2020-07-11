@@ -3,6 +3,7 @@ import Layout from '../../../components/layout'
 import React from 'react';
 import {useRouter} from 'next/router'
 import BackBtn from '../../../components/back';
+import Skeleton from 'react-loading-skeleton';
 
 const Comment = () => {
   const router = useRouter();
@@ -26,7 +27,7 @@ const Comment = () => {
                     } else {
                       return <img className='aside-caseimg' src={obj.images[0]} alt='poster'/>
                     }
-                  })}
+                  }) || <Skeleton width={500} height={600} />}
               </div>
               <div className="col-sm-12 col-lg-6">
                 <h1>{obj.title}</h1>
