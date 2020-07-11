@@ -18,12 +18,12 @@ const Home = () => {
     <div className="home-section">
       <NextSeo
         title="Erin Leigh Rizal - Developer and UX UI Designer"
-        description="A portfolio of a full stack developer and designer."/>
+        description="A portfolio of a freelance web developer and designer."/>
       <Hamburger/>
       <Parallax
         className="top"
         bgImage={backGround}
-        strength={200}
+        strength={600}
         className="animated fadeIn">
         <div style={{
           height: 850

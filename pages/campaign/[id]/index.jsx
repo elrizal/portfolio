@@ -1,7 +1,7 @@
 import Layout from '../../../components/layout';
 import galleryList from './items-campaigns.json';
 import GalleryItem from '../../../components/galleryItem';
-
+import Skeleton from 'react-loading-skeleton';
 const Campaigns = () => {
   return (
     <Layout>
@@ -11,6 +11,7 @@ const Campaigns = () => {
       </div>
       <div className="container animated fadeIn">
         <div className="grid">
+      
           { galleryList.map(order => (<GalleryItem
             key={order.id}
             title={order.title}
@@ -21,7 +22,7 @@ const Campaigns = () => {
             role={order.role}
             endpoint={order.endpoint}
             live={order.live}
-            github={order.github}/>))
+            github={order.github}/> ))
           }
         </div>
       </div>

@@ -4,7 +4,7 @@ import {useRouter} from 'next/router'
 import Layout from '../../../components/layout';
 import BackBtn from '../../../components/back';
 import LazyLoad from 'react-lazyload';
-
+import Skeleton from 'react-loading-skeleton';
 const Comment = () => {
   const router = useRouter();
   const {id, itemselected} = router.query;
@@ -16,7 +16,7 @@ const Comment = () => {
         if (itemselected == obj.endpoint) {
           return <div className="row animated fadeIn">
             <div className="col-sm-12 col-md-8 col-lg-5">
-              <img src={obj.img} alt="Case" className='aside-caseimg add-centering'/>
+              <img src={obj.img || <Skeleton width={500} height={500} />} alt="Case" className='aside-caseimg add-centering'/>
               <div className="row">
               <LazyLoad>
                 {obj

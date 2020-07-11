@@ -30,6 +30,7 @@
     "react-burger-menu": "^2.6.11",
     "react-dom": "^16.13.1",
     "react-lazyload": "^2.6.5",
+    "react-loading-skeleton": "^2.1.1",
     "react-mail-form": "^2.0.2",
     "react-parallax": "^2.2.4",
     "react-pose": "^4.0.10",

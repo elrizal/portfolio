@@ -2,7 +2,7 @@ import React from "react";
 import Link from 'next/link';
 import {useRouter} from 'next/router';
 import LazyLoad from 'react-lazyload';
-
+import Skeleton from 'react-loading-skeleton';
 const GalleryItem = (props) => {
   const router = useRouter();
   const {id} = router.query;
@@ -35,15 +35,12 @@ const GalleryItem = (props) => {
 
   return (
     <div className="para">
-
       <div className="item item--medium">
       <LazyLoad>
-
-        <img src={props.img} className="case-thumb" alt={props.title}/>
+        <img src={props.img || <Skeleton width={500} height={500} />} className="case-thumb" alt={props.title}/>
         </LazyLoad>
-
         <div className="item__details">
-          <h3>{props.title}</h3>
+          <h3>{props.title || <Skeleton height={20} />}</h3>
           <b>Company:</b>&ensp;{props.company}<br />
             <b>Role(s):</b>&ensp;{props.role}<br />
           <div className="row extra-top">
@@ -57,7 +54,6 @@ const GalleryItem = (props) => {
           </div>
         </div>
       </div>
-
     </div>
   )
 }
