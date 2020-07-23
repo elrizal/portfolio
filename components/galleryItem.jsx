@@ -7,17 +7,15 @@ const GalleryItem = (props) => {
   const router = useRouter();
   const {id} = router.query;
 
-  const livedemo = <button>
-    <a href={props.live} target="_blank">
+  const livedemo = 
+    <a className='button' href={props.live} target="_blank">
       Demo
-    </a>
-  </button>;
+    </a>;
 
-  const gitHubBtn = <button>
-    <a href={props.github} target="_blank">
+  const gitHubBtn = 
+    <a className='button' href={props.github} target="_blank">
       GitHub
-    </a>
-  </button>;
+    </a>;
 
   const checkLinks = () => {
     if (props.github && props.live) {
@@ -43,15 +41,16 @@ const GalleryItem = (props) => {
           <h3>{props.title || <Skeleton height={20} />}</h3>
           <b>Company:</b>&ensp;{props.company}<br />
             <b>Role(s):</b>&ensp;{props.role}<br />
-          <div className="row extra-top">
-            <button>
+            <div className="row">
+            
               <Link
                 href={`/${props.category}/[id]/[itemselected]`}
-                as={`/${props.category}/${id}/${props.endpoint}`}>
-                <a>Case Study</a>
+                as={`/${props.category}/${id}/${props.endpoint}`}
+                >
+                <a className='button'>case study</a>
               </Link>
-            </button>{checkLinks(props)}
-          </div>
+             {checkLinks(props)}
+            </div>
         </div>
       </div>
     </div>

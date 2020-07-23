@@ -19,10 +19,14 @@ const Layout = ({children}) => {
       <div className="content extra-top">
         {children}
       </div>
-      <div className="customfooter">
+      <div className="customfooter extra-top">
         <footer>
           <div className="container">
-            <p>&#169; 2020 Erin Leigh Rizal</p>
+            <p>&#169; 2020 Erin Leigh Rizal
+              <br/>Connect at &nbsp;<a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
+                LinkedIn</a>&nbsp;or
+              &nbsp;<a href='mailto:erin@lrizal.com'>
+                E-mail</a></p>
           </div>
         </footer>
       </div>
