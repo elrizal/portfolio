@@ -61,22 +61,24 @@ h1
   margin-bottom: .3em
   margin-top: .2em
 
-button 
-    color: rgba(0, 0, 0, 0.87)
-    padding: 6px 16px
+.button
+    padding: 10px
     font-size: 0.875rem
-    min-width: 64px
+    display: inline-block
+    margin-top: 10px
+    min-width: 60px
     box-sizing: border-box
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms
-    font-weight: 500
-    line-height: 1.75
+    transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms
+    font-weight: 800
     border-radius: 4px
-    letter-spacing: 0.02857em
+    letter-spacing: 2px
     text-transform: uppercase
-    border: 1px solid rgba(0, 0, 0, 0.23)
-    padding: 5px 15px
+    border: 1.6px solid $dark-color
+    color: $dark-color
+
     &:hover
-      background-color: #eee
+      background-color: $dark-color
+      color: $primary-color
     
 .footer
   position: absolute
@@ -91,10 +93,8 @@ button
 *
   box-sizing: border-box
 
-
-
 .logo-elr 
-  padding: 14px
+  padding: 5px
   width: fit-content
 
 .fixed

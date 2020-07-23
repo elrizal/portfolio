@@ -47,7 +47,7 @@
     "timeframe":"May 2019 (1 week)",
     "role":"Visual concept, layout",
     "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1583644997/work/mvc2prev.jpg",
-    "additionalimgs": [""],
+    "additionalimgs": [],
     "description":"As an instructional assistant to an introduction to coding course at Rutgers University, I was frequently challenged to find multiple was to describe computer science concepts. One of the most confusing for entry-level developers in the 50+ students I taught was the concept of the Model-View-Controller paradigm. For the curriculum, the students were provided with hands-on coding examples in order to show how the architecture of an app or website would follow this idea. Therefore, I created this illustration as a companion to the exercise; serving as a concise metaphor to how and why certain logic was arranged. ",
     "process":"After gathering feedback from about 30-50 students, I drafted the idea to be brought up to our senior instructor. Upon approval, the explanatory drawing has been sent out to students in multiple cohorts since mid-2019. ",
     "result":""
@@ -61,7 +61,7 @@
     "timeframe":"March 2019 (1 week)",
     "role":"Visual concept, layout, technical writing",
     "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1583643207/work/exprouter.jpg",
-    "additionalimgs": [""],
+    "additionalimgs": [],
     "description":"As an instructional assistant to an introduction to coding course at Rutgers University, I was frequently challenged to find multiple was to describe computer science concepts. One of the most frequently discussed topics, however, was on how to separate HTML and Application Programming Interface (API) data using the JavaScript library, Express. The diagram’s explanation is based on introductory level to the topic, however, it assumes the reader has had working knowledge with APIs and HTML.",
     "process":"The diagram was created as a companion to lecturer explanation on the topic. Following insight from one of our lead instructors, the drawing is meant to serve as a visual guide as students dissect similar applications. Therefore, while sketching the initial design, I followed the structure of the app myself, in order to create a diagram that was still comparable. ",
     "result":""

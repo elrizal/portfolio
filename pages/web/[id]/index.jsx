@@ -22,9 +22,9 @@ const WebDev = () => {
             live={order.live}
             prevdesc={order.prevdesc}
             github={order.github}/>))
-}
+          }
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-4 case-contain">
             <img
               src="https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/gifgal.jpg"
@@ -96,7 +96,7 @@ const WebDev = () => {
               Demo
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </Layout>
   )

@@ -71,5 +71,29 @@
     "future": "The feature was built to be tested with users similar to the target audience, and had re-iterations after turning away from bootstrapped-design that did little to help in making the scheduling process smooth for the average user. However, after being provided feedback from users, I created the feature to be used as a way to test out what a more intuitive interface may look like for the current NJ transit site. And of course, for future development, the feature would be part of a larger application in order to demonstrate what a further developed improvement on the site may look like. ",
     "github": "https://github.com/elrizal/Train-Planning",
     "live": "https://trainplanner.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "category": "web", 
+    "endpoint": "giveagif",
+    "title": "Give a Gif",
+    "company":"N/A",
+    "timeframe": "December 2017; 1 week",
+    "type": "Entertainment",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/gifgal.jpg",
+    "tech": [
+      "JavaScript",
+      "HTML5",
+      "CSS"],
+    "libapi": ["jQuery"],
+    "prevdesc":"A time-burner in browsing animal gifs that have been sourced from Giphy.com",
+    "role": "front end development",
+    "description": "As an exercise in REST APIs and CSS techniques, the app serves as a 'user delight' interation practice",
+    "problem":"Based on Giphy's gif layout design (2017), I decided to hypothesize other ways to display their content in order to test Pinterest's approach in gallery formatting with the typical user base for Giphy.",
+    "process":"I started out with the essentials; but using their public API, I created a basic display based off of its response. From there, I gradually built up the UI from brief research in user feedback, heuristics and design inspiration of similar platforms.",
+    "future": "",
+    "github": "https://github.com/elrizal/give-a-gif",
+    "live": "https://elrizal.github.io/give-a-gif/"
   }
+
 ]

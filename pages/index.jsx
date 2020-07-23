@@ -38,7 +38,11 @@ const Home = () => {
           <div className='marbfront'></div>
         </div>
       </Parallax>
-
+      <ScrollAnimation animateIn='fadeIn'>
+          <LazyLoad>
+          <Introgallery/>
+          </LazyLoad>
+        </ScrollAnimation>
       <div className="intro">
         <ScrollAnimation animateIn='fadeIn'>
           <div className="container">
@@ -86,20 +90,10 @@ const Home = () => {
                     Adobe Photoshop, Illustrator, InDesign, InVision, Sketch
                   </div>
                 </div>
-                <div className="row extra-top extra-bottom">
-                  <h2>Project categories</h2>
 
-                </div>
               </div>
             </div>
           </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn='fadeIn'>
-          <LazyLoad>
-          <Introgallery/>
-          </LazyLoad>
-          
         </ScrollAnimation>
       </div>
 

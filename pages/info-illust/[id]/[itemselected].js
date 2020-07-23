@@ -18,6 +18,7 @@ const Comment = () => {
                 <a href={obj.img} target="_blank">
                 <img src={obj.img} alt="Case" className='aside-caseimg  add-centering'/>
                 </a>
+                
                 {obj
                   .additionalimgs
                   .map(objImg => {
