@@ -94,6 +94,28 @@
     "future": "",
     "github": "https://github.com/elrizal/give-a-gif",
     "live": "https://elrizal.github.io/give-a-gif/"
+  },
+  {
+    "id": 5,
+    "category": "web", 
+    "endpoint": "eqzone",
+    "title": "Equipment Zone Product Spotlight",
+    "company":"N/A",
+    "timeframe": "May 2018; 2 weeks",
+    "type": "Ecommerce",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423791/work/72.jpg",
+    "tech": [
+      "JavaScript",
+      "HTML5",
+      "CSS", "PHP"],
+    "libapi": ["jQuery"],
+    "prevdesc":"As a web developer at Equipment Zone, I creating separate campaign pages, as well as replacing legacy code on both the client and server side. * the demo is no longer live.",
+    "role": "front end development",
+    "description": "",
+    "problem":"",
+    "process":"",
+    "future": "",
+    "live": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423946/work/f72.gif"
   }
 
 ]
