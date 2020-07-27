@@ -104,7 +104,7 @@ const Home = () => {
             <p>With all this said, I'm always excited to jump into a new project; or just
               grab a coffee to talk code and UX. If you need help on your next project or just
               want to drop a hello, drop me a message on&nbsp;<a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
-                LinkedIn</a>
+                LinkedIn</a>&nbsp;
               or&nbsp;<a href='mailto:erin@lrizal.com'>
                 erin@lrizal.com</a>.
             </p>
