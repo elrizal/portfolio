@@ -109,11 +109,11 @@
       "HTML5",
       "CSS", "PHP"],
     "libapi": ["jQuery"],
-    "prevdesc":"As a web developer at Equipment Zone, I creating separate campaign pages, as well as replacing legacy code on both the client and server side. * the demo is no longer live.",
+    "prevdesc":"As a web developer at Equipment Zone, I created separate campaign pages, as well as replacing legacy code on both the client and server side. * the demo is no longer live.",
     "role": "front end development",
-    "description": "",
-    "problem":"",
-    "process":"",
+    "description": "The demo presets a landing page for a promotion created for one of Equipment Zone's latest models.",
+    "problem":"Initially, the product pages for EZ contained legacy code that bogged down performance and the overall users' experience. In addition to reducing the user pain points around this, I decided to revamp the overall UI to align with the company's main brand. ",
+    "process":"Although being apart of the site, the approach I took was similar to a 'microsite'. The visual design is ",
     "future": "",
     "live": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423946/work/f72.gif"
   }
