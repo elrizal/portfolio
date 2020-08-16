@@ -34,6 +34,7 @@ const Home = () => {
               <br/>
               Rizal</h1>
             <h2 className='introh2'>Developer & Designer</h2>
+            <h3>portfolio</h3>
           </div>
           <div className='marbfront'></div>
         </div>

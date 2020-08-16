@@ -42,7 +42,7 @@ const GalleryItem = (props) => {
           <b>Company:</b>&ensp;{props.company}<br />
             <b>Role(s):</b>&ensp;{props.role}<br />
             <div className="row">
-            
+
               <Link
                 href={`/${props.category}/[id]/[itemselected]`}
                 as={`/${props.category}/${id}/${props.endpoint}`}
