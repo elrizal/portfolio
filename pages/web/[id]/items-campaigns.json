@@ -50,28 +50,7 @@
     "github": "https://github.com/elrizal/CookWithNana",
     "live": "https://peaceful-woodland-77310.herokuapp.com/"
   },
-  {
-    "id": 3,
-    "category": "web", "endpoint": "planner",
-    "title": "Conductor's Planner",
-    "company":"N/A",
-    "timeframe": "January 2018 (initial stage), currently reiterating",
-    "type": "Scheduling",
-    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423410/work/train.jpg",
-    "tech": [
-      "JavaScript",
-      "HTML5",
-      "CSS"],
-    "libapi": ["Firebase"],
-    "prevdesc":"A scheduling-based app designed for track train departures; bulit with JavaScript and Firebase.",
-    "role": "front end development",
-    "description": "The app is a tool for scheduling train arrival/departure times for conductors. ",
-    "problem":"Surprisingly, the NJ train stations I've frequented have had relatively confusing design. Responsiveness, frequent updates and information architecture seem to be lacking in most, making it challenging to seek basic information about train schedules. Therefore, I saw an opportunity to experiment on what a less frustrating reiteration would look like. Given the length of time it would take to completely rebuild that, however, I focused on one feature that could easily be integrated on the passenger-user side. Here, this dashboard is intended to be used as though the conductor is entering their own times while viewing others. It is a 'proof of concept' to what a more simplified approach would be to outdated train station sites. ",
-    "process":"Initially, I came across Firebase as a quick method to create a database with little back end set-up. So I saw that the Google service would be extremely fast to use for getting out a quick, interactive prototype of the app. This way, I could stick to focusing on the front end of the site in order to make it as presentable as possible in a short experiment.",
-    "future": "The feature was built to be tested with users similar to the target audience, and had re-iterations after turning away from bootstrapped-design that did little to help in making the scheduling process smooth for the average user. However, after being provided feedback from users, I created the feature to be used as a way to test out what a more intuitive interface may look like for the current NJ transit site. And of course, for future development, the feature would be part of a larger application in order to demonstrate what a further developed improvement on the site may look like. ",
-    "github": "https://github.com/elrizal/Train-Planning",
-    "live": "https://trainplanner.herokuapp.com/"
-  },
+
   {
     "id": 4,
     "category": "web", 
