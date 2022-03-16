@@ -1,5 +1,6 @@
 import React from 'react';
 import {Parallax} from 'react-parallax';
+import {  Menu } from 'react-burger-menu';
 import ScrollAnimation from 'react-animate-on-scroll';
 import '../css/styles.sass';
 import Hamburger from '../components/hamburger';
@@ -11,20 +12,21 @@ import Storage from '@material-ui/icons/Storage';
 import People from '@material-ui/icons/People';
 import ColorLens from '@material-ui/icons/ColorLens';
 import LazyLoad from 'react-lazyload';
+import Head from 'next/head'
+
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576876788/headerlight.jpg'
 
-const Home = () => {
+export default function Index() {
   return (
-    <div className="home-section">
+    <section className="home-section">
       <NextSeo
         title="Erin Leigh Rizal - Developer and UX UI Designer"
-        description="A portfolio of a freelance web developer and designer."/>
+        description="A portfolio of an Austin-TX-based web developer and designer."/>
       <Hamburger/>
       <Parallax
-        className="top"
         bgImage={backGround}
         strength={600}
-        className="animated fadeIn">
+        className="top animated fadeIn">
         <div style={{
           height: 850
         }}>
@@ -34,7 +36,6 @@ const Home = () => {
               <br/>
               Rizal</h1>
             <h2 className='introh2'>Developer & Designer</h2>
-            <h3>portfolio</h3>
           </div>
           <div className='marbfront'></div>
         </div>
@@ -121,9 +122,6 @@ const Home = () => {
           &#169; 2020 Erin Leigh Rizal
         </footer>
       </div>
-    </div>
+    </section>
   )
-
 }
-
-export default Home
