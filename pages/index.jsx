@@ -2,7 +2,6 @@ import React from 'react';
 import {Parallax} from 'react-parallax';
 import {  Menu } from 'react-burger-menu';
 import ScrollAnimation from 'react-animate-on-scroll';
-import '../css/styles.sass';
 import Hamburger from '../components/hamburger';
 import Blob from '../components/blob'
 import Introgallery from '../components/introgal';
