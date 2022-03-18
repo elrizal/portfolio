@@ -15,9 +15,9 @@ const Layout = ({children}) => {
       </Head>
       <Hamburger/>
       <div className="row extra-top-layout"></div>
-      <div className="content extra-top">
+      <section className="content extra-top">
         {children}
-      </div>
+      </section>
       <div className="customfooter extra-top">
         <footer>
           <div className="container">

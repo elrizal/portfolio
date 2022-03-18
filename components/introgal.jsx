@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Introgallery = () => {
   return (
     <React.Fragment>
-      <div className="row center">
+      <section className="row center">
         <Link href='/web/[id]' as='/web/index'>
           <a className="col-sm-12 col-md-4 col-lg-4 dark-text casegal web">
             <h3 className="label">Applications</h3><br />
@@ -23,7 +23,7 @@ const Introgallery = () => {
             </h3>
           </a>
         </Link>
-      </div>
+      </section>
 
       <div className="row center">
         <Link href='/branding/[id]' as='/branding/index'>
