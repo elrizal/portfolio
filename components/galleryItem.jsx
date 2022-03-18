@@ -32,7 +32,7 @@ const GalleryItem = (props) => {
   }
 
   return (
-    <div className="para">
+    <section className="para">
       <div className="item item--medium">
       <LazyLoad>
         <img src={props.img || <Skeleton width={500} height={500} />} className="case-thumb" alt={props.title}/>
@@ -53,7 +53,7 @@ const GalleryItem = (props) => {
             </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 export default GalleryItem;
