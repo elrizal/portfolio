@@ -19,18 +19,18 @@ export default function Index() {
   return (
     <section className="home-section">
       <NextSeo
-        title="Erin Leigh Rizal - Developer and UX UI Designer"
+        title="Erina Leigh Rizal - Developer and UX UI Designer"
         description="A portfolio of an Austin-TX-based web developer and designer."/>
       <Hamburger/>
       <Parallax
         bgImage={backGround}
-        strength={600}
+        strength={300}
         className="top animated fadeIn">
         <div style={{
-          height: 850
+          height: 650
         }}>
           <div className="titlecontain  animated fadeIn">
-            <h1 className='containh1 header -title t-shadow animated pulse'>Erin
+            <h1 className='containh1 header -title t-shadow animated pulse'>Erina
               <br/>Leigh
               <br/>
               Rizal</h1>
