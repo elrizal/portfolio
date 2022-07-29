@@ -10,6 +10,7 @@ import Storage from '@material-ui/icons/Storage';
 import People from '@material-ui/icons/People';
 import ColorLens from '@material-ui/icons/ColorLens';
 import LazyLoad from 'react-lazyload';
+
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576876788/headerlight.jpg'
 
 export default function Index() {
@@ -89,14 +90,13 @@ export default function Index() {
                       Adobe Photoshop, Illustrator, InDesign, InVision, Sketch
                     </div>
                   </section>
-               
           </div>
         </ScrollAnimation>
       </div>
         <section className=" skillsrow">
             <h3>Let's get in touch! <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
-                LinkedIn</a>&nbsp;
-              or&nbsp;<a href='mailto:erin@lrizal.com'>
+                LinkedIn</a> &nbsp;
+              or&nbsp; <a href='mailto:erin@lrizal.com'>
                 erin@lrizal.com</a>.
             </h3>
         </section>
