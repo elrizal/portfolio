@@ -1,11 +1,22 @@
-const nextConfig  = {
-  target: 'serverless',
-  cssModules: true,
-}
-// next.config.js 
-// module.exports = withPlugins([...], {
-//   webpack5: false,
-// })
-// next.config.js
+
 const withCSS = require('@zeit/next-css')
-module.exports = nextConfig;
+
+// module.exports = async (phase, {
+//   defaultConfig
+// }) => {
+//   /**
+//    * @type {import('next').NextConfig}
+//    */
+//   const nextConfig = {
+//       target: 'serverless',
+//   }
+//   return nextConfig
+// }
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  /* config options here */
+}
+
+module.exports = nextConfig
