@@ -1,6 +1,5 @@
 import React from 'react';
 import {Parallax} from 'react-parallax';
-import {  Menu } from 'react-burger-menu';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Hamburger from '../components/hamburger';
 import Blob from '../components/blob'
@@ -11,33 +10,33 @@ import Storage from '@material-ui/icons/Storage';
 import People from '@material-ui/icons/People';
 import ColorLens from '@material-ui/icons/ColorLens';
 import LazyLoad from 'react-lazyload';
-import Head from 'next/head'
-
 const backGround = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576876788/headerlight.jpg'
 
 export default function Index() {
   return (
     <section className="home-section">
       <NextSeo
-        title="Erina Leigh Rizal - Developer and UX UI Designer"
-        description="A portfolio of an Austin-TX-based web developer and designer."/>
+        title="Erin Leigh Rizal - UX UI Developer"
+        description="A portfolio of an Austin-TX-based web developer with a background in UI design."/>
       <Hamburger/>
       <Parallax
         bgImage={backGround}
-        strength={300}
+        strength={230}
         className="top animated fadeIn">
-        <div style={{
-          height: 650
-        }}>
-          <div className="titlecontain  animated fadeIn">
-            <h1 className='containh1 header -title t-shadow animated pulse'>Erina
-              <br/>Leigh
-              <br/>
-              Rizal</h1>
-            <h2 className='introh2'>Developer & Designer</h2>
+        <section className="titleelements">
+          <div className="animated fadeIn titlecontain row">
+            <div className="col-sm-12 col-md-10 col-lg-10">
+               <Blob/>
+            </div>
+            <div className="col-sm-12 col-md-2 col-lg-2">
+              <h2 className='introh2'>UX&UI Developer: </h2>
+                <h1 className='containh1 header-title t-shadow animated fadeIn'>Erin
+                <br/>Leigh
+                <br/>
+                Rizal</h1>
+            </div>
           </div>
-          <div className='marbfront'></div>
-        </div>
+        </section>
       </Parallax>
       <ScrollAnimation animateIn='fadeIn'>
           <LazyLoad>
@@ -48,79 +47,62 @@ export default function Index() {
         <ScrollAnimation animateIn='fadeIn'>
           <div className="container">
             <div className="row aboutsec">
-              <div className="col-sm-12 col-md-5 col-lg-4 center">
-                <Blob/>
-              </div>
-              <div className="col-sm-12 col-md-7 col-lg-8">
                 <h2>About</h2>
-                <p>Hello! Thanks for checking this out. I am a junior UX Developer and Designer
-                  based in the US. I've held a track record of creating strong user and brand
+                <p>Hello! Thanks for checking this out. I am a UX Developer and Designer
+                  based in Austin, TX. I've held a track record of creating strong user and brand
                   experiences across companies like FH Group Int'l, 2U, Sircle Media, MetLife and
                   more. As a result of my passion for building products from the ground-up, I've
                   developed a multi-disiplinary background in user experience design (UXD), visual
-                  design and the MERN stack (Mongo, Express, React & Node).</p>
+                  design and front end development in React.</p>
                 <p>Currently, I specialize in using these tools to build full stack applications
-                  and user experiences:</p>
-                <div className="row center">
-                  <div className="outlinesec">
+                  and user experiences:</p></div>
+                <section className="row skillsrow">
+                  <div className="outlinesec col">
                     <Code style={{
                       fontSize: 30
                     }}/>
                     <h3 className="outheader">Front End:</h3>
                     JavaScript, jQuery, CSS, Sass, React JS
                   </div>
-                  <div className="outlinesec">
+                  <div className="outlinesec col">
                     <Storage style={{
                       fontSize: 30
                     }}/>
-                    <h3 className="outheader">Back End:</h3>
+                    <h3 className="outheader ">Back End:</h3>
                     Node JS, Express, Mongo, MySQL, Sequelize
                   </div>
-                  <div className="outlinesec">
-                    <People style={{
-                      fontSize: 30
-                    }}/>
-                    <h3 className="outheader">UX Design:</h3>
-                    Usability testing, A-B testing, interview facilitation
-                  </div>
-                  <div className="outlinesec">
-                    <ColorLens style={{
-                      fontSize: 30
-                    }}/>
-                    <h3 className="outheader">UI Design:</h3>
-                    Adobe Photoshop, Illustrator, InDesign, InVision, Sketch
-                  </div>
-                </div>
+                   </section>
 
-              </div>
-            </div>
+                  <section className="row skillsrow">
+                    <div className="outlinesec col">
+                      <People style={{
+                        fontSize: 30
+                      }}/>
+                      <h3 className="outheader">UX Design:</h3>
+                      Usability testing, A-B testing, interview facilitation
+                    </div>
+                    <div className="outlinesec col">
+                      <ColorLens style={{
+                        fontSize: 30
+                      }}/>
+                      <h3 className="outheader">UI Design:</h3>
+                      Adobe Photoshop, Illustrator, InDesign, InVision, Sketch
+                    </div>
+                  </section>
+               
           </div>
         </ScrollAnimation>
       </div>
-
-      <div className="contact">
-        <div className="row ">
-          <ScrollAnimation animateIn='fadeIn'>
-            <h2 className="center">Let's get in touch!</h2>
-            <p>With all this said, I'm always excited to jump into a new project; or just
-              grab a coffee to talk code and UX. If you need help on your next project or just
-              want to drop a hello, drop me a message on&nbsp;<a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
+        <section className=" skillsrow">
+            <h3>Let's get in touch! <a href='https://www.linkedin.com/in/erinlrizal/' target='_blank'>
                 LinkedIn</a>&nbsp;
               or&nbsp;<a href='mailto:erin@lrizal.com'>
                 erin@lrizal.com</a>.
-            </p>
-            {/* <div className="home-section-form">
-              <Contact/>
-            </div> */}
-          </ScrollAnimation>
-        </div>
-      </div>
-
-      <div className="row">
+            </h3>
+        </section>
         <footer className="custom-footer">
-          &#169; 2020 Erin Leigh Rizal
+          &#169; 2022 Erin Leigh Rizal
         </footer>
-      </div>
     </section>
   )
 }
