@@ -25,7 +25,7 @@ const Introgallery = () => {
         </Link>
       </section>
 
-      <div className="row center">
+      <section className="row center">
         <Link href='/branding/[id]' as='/branding/index'>
           <a className="col-sm-12 col-md-4 col-lg-4 casegal branding">
             <h3 className="label">Branding</h3><br />
@@ -44,7 +44,7 @@ const Introgallery = () => {
             </h3>
           </a>
         </Link>
-      </div> 
+      </section> 
     </React.Fragment>
   )
 }

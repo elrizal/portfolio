@@ -19,6 +19,12 @@ a
 a, a:hover, a:active, a:visited
   text-decoration: none
 
+.titleelements
+  height: 750px
+.skillsrow 
+  width: 80%
+  margin: 0 auto
+  text-align: center
 .added-imgs
   max-width: 100%
   margin: 5px
@@ -35,39 +41,32 @@ a, a:hover, a:active, a:visited
   margin: 20px
 
 .outlinesec
-  padding: 15px
+  padding: 1em
   border-style: solid
-  width: 37%
   border-width: 1px
   border-color: #eee
-  border-radius: 10px
+  border-radius: 0.5em
   text-align: center  
   vertical-align: middle
-  margin: 10px
+  margin: 1em
   display: inline-block
 
 .intro
-  padding: 10px 
-  margin-top: 15px
+  padding: 1em
+  margin-top: 1.2em
 
-.introblob
-  max-width: 100%
 
 .titlecontain
-  border-style: solid
-  border-width: 7px
-  padding: 10px
   color: $dark-color
   text-align: center
-  position: absolute
   border-color: $dark-color !important
   top: 50%
   left: 50%
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, 50%)
 
 .containh1
   font-family: $font-header
-  font-size: 6.4em
+  font-size: 7em
   color: $dark-color
   text-transform: uppercase
   line-height: 1.1
@@ -76,16 +75,9 @@ a, a:hover, a:active, a:visited
 
 .introh2
   font-family: $font-second
-  font-size: 1.4em !important
+  font-size: 1.5em !important
   letter-spacing: 1.8px
   color: $dark-color
-
-.header-title
-  font-size: 8.2em !important
-  color: #eee
-  text-transform: uppercase
-  font-weight: 900
-  font-family: $font-header
 
 .extra-top
   margin-top: 5%
@@ -366,41 +358,48 @@ a, a:hover, a:active, a:visited
   color: $dark-color
   cursor: pointer
 
-$phone: "(min-width: 300px) and (max-width: 500px)"
-$tablet: "(min-width: 500px) and (max-width: 1050px)"
+
+$phone: "(min-width: 300px) and (max-width: 600px)"
+$tablet: "(min-width: 600px) and (max-width: 1050px)"
 $desktop: "(min-width: 1025px) and (max-width: 1800px)"
 
 @media #{$phone}
   p
-    font-size: 1.3em
+    font-size: 1em
+
+  .titleelements 
+    height: 800px
 
   .case-thumb
     min-width: 90%
     height: auto
 
-  .header-title
-    font-size: 3em !important
+  .containh1
+    font-size: 6em !important
+
+  .introh2
+    font-size: 1em
 
   .titlecontain
-    width: 70vw
-    position: absolute
-    left: 50%
-
-  .marbfront
-    width: 1000px
-    background-size: 1200px
+    width: 100%
+    left: auto
+    padding: 0.1em
+    top: 0%
+    left: 0%
+    margin: 0 auto
+    transform: translate(0%, 0%)
 
   .aside-caseimg 
     max-width: 100%
 
-
   .outlinesec
     width: 100% 
-    padding: 10px
+    padding: 1em
     max-height: auto 
 
-  .containh1 
-    font-size: 4em
+    .introblob
+      padding: 0em
+      display: none !important
 
 @media #{$tablet} 
   .case-thumb
@@ -408,20 +407,22 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
     height: auto 
 
   .header-title
-    font-size: 6.8em !important
+    font-size: 5.5em !important
 
   .aside-caseimg 
     text-align: center
     max-width: 100%
 
   .outlinesec
-    width: 40%
-    padding: 10px
+    padding: 1em
     max-height: auto 
 
   .titlecontain
     left: 50%
 
+.titleelements
+  height: 770px
+
 @media #{$desktop} 
   .container
-    max-width: 80vw
+    margin: auto 2em

@@ -21,7 +21,8 @@ const Icon = posed.path(pathIds.reduce((config, id) => {
 
   return config;
 }, {}));
-
+  let viewBoxSize = "0 0 700 900";
+  
 class Blob extends React.Component {
   state = {
     pathIndex: 0
@@ -40,7 +41,7 @@ class Blob extends React.Component {
   render() {
     return (
       <Fragment>
-        <svg className="introblob" viewBox="0 0 700 900">
+        <svg className="introblob" viewBox={viewBoxSize}>
           <defs>
             <clipPath id="theClippingPath">
               <Icon
@@ -54,10 +55,7 @@ class Blob extends React.Component {
             onMouseOut={this.gotoNext}
             xlinkHref="https://res.cloudinary.com/diuubtvqd/image/upload/v1576873478/coolmoi.jpg"
             clipPath="url(#theClippingPath)"
-            style={{
-            "width": "900px",
-            "height": "900px"
-          }}/>
+           />
         </svg>
       </Fragment>
     );
