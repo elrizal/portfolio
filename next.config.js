@@ -9,4 +9,3 @@ module.exports = async (phase, {
   }
   return nextConfig
 }
-module.exports = nextConfig
