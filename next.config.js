@@ -1,12 +1,10 @@
-
-const withCSS = require('@zeit/next-css')
+// const withCSS = require('@zeit/next-css')
 
 module.exports = async (phase, {
   defaultConfig
 }) => {
   const nextConfig = {
-      target: 'serverless',
+    target: 'serverless',
   }
   return nextConfig
 }
-module.exports = nextConfig
