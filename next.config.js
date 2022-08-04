@@ -1,12 +1,8 @@
-
-const withCSS = require('@zeit/next-css')
-
-module.exports = async (phase, {
-  defaultConfig
-}) => {
-  const nextConfig = {
-      target: 'serverless',
-  }
-  return nextConfig
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+ 
 }
+
 module.exports = nextConfig

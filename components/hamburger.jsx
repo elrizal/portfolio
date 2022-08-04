@@ -2,7 +2,7 @@ import React from "react";
 import { stack as Menu } from 'react-burger-menu'
 import Link from 'next/link';
 const logo = 'https://res.cloudinary.com/diuubtvqd/image/upload/v1576674564/tiger-white-long.png'
-const Hamburger = props => {
+const Hamburger = () => {
   return (
     <div className="ham-bar sticky">
       <a href="/">
