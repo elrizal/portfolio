@@ -11,6 +11,7 @@
   "dependencies": {
     "@material-ui/core": "^4.6.1",
     "@material-ui/icons": "^4.5.1",
+    "@vercel/next": "^3.8.6",
     "animate.css": "^3.7.2",
     "autoprefixer": "^9.6.5",
     "babel-cli": "^6.26.0",
