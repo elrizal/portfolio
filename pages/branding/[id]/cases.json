@@ -1,22 +1,27 @@
-[{
+[
+  {
     "id": 1,
     "category": "branding",
     "endpoint": "studentlifebrand",
     "title": "Identity Design",
     "company": "Loyola University",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583299497/work/branding/showcase-studentlifegy.jpg",
-    "images": [{
+    "images": [
+      {
         "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583259625/work/studlifeloyola.png",
         "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583259625/work/studlifeloyola.png"
-    }, {
+      },
+      {
         "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583259625/work/frontsl.jpg",
         "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583259625/work/frontsl.jpg"
-    }],
+      }
+    ],
     "role": "Primary brand designer and resident advisor training staff",
     "timeline": "May 2015 - June 2015",
     "description": "Loyola University Maryland’s student life department had a strong track record of receiving high ranks in college review sites prior to this project in 2015. Given the reputation, the department sought to increase a quickly identifiable brand voice that similar universities were not tapping into. Although the university itself has incredible art direction in its marketing, the student life section often relied on short-hand materials to market themselves to touring students. After highlighting this to my team, I was tasked with creating its identity design.",
     "process": "In creating the concept for the logo, I aimed to incorporate similar motifs to the university itself. Each section of the shield represents the core values of the university, so this was a particular element of their branding that was vital in referencing. But rather than be a carbon copy, we needed to show what we contribute to the university as a department; creating space for students by our initiatives. Rather than focus solely on the academics and philosophy of the university, I aimed to show the personable side to the college with our own version of Loyola’s creative voice. "
-}, {
+  },
+  {
     "id": 2,
     "category": "branding",
     "endpoint": "mycroft",
@@ -24,14 +29,17 @@
     "company": "Open Health Systems Lab (John Hopkins University)",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1581787677/work/branding/mycroft-show.jpg",
     "role": "Visual concept",
-    "images": [{
+    "images": [
+      {
         "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/mycroft.png",
         "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/mycroft.png"
-    }],
+      }
+    ],
     "timeline": "December 2015",
     "description": "MCM is an internal tool used by researchers at Open Health Systems Lab in John Hopkins University. The logo design was created in 2015 for the creation of this new application. ",
     "process": "The concept was based on the idea of neurons “firing off” during cognition and the connections we make during processing thought. Due to the focus of the brand, I decided to go with a straight-forward approach."
-}, {
+  },
+  {
     "id": 3,
     "category": "branding",
     "endpoint": "gy-identity",
@@ -40,18 +48,22 @@
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1581807746/work/branding/gy-campaigns.jpg",
     "role": "Art director and digital medial specialist",
     "original": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555424014/work/greymugfinal.png",
-    "images": [{
+    "images": [
+      {
         "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555424014/work/greymugfinal.png",
         "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583811564/work/gystudios-prev.jpg"
-    }, {
+      },
+      {
         "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555424013/work/greycommsticker.png",
         "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583810859/work/gymug-prev.jpg"
-    }],
+      }
+    ],
     "video": "",
     "timeline": "June-July 2015",
     "description": "Greycomm Studios is a television studio based in Baltimore, MD. It often invites college freshman to get hands-on experience in the broadcast industry, while also incorporating the latest technologies. For years, Greycomm had a steady and straight-forward 'brand voice'; the downside, however, was that it lacked the creative ingenuity that the studio was known for. As a lead designer there, the studio director and I initiated sets of illustrations and design motifs from 2015 and onward.",
     "process": "Given that I had worked with the studio since I was a junior, I wanted to 'tell the story' of the station. I did heuristic analysis into the different art directions of similar broadcast stations, and eventually found that they tried to echo larger corporations such as NBC or Fox. From here, I decided that there was a big opportunity to display the energy of the studio. Brighter palettes, nods to the different departments and programs were all unique features I targeted in the final designs. As the studio has scaled up in online presence, the final design has always stayed as a first impression for students and professionals seeking to get their foot in the door in the industry. "
-}, {
+  },
+  {
     "id": 4,
     "category": "branding",
     "endpoint": "atn-brand",
@@ -60,17 +72,21 @@
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583292169/work/branding/atn.jpg",
     "role": "Art direction",
     "original": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/atn-logos.png",
-    "images": [{
+    "images": [
+      {
         "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583292170/work/branding/facebookatn.jpg",
         "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583814013/work/branding/atn-fb-preview.jpg"
-    }, {
+      },
+      {
         "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/atn-logos.png",
         "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/atn-logos.png"
-    }],
+      }
+    ],
     "timeline": "December 2015",
     "description": "Action Together Now is a non-profit that aims to educate wide audiences on social and political issues. Since their initial branding was inconsistent, I volunteered to create a new approach to their visual identity. ",
     "process": "Initially, I was only supplied with their mission statement and brand colors. Due to not being a corporate, consumer-based organization, it was actually a challenge establishing direction for their design. A large part of the concept was from examining their history and reach; so as a result, I focused on creating a logo that was bold yet unobtrusive enough to draw attention to the topics at hand."
-}, {
+  },
+  {
     "id": 5,
     "category": "branding",
     "endpoint": "sheas",
@@ -78,14 +94,17 @@
     "company": "Shea's Cuts NJ",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583293655/work/branding/sheas.jpg",
     "role": "Conceptualizing and design",
-    "images": [{
+    "images": [
+      {
         "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg",
         "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423914/work/branding/showcase-sheas.jpg"
-    }],
+      }
+    ],
     "timeline": "March 2017",
     "description": "Shea’s Cuts is a NJ based barber shop. As a freelance designer at Nine73, I was tasked with creating the business’ identity. ",
     "process": "My client’s main focus was to combine his personal ties to Irish motifs while creating a ‘brand voice’ that was up to speed with competing stylists. After initial conversation with the client, I researched minimalistic approaches to popular hair products targeted for male demographics. Since there appeared to be a theme in making logos with a focus on tools, I decided to use symbols that incorporated oldschool symbols of barber shops for contrast. After additional options, the client quickly narrowed it down to the final shown here."
-}, {
+  },
+  {
     "id": 6,
     "category": "branding",
     "endpoint": "renhaiti",
@@ -93,23 +112,16 @@
     "company": "Rendez-vous Haiti",
     "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583299850/work/branding/redez.jpg",
     "role": "Volunteer art director",
-    "images": [{"img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/showcase-rh.jpg", "prev":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/showcase-rh.jpg"}],
+    "images": [
+      {
+        "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/showcase-rh.jpg",
+        "prev": "https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/showcase-rh.jpg"
+      }
+    ],
     "timeline": "January 2014",
     "description": "Rendez-vous Haiti is a non-profit that fundraises, collaborates on the ongoing care of the Foyer Notre Dame de Lourdes and coordinates US volunteers service trips. Founded in 2010, the organization was lacking a clear brand voice prior to the creation of the logo.",
     "process": "Considering the founder’s value in conveying partnerships and collaboration with communities, I took the blunt route in creating the logo. Despite that hands are often design cliche in branding for nonprofits, I decided on this design to assert that RH was created to acknowledge their mentality of ‘working with’ people, rather than ‘helping them’ in a position of privilege. The bold colors were to represent Haiti’s own flag colors.",
     "processimgs": [],
     "final": ""
-}, {
-    "id": 7,
-    "category": "branding",
-    "endpoint": "dresjay",
-    "title": "Logo for Dresjay",
-    "company": "N/A",
-    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583301385/work/branding/dresjay.jpg",
-    "role": "Logo design",
-    "timeline": "January 2016",
-    "description": "Dresjay is an independent musical artist that needed a logo to represent his album covers.",
-    "process": "The process involved a brief ideation phase with the artist. I did a short analysis on similar artists and their own art style, in order to find a unique stamp for Dresjay. After a sketching mock-ups, the client agreed that the final contained all the elements that he was looking for.",
-    "images": [{"prev":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/dresjay-logos.png", "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1555423913/work/branding/dresjay-logos.png"}],
-    "final": ""
-}]
+  }
+]
