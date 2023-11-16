@@ -1,81 +1,77 @@
-[{
+[
+  {
     "id": 1,
-    "category":"info-illust", 
+    "category": "info-illust",
     "endpoint": "fh-installation",
-    "title":"Product Installation",
-    "company":"FH Group International",
-    "role":"Visual concept, layout",
-    "timeframe":"June 2017 (2 weeks)",
-    "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1584331573/work/manualprev.jpg",
-    "additionalimgs": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555424013/work/instruction.png"],
-    "description":"FH Group, a B2C seller of car accessories, had its first line of luxury car seat covers in 2017. Despite sporting sharper designs and robust material, the installation was met with confusion in its first release. In order to confront this, I collaborated with customer support and photography staff to compile a quick guide for our customers.",
-    "process":"The process was started by taking video of the installation. Since a video demo was created, I organized off the steps in a reversed story-boarding flow. This way, each step could be honed on further as the user can check for all materials as they assemble the product. ",
-    "result":""
-},
-{
+    "title": "Product Installation",
+    "company": "FH Group International",
+    "role": "Visual concept, layout",
+    "timeframe": "June 2017 (2 weeks)",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1584331573/work/manualprev.jpg",
+    "additionalimgs": [
+      "https://res.cloudinary.com/diuubtvqd/image/upload/v1555424013/work/instruction.png"
+    ],
+    "description": "FH Group, a B2C seller of car accessories, had its first line of luxury car seat covers in 2017. Despite sporting sharper designs and robust material, the installation was met with confusion in its first release. In order to confront this, I collaborated with customer support and photography staff to compile a quick guide for our customers.",
+    "process": "The process was started by taking video of the installation. Since a video demo was created, I organized off the steps in a reversed story-boarding flow. This way, each step could be honed on further as the user can check for all materials as they assemble the product. ",
+    "result": ""
+  },
+  {
     "id": 2,
-    "category":"info-illust",
+    "category": "info-illust",
     "endpoint": "fh-mockupillust",
-    "title":"Product Mock-Up",
-    "company":"FH Group International",
-    "role":"Visual concept, layout",
-    "timeframe":"June 2017 (2 weeks)",
-    "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1583648233/work/productpuprev.jpg",
-    "additionalimgs": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555424012/work/frontpieces.jpg", "https://res.cloudinary.com/diuubtvqd/image/upload/v1555424013/work/backseat-pieces2.jpg", "https://res.cloudinary.com/diuubtvqd/image/upload/v1555424012/work/backseat-pieces1.jpg"],
-    "description":"An illustration demonstrating the materials for manufacturing one of our products from the luxury series in 2017. The drawing was created in order to send for manufacturing and patent agreements. Due to similar products in our competition, we aimed to create features that others did not include (anti-slip silicone backings, hidden pockets etc.).",
-    "process":"I was given a rough prototype of the product. After taking photos of it for comparison to similar covers, I decided to include up-close details of the materials behind the covers. The biggest challenge, however, was documenting every edge and display of the product through drawing. This required frequent updates with our manufacturing in order to gain their expectations and clarity on the 'look and feel' that each lining of the cover.",
-    "result":"This projects was the first of its kind at the company; previously, communication between the product designers and manufacturers were purely in writing. "
-},{
+    "title": "Product Mock-Up",
+    "company": "FH Group International",
+    "role": "Visual concept, layout",
+    "timeframe": "June 2017 (2 weeks)",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583648233/work/productpuprev.jpg",
+    "additionalimgs": [
+      "https://res.cloudinary.com/diuubtvqd/image/upload/v1555424012/work/frontpieces.jpg",
+      "https://res.cloudinary.com/diuubtvqd/image/upload/v1555424013/work/backseat-pieces2.jpg",
+      "https://res.cloudinary.com/diuubtvqd/image/upload/v1555424012/work/backseat-pieces1.jpg"
+    ],
+    "description": "An illustration demonstrating the materials for manufacturing one of our products from the luxury series in 2017. The drawing was created in order to send for manufacturing and patent agreements. Due to similar products in our competition, we aimed to create features that others did not include (anti-slip silicone backings, hidden pockets etc.).",
+    "process": "I was given a rough prototype of the product. After taking photos of it for comparison to similar covers, I decided to include up-close details of the materials behind the covers. The biggest challenge, however, was documenting every edge and display of the product through drawing. This required frequent updates with our manufacturing in order to gain their expectations and clarity on the 'look and feel' that each lining of the cover.",
+    "result": "This projects was the first of its kind at the company; previously, communication between the product designers and manufacturers were purely in writing. "
+  },
+  {
     "id": 5,
-    "category":"info-illust", 
+    "category": "info-illust",
     "endpoint": "caswellmassey-renew",
-    "title":"Revival of Caswell Massey Illustration: 1752 to 2017",
-    "company":"Caswell-Massey",
-    "role":"Trascribing original drawing to digital (as a primary in house designer)",
-    "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1583642780/work/casillust.jpg",
+    "title": "Revival of Caswell Massey Illustration: 1752 to 2017",
+    "company": "Caswell-Massey",
+    "role": "Trascribing original drawing to digital (as a primary in house designer)",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583642780/work/casillust.jpg",
     "additionalimgs": [],
-    "description":"The illustration of an early product of Caswell-Massey's caught the attention of the company art director; the company was seeking to renew its original roots through using archived drawings for branding its perfumes. As a designer, I was challenged with converting the same 'sketch' feel for digital and print reproduction",
-    "process":"In the inital phase, I studied the crosshatching and matched the rough pencil lines to vectorized lines in Adobe Illustrator. From there, I created multiple patterns that mimicked the same overlays of pencil lining. While the drawing only existed in physical form (aside from photos of it), I had the fine points of the sketch closely followed from a microscope so that no detail would be overlooked.",
-    "result":" Upon finishing the recreation, I reused it across our future products for added polish to our company's product promotions."
-},
-{
+    "description": "The illustration of an early product of Caswell-Massey's caught the attention of the company art director; the company was seeking to renew its original roots through using archived drawings for branding its perfumes. As a designer, I was challenged with converting the same 'sketch' feel for digital and print reproduction",
+    "process": "In the inital phase, I studied the crosshatching and matched the rough pencil lines to vectorized lines in Adobe Illustrator. From there, I created multiple patterns that mimicked the same overlays of pencil lining. While the drawing only existed in physical form (aside from photos of it), I had the fine points of the sketch closely followed from a microscope so that no detail would be overlooked.",
+    "result": " Upon finishing the recreation, I reused it across our future products for added polish to our company's product promotions."
+  },
+  {
     "id": 3,
-    "category":"info-illust", 
+    "category": "info-illust",
     "endpoint": "mvc",
-    "title":"Instructional Demo: Model-View-Controller",
-    "company":"2U",
-    "timeframe":"May 2019 (1 week)",
-    "role":"Visual concept, layout",
-    "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1583644997/work/mvc2prev.jpg",
+    "title": "Instructional Demo: Model-View-Controller",
+    "company": "2U",
+    "timeframe": "May 2019 (1 week)",
+    "role": "Visual concept, layout",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583644997/work/mvc2prev.jpg",
     "additionalimgs": [],
-    "description":"As an instructional assistant to an introduction to coding course at Rutgers University, I was frequently challenged to find multiple was to describe computer science concepts. One of the most confusing for entry-level developers in the 50+ students I taught was the concept of the Model-View-Controller paradigm. For the curriculum, the students were provided with hands-on coding examples in order to show how the architecture of an app or website would follow this idea. Therefore, I created this illustration as a companion to the exercise; serving as a concise metaphor to how and why certain logic was arranged. ",
-    "process":"After gathering feedback from about 30-50 students, I drafted the idea to be brought up to our senior instructor. Upon approval, the explanatory drawing has been sent out to students in multiple cohorts since mid-2019. ",
-    "result":""
-},
-{
+    "description": "As an instructional assistant to an introduction to coding course at Rutgers University, I was frequently challenged to find multiple was to describe computer science concepts. One of the most confusing for entry-level developers in the 50+ students I taught was the concept of the Model-View-Controller paradigm. For the curriculum, the students were provided with hands-on coding examples in order to show how the architecture of an app or website would follow this idea. Therefore, I created this illustration as a companion to the exercise; serving as a concise metaphor to how and why certain logic was arranged. ",
+    "process": "After gathering feedback from about 30-50 students, I drafted the idea to be brought up to our senior instructor. Upon approval, the explanatory drawing has been sent out to students in multiple cohorts since mid-2019. ",
+    "result": ""
+  },
+  {
     "id": 4,
-    "category":"info-illust", 
+    "category": "info-illust",
     "endpoint": "node-express",
-    "title":"Node and Express Explained",
-    "company":"2U",
-    "timeframe":"March 2019 (1 week)",
-    "role":"Visual concept, layout, technical writing",
-    "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1583643207/work/exprouter.jpg",
+    "title": "Node and Express Explained",
+    "company": "2U",
+    "timeframe": "March 2019 (1 week)",
+    "role": "Visual concept, layout, technical writing",
+    "img": "https://res.cloudinary.com/diuubtvqd/image/upload/v1583643207/work/exprouter.jpg",
     "additionalimgs": [],
-    "description":"As an instructional assistant to an introduction to coding course at Rutgers University, I was frequently challenged to find multiple was to describe computer science concepts. One of the most frequently discussed topics, however, was on how to separate HTML and Application Programming Interface (API) data using the JavaScript library, Express. The diagram’s explanation is based on introductory level to the topic, however, it assumes the reader has had working knowledge with APIs and HTML.",
-    "process":"The diagram was created as a companion to lecturer explanation on the topic. Following insight from one of our lead instructors, the drawing is meant to serve as a visual guide as students dissect similar applications. Therefore, while sketching the initial design, I followed the structure of the app myself, in order to create a diagram that was still comparable. ",
-    "result":""
-},{
-    "id": 6,
-    "category":"info-illust", 
-    "endpoint": "personalized-illustrations",
-    "title":"Personalized Prints for Razzle Products",
-    "company":"N/A",
-    "role":"Concept and design",
-    "img":"https://res.cloudinary.com/diuubtvqd/image/upload/v1582011690/work/bagillusts.jpg",
-    "additionalimgs": ["https://res.cloudinary.com/diuubtvqd/image/upload/v1555424250/work/prints/corgi.jpg","https://res.cloudinary.com/diuubtvqd/image/upload/v1555424250/work/prints/toobs.jpg"],
-    "description":"Both designs were created on a commission basis. The illustrations were personalized to each client, and given for use on custom-product design site, Razzle.",
-    "process":"In the initial stages, I took a lot of liberty in terms of the direction I wanted to take. Most of the influence in style was provided from artist-focused sites like Society6; so I found a minimal style that suited the type of illustration I was aiming for.",
-    "result":""
-}
+    "description": "As an instructional assistant to an introduction to coding course at Rutgers University, I was frequently challenged to find multiple was to describe computer science concepts. One of the most frequently discussed topics, however, was on how to separate HTML and Application Programming Interface (API) data using the JavaScript library, Express. The diagram’s explanation is based on introductory level to the topic, however, it assumes the reader has had working knowledge with APIs and HTML.",
+    "process": "The diagram was created as a companion to lecturer explanation on the topic. Following insight from one of our lead instructors, the drawing is meant to serve as a visual guide as students dissect similar applications. Therefore, while sketching the initial design, I followed the structure of the app myself, in order to create a diagram that was still comparable. ",
+    "result": ""
+  }
 ]
