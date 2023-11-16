@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:Bold|Lato|Assistant:700&display=swap)  
+@import url(https://fonts.googleapis.com/css?family=Poppins:Bold|Lato|Assistant:700&display=swap)
 $font-header: 'Poppins', sans-serif
 $font-body: 'Lato', sans-serif
 $font-second: 'Assistant', sans-serif
@@ -7,21 +7,21 @@ $dark-blue: #2388c2
 $primary-color: #5fabd6
 $secondary-color: #506b9c
 
-a 
-    font-weight: 500
-    letter-spacing: .1em
-    color: $secondary-color
+a
+  font-weight: 500
+  letter-spacing: .1em
+  color: $secondary-color
+  transition: all 0.3s
+  &:hover
+    color: #c5c5c5
     transition: all 0.3s
-    &:hover 
-        color: #c5c5c5
-        transition: all 0.3s
 
 a, a:hover, a:active, a:visited
   text-decoration: none
 
 .titleelements
   height: 750px
-.skillsrow 
+.skillsrow
   width: 80%
   margin: 0 auto
   text-align: center
@@ -30,7 +30,7 @@ a, a:hover, a:active, a:visited
   margin: 5px
   display: block
 
-.aside-caseimg 
+.aside-caseimg
   max-width: 100%
   margin: 5px
   padding: 15px
@@ -46,7 +46,7 @@ a, a:hover, a:active, a:visited
   border-width: 1px
   border-color: #eee
   border-radius: 0.5em
-  text-align: center  
+  text-align: center
   vertical-align: middle
   margin: 1em
   display: inline-block
@@ -54,7 +54,6 @@ a, a:hover, a:active, a:visited
 .intro
   padding: 1em
   margin-top: 1.2em
-
 
 .titlecontain
   color: $dark-color
@@ -117,7 +116,7 @@ a, a:hover, a:active, a:visited
   color: gray
   box-shadow: 2px 3px 14px 4px #0000007a
 
-.MuiInputBase-input 
+.MuiInputBase-input
   color: gray
 
 #viewsite
@@ -151,13 +150,16 @@ a, a:hover, a:active, a:visited
   background-blend-mode: normal
   padding: 10px
 
-
-  .label 
+  .label
     text-transform: uppercase
     margin-top: 5px
     color: $dark-color
     letter-spacing: 1.5px
     text-align: center
+    
+.category-bg-ani
+  -webkit-transition: background-color .4s
+  transition: background-color .4s
 
 .web
   background-color: lightblue
@@ -246,7 +248,7 @@ a, a:hover, a:active, a:visited
   justify-content: center
   background-size: 1500px
 
-.test 
+.test
   position: relative
   bottom: -4%
   width: 100%
@@ -319,22 +321,21 @@ a, a:hover, a:active, a:visited
   color: #999999
 
 .case-contain
- padding: 10px
+  padding: 10px
 
 .pageheader-img
-  width: 100vw 
-  
+  width: 100vw
+
 .content
   margin-top: 0px
   marign-bottom: 0px
-  
+
 .add-centering
   text-align: center
 
 .custom-footer
   color: gray
   padding: 20px
-
 
 #footer
   a:visited
@@ -358,7 +359,6 @@ a, a:hover, a:active, a:visited
   color: $dark-color
   cursor: pointer
 
-
 $phone: "(min-width: 300px) and (max-width: 600px)"
 $tablet: "(min-width: 600px) and (max-width: 1050px)"
 $desktop: "(min-width: 1025px) and (max-width: 1800px)"
@@ -367,7 +367,7 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
   p
     font-size: 1em
 
-  .titleelements 
+  .titleelements
     height: 800px
 
   .case-thumb
@@ -389,33 +389,33 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
     margin: 0 auto
     transform: translate(0%, 0%)
 
-  .aside-caseimg 
+  .aside-caseimg
     max-width: 100%
 
   .outlinesec
-    width: 100% 
+    width: 100%
     padding: 1em
-    max-height: auto 
+    max-height: auto
 
     .introblob
       padding: 0em
       display: none !important
 
-@media #{$tablet} 
+@media #{$tablet}
   .case-thumb
     max-width: 390px
-    height: auto 
+    height: auto
 
   .header-title
     font-size: 5.5em !important
 
-  .aside-caseimg 
+  .aside-caseimg
     text-align: center
     max-width: 100%
 
   .outlinesec
     padding: 1em
-    max-height: auto 
+    max-height: auto
 
   .titlecontain
     left: 50%
@@ -423,6 +423,6 @@ $desktop: "(min-width: 1025px) and (max-width: 1800px)"
 .titleelements
   height: 770px
 
-@media #{$desktop} 
+@media #{$desktop}
   .container
     margin: auto 2em
